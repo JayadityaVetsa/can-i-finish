@@ -1,0 +1,13 @@
+{
+  "id": "apple-voiceover",
+  "name": "Find the iPhone VoiceOver setup guide on Apple.com",
+  "goal": "Turn on and practice VoiceOver on iPhone",
+  "steps": [
+    {"type":"tabTo","role":"button","name":"Learn more about VoiceOver","limit":60},
+    {"type":"press","key":"Enter"},
+    {"type":"expectVisible","role":"button","name":"Next, Generated Subtitles"},
+    {"type":"tabTo","role":"link","name":"iPhone, Set up VoiceOver","limit":24},
+    {"type":"press","key":"Enter"},
+    {"type":"expectVisible","role":"heading","name":"Turn on and practice VoiceOver on iPhone"}
+  ]
+}

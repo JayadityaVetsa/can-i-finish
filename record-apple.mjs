@@ -1,0 +1,11 @@
+import path from 'node:path';
+import fs from 'node:fs/promises';
+import {existsSync} from 'node:fs';
+if(existsSync('.local/browsers'))process.env.PLAYWRIGHT_BROWSERS_PATH ||= path.resolve('.local/browsers');
+const {runJourney}=await import('./lib/runner.mjs');
+const contract=JSON.parse(await fs.readFile('docs/apple-contract.json','utf8'));
+const report=await runJourney({url:'https://www.apple.com/accessibility/',contract,outputDir:path.resolve('dist/evidence'),id:'apple-voiceover',assetPrefix:'evidence/',viewport:{width:1920,height:1080},keyDelayMs:130,screenshotFormat:'jpeg'});
+report.external={site:'Apple',label:'Live public website',capturedAt:report.createdAt,notice:'Independent keyboard task observation. No affiliation with Apple; no account or transaction. A pass applies only to this captured sequence.'};
+await fs.writeFile('dist/evidence/apple-voiceover.json',JSON.stringify(report,null,2));
+console.log(JSON.stringify({outcome:report.outcome,keyCount:report.keyCount,frames:report.steps.length,duration:report.durationMs,lastStep:report.steps.at(-1),findings:report.findings},null,2));
+process.exitCode=report.outcome==='passed'?0:1;

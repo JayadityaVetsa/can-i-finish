@@ -1,0 +1,380 @@
+{
+  "schemaVersion": 1,
+  "id": "dialog-fixed",
+  "createdAt": "2026-11-01T22:40:29.610Z",
+  "task": "Dismiss updates and continue registration",
+  "contract": {
+    "id": "dialog",
+    "name": "Dismiss updates and continue registration",
+    "goal": "Registration details",
+    "steps": [
+      {
+        "type": "tabTo",
+        "role": "button",
+        "name": "Get updates",
+        "limit": 12
+      },
+      {
+        "type": "press",
+        "key": "Enter"
+      },
+      {
+        "type": "expectVisible",
+        "role": "dialog",
+        "name": "A little inspiration."
+      },
+      {
+        "type": "press",
+        "key": "Escape"
+      },
+      {
+        "type": "expectHidden",
+        "role": "dialog",
+        "name": "A little inspiration."
+      },
+      {
+        "type": "tabTo",
+        "role": "button",
+        "name": "Register for Web Foundations",
+        "limit": 18
+      },
+      {
+        "type": "press",
+        "key": "Enter"
+      },
+      {
+        "type": "expectVisible",
+        "role": "heading",
+        "name": "Registration details"
+      }
+    ]
+  },
+  "url": "http://127.0.0.1:53761/fixtures/campus.html?journey=dialog&version=fixed",
+  "outcome": "passed",
+  "engine": {
+    "name": "Playwright keyboard journey runner",
+    "playwright": "1.64.1",
+    "browser": "156.0.8078.4",
+    "platform": "win32",
+    "viewport": {
+      "width": 1280,
+      "height": 900
+    }
+  },
+  "steps": [
+    {
+      "index": 0,
+      "key": "Start",
+      "phase": "navigation",
+      "note": "Fresh browser context. No mouse clicks or locator.focus().",
+      "elapsedMs": 169,
+      "focus": {
+        "tag": "body",
+        "id": null,
+        "role": null,
+        "name": "Skip to contentNorthstar Open CampusCoursesGet updatesCONTROLLED TEST FIXTURE · NO REAL REGISTRATIONMake room forsomething new.Practical evening courses for curious people. Learn t",
+        "tabIndex": -1,
+        "focusVisible": false,
+        "outline": "3px none rgb(35, 59, 59)",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 915.625
+        },
+        "shadowHosts": [],
+        "dialogOpen": false
+      },
+      "screenshot": "evidence/dialog-fixed-000.png",
+      "sha256": "a3d24fc188d2eef600baeaa4875c403d7e1e7877dda3a1bf18cf8b2eca03e1df"
+    },
+    {
+      "index": 1,
+      "key": "Tab",
+      "phase": "1. tabTo",
+      "note": "Find button “Get updates” using sequential keyboard navigation.",
+      "elapsedMs": 467,
+      "focus": {
+        "tag": "a",
+        "id": null,
+        "role": null,
+        "name": "Skip to content",
+        "tabIndex": 0,
+        "focusVisible": true,
+        "outline": "4px solid rgb(178, 86, 39)",
+        "rect": {
+          "x": 20,
+          "y": 10,
+          "width": 129.84375,
+          "height": 42
+        },
+        "shadowHosts": [],
+        "dialogOpen": false
+      },
+      "screenshot": "evidence/dialog-fixed-001.png",
+      "sha256": "a67fce24d3be22f344482e73eab1fd38cbffd2448da44488d999940dc7d75a92"
+    },
+    {
+      "index": 2,
+      "key": "Tab",
+      "phase": "1. tabTo",
+      "note": "Find button “Get updates” using sequential keyboard navigation.",
+      "elapsedMs": 719,
+      "focus": {
+        "tag": "a",
+        "id": null,
+        "role": null,
+        "name": "Courses",
+        "tabIndex": 0,
+        "focusVisible": true,
+        "outline": "4px solid rgb(178, 86, 39)",
+        "rect": {
+          "x": 979.65625,
+          "y": 43,
+          "width": 59.578125,
+          "height": 18
+        },
+        "shadowHosts": [],
+        "dialogOpen": false
+      },
+      "screenshot": "evidence/dialog-fixed-002.png",
+      "sha256": "f71b44999e7e3e88efb39d725d184060f2ef0595a6e1142aec010e4acc0e6506"
+    },
+    {
+      "index": 3,
+      "key": "Tab",
+      "phase": "1. tabTo",
+      "note": "Find button “Get updates” using sequential keyboard navigation.",
+      "elapsedMs": 969,
+      "focus": {
+        "tag": "button",
+        "id": "updates",
+        "role": null,
+        "name": "Get updates",
+        "tabIndex": 0,
+        "focusVisible": true,
+        "outline": "4px solid rgb(178, 86, 39)",
+        "rect": {
+          "x": 1063.234375,
+          "y": 30,
+          "width": 127.171875,
+          "height": 44
+        },
+        "shadowHosts": [],
+        "dialogOpen": false
+      },
+      "screenshot": "evidence/dialog-fixed-003.png",
+      "sha256": "9904e4d3e26b63f8ea6159957d14c1fc72d5d675754f9ae39d1db1645cd30eed"
+    },
+    {
+      "index": 4,
+      "key": "Enter",
+      "phase": "2. press",
+      "note": "",
+      "elapsedMs": 1193,
+      "focus": {
+        "tag": "input",
+        "id": "email",
+        "role": null,
+        "name": "Email address",
+        "tabIndex": 0,
+        "focusVisible": true,
+        "outline": "4px solid rgb(178, 86, 39)",
+        "rect": {
+          "x": 455,
+          "y": 464.4375,
+          "width": 370,
+          "height": 46
+        },
+        "shadowHosts": [],
+        "dialogOpen": true
+      },
+      "screenshot": "evidence/dialog-fixed-004.png",
+      "sha256": "adc7aa99ab6ef58e84956a5c7191a3f7c07fa70233bd532aef489fd089a65d27"
+    },
+    {
+      "index": 5,
+      "key": "Assert",
+      "phase": "3. expectVisible",
+      "note": "expectVisible: dialog “A little inspiration.” — passed",
+      "elapsedMs": 1292,
+      "focus": {
+        "tag": "input",
+        "id": "email",
+        "role": null,
+        "name": "Email address",
+        "tabIndex": 0,
+        "focusVisible": true,
+        "outline": "4px solid rgb(178, 86, 39)",
+        "rect": {
+          "x": 455,
+          "y": 464.4375,
+          "width": 370,
+          "height": 46
+        },
+        "shadowHosts": [],
+        "dialogOpen": true
+      },
+      "screenshot": "evidence/dialog-fixed-005.png",
+      "sha256": "adc7aa99ab6ef58e84956a5c7191a3f7c07fa70233bd532aef489fd089a65d27"
+    },
+    {
+      "index": 6,
+      "key": "Escape",
+      "phase": "4. press",
+      "note": "",
+      "elapsedMs": 1482,
+      "focus": {
+        "tag": "button",
+        "id": "updates",
+        "role": null,
+        "name": "Get updates",
+        "tabIndex": 0,
+        "focusVisible": true,
+        "outline": "4px solid rgb(178, 86, 39)",
+        "rect": {
+          "x": 1063.234375,
+          "y": 30,
+          "width": 127.171875,
+          "height": 44
+        },
+        "shadowHosts": [],
+        "dialogOpen": false
+      },
+      "screenshot": "evidence/dialog-fixed-006.png",
+      "sha256": "9904e4d3e26b63f8ea6159957d14c1fc72d5d675754f9ae39d1db1645cd30eed"
+    },
+    {
+      "index": 7,
+      "key": "Assert",
+      "phase": "5. expectHidden",
+      "note": "expectHidden: dialog “A little inspiration.” — passed",
+      "elapsedMs": 1591,
+      "focus": {
+        "tag": "button",
+        "id": "updates",
+        "role": null,
+        "name": "Get updates",
+        "tabIndex": 0,
+        "focusVisible": true,
+        "outline": "4px solid rgb(178, 86, 39)",
+        "rect": {
+          "x": 1063.234375,
+          "y": 30,
+          "width": 127.171875,
+          "height": 44
+        },
+        "shadowHosts": [],
+        "dialogOpen": false
+      },
+      "screenshot": "evidence/dialog-fixed-007.png",
+      "sha256": "9904e4d3e26b63f8ea6159957d14c1fc72d5d675754f9ae39d1db1645cd30eed"
+    },
+    {
+      "index": 8,
+      "key": "Tab",
+      "phase": "6. tabTo",
+      "note": "Find button “Register for Web Foundations” using sequential keyboard navigation.",
+      "elapsedMs": 1823,
+      "focus": {
+        "tag": "button",
+        "id": "register",
+        "role": null,
+        "name": "Register for Web Foundations",
+        "tabIndex": 0,
+        "focusVisible": true,
+        "outline": "4px solid rgb(178, 86, 39)",
+        "rect": {
+          "x": 185.59375,
+          "y": 698.625,
+          "width": 252.265625,
+          "height": 44
+        },
+        "shadowHosts": [],
+        "dialogOpen": false
+      },
+      "screenshot": "evidence/dialog-fixed-008.png",
+      "sha256": "266ab9c5998fa60f3d91782155174fbb9d8ddae82c01a2cdb0fa5e750b2d5432"
+    },
+    {
+      "index": 9,
+      "key": "Enter",
+      "phase": "7. press",
+      "note": "",
+      "elapsedMs": 2027,
+      "focus": {
+        "tag": "button",
+        "id": "register",
+        "role": null,
+        "name": "Register for Web Foundations",
+        "tabIndex": 0,
+        "focusVisible": true,
+        "outline": "4px solid rgb(178, 86, 39)",
+        "rect": {
+          "x": 185.59375,
+          "y": 412.625,
+          "width": 252.265625,
+          "height": 44
+        },
+        "shadowHosts": [],
+        "dialogOpen": false
+      },
+      "screenshot": "evidence/dialog-fixed-009.png",
+      "sha256": "d80ac67910e1e5a016cc4bf77daa2651556993c0804cfd3ca1706a847f4e9d24"
+    },
+    {
+      "index": 10,
+      "key": "Assert",
+      "phase": "8. expectVisible",
+      "note": "expectVisible: heading “Registration details” — passed",
+      "elapsedMs": 2111,
+      "focus": {
+        "tag": "button",
+        "id": "register",
+        "role": null,
+        "name": "Register for Web Foundations",
+        "tabIndex": 0,
+        "focusVisible": true,
+        "outline": "4px solid rgb(178, 86, 39)",
+        "rect": {
+          "x": 185.59375,
+          "y": 412.625,
+          "width": 252.265625,
+          "height": 44
+        },
+        "shadowHosts": [],
+        "dialogOpen": false
+      },
+      "screenshot": "evidence/dialog-fixed-010.png",
+      "sha256": "d80ac67910e1e5a016cc4bf77daa2651556993c0804cfd3ca1706a847f4e9d24"
+    }
+  ],
+  "findings": [],
+  "limits": [
+    "One Chromium viewport and keyboard sequence; no WCAG certification.",
+    "A focus cycle alone is not proof of a keyboard trap.",
+    "Names in focus observations are approximate; target matching uses Playwright accessible roles/names."
+  ],
+  "artifacts": {
+    "video": "evidence/dialog-fixed.webm"
+  },
+  "durationMs": 2497,
+  "keyCount": 7,
+  "reproduction": [
+    "Open http://127.0.0.1:53761/fixtures/campus.html?journey=dialog&version=fixed",
+    "Use a fresh browser context; viewport 1280 × 900.",
+    "Tab",
+    "Tab",
+    "Tab",
+    "Enter",
+    "Escape",
+    "Tab",
+    "Enter",
+    "Observed result: passed"
+  ],
+  "fixture": {
+    "journey": "dialog",
+    "version": "fixed",
+    "publicPath": "fixtures/campus.html?journey=dialog&version=fixed"
+  }
+}

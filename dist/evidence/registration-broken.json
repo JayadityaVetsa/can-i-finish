@@ -1,0 +1,596 @@
+{
+  "schemaVersion": 1,
+  "id": "registration-broken",
+  "createdAt": "2026-11-01T22:40:16.620Z",
+  "task": "Reach course registration",
+  "contract": {
+    "id": "registration",
+    "name": "Reach course registration",
+    "goal": "Registration details",
+    "steps": [
+      {
+        "type": "tabTo",
+        "role": "button",
+        "name": "Register for Web Foundations",
+        "limit": 18
+      },
+      {
+        "type": "press",
+        "key": "Enter"
+      },
+      {
+        "type": "expectVisible",
+        "role": "heading",
+        "name": "Registration details"
+      }
+    ]
+  },
+  "url": "http://127.0.0.1:53761/fixtures/campus.html?journey=registration&version=broken",
+  "outcome": "blocked",
+  "engine": {
+    "name": "Playwright keyboard journey runner",
+    "playwright": "1.64.1",
+    "browser": "156.0.8078.4",
+    "platform": "win32",
+    "viewport": {
+      "width": 1280,
+      "height": 900
+    }
+  },
+  "steps": [
+    {
+      "index": 0,
+      "key": "Start",
+      "phase": "navigation",
+      "note": "Fresh browser context. No mouse clicks or locator.focus().",
+      "elapsedMs": 520,
+      "focus": {
+        "tag": "body",
+        "id": null,
+        "role": null,
+        "name": "Skip to contentNorthstar Open CampusCoursesGet updatesCONTROLLED TEST FIXTURE · NO REAL REGISTRATIONMake room forsomething new.Practical evening courses for curious people. Learn t",
+        "tabIndex": -1,
+        "focusVisible": false,
+        "outline": "3px none rgb(35, 59, 59)",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 915.625
+        },
+        "shadowHosts": [],
+        "dialogOpen": false
+      },
+      "screenshot": "evidence/registration-broken-000.png",
+      "sha256": "a3d24fc188d2eef600baeaa4875c403d7e1e7877dda3a1bf18cf8b2eca03e1df"
+    },
+    {
+      "index": 1,
+      "key": "Tab",
+      "phase": "1. tabTo",
+      "note": "Find button “Register for Web Foundations” using sequential keyboard navigation.",
+      "elapsedMs": 920,
+      "focus": {
+        "tag": "a",
+        "id": null,
+        "role": null,
+        "name": "Skip to content",
+        "tabIndex": 0,
+        "focusVisible": true,
+        "outline": "4px solid rgb(178, 86, 39)",
+        "rect": {
+          "x": 20,
+          "y": 10,
+          "width": 129.84375,
+          "height": 42
+        },
+        "shadowHosts": [],
+        "dialogOpen": false
+      },
+      "screenshot": "evidence/registration-broken-001.png",
+      "sha256": "a67fce24d3be22f344482e73eab1fd38cbffd2448da44488d999940dc7d75a92"
+    },
+    {
+      "index": 2,
+      "key": "Tab",
+      "phase": "1. tabTo",
+      "note": "Find button “Register for Web Foundations” using sequential keyboard navigation.",
+      "elapsedMs": 1140,
+      "focus": {
+        "tag": "a",
+        "id": null,
+        "role": null,
+        "name": "Courses",
+        "tabIndex": 0,
+        "focusVisible": true,
+        "outline": "4px solid rgb(178, 86, 39)",
+        "rect": {
+          "x": 979.65625,
+          "y": 43,
+          "width": 59.578125,
+          "height": 18
+        },
+        "shadowHosts": [],
+        "dialogOpen": false
+      },
+      "screenshot": "evidence/registration-broken-002.png",
+      "sha256": "f71b44999e7e3e88efb39d725d184060f2ef0595a6e1142aec010e4acc0e6506"
+    },
+    {
+      "index": 3,
+      "key": "Tab",
+      "phase": "1. tabTo",
+      "note": "Find button “Register for Web Foundations” using sequential keyboard navigation.",
+      "elapsedMs": 1404,
+      "focus": {
+        "tag": "button",
+        "id": "updates",
+        "role": null,
+        "name": "Get updates",
+        "tabIndex": 0,
+        "focusVisible": true,
+        "outline": "4px solid rgb(178, 86, 39)",
+        "rect": {
+          "x": 1063.234375,
+          "y": 30,
+          "width": 127.171875,
+          "height": 44
+        },
+        "shadowHosts": [],
+        "dialogOpen": false
+      },
+      "screenshot": "evidence/registration-broken-003.png",
+      "sha256": "9904e4d3e26b63f8ea6159957d14c1fc72d5d675754f9ae39d1db1645cd30eed"
+    },
+    {
+      "index": 4,
+      "key": "Tab",
+      "phase": "1. tabTo",
+      "note": "Find button “Register for Web Foundations” using sequential keyboard navigation.",
+      "elapsedMs": 1645,
+      "focus": {
+        "tag": "a",
+        "id": null,
+        "role": null,
+        "name": "Accessibility support",
+        "tabIndex": 0,
+        "focusVisible": true,
+        "outline": "4px solid rgb(178, 86, 39)",
+        "rect": {
+          "x": 154.59375,
+          "y": 818.625,
+          "width": 108.71875,
+          "height": 14
+        },
+        "shadowHosts": [],
+        "dialogOpen": false
+      },
+      "screenshot": "evidence/registration-broken-004.png",
+      "sha256": "51c0331383cc5725db56577aa1a40a149cfe273ba5176bd3bab34b65d543eef6"
+    },
+    {
+      "index": 5,
+      "key": "Tab",
+      "phase": "1. tabTo",
+      "note": "Find button “Register for Web Foundations” using sequential keyboard navigation.",
+      "elapsedMs": 1878,
+      "focus": {
+        "tag": "body",
+        "id": null,
+        "role": null,
+        "name": "Skip to contentNorthstar Open CampusCoursesGet updatesCONTROLLED TEST FIXTURE · NO REAL REGISTRATIONMake room forsomething new.Practical evening courses for curious people. Learn t",
+        "tabIndex": -1,
+        "focusVisible": false,
+        "outline": "3px none rgb(35, 59, 59)",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 915.625
+        },
+        "shadowHosts": [],
+        "dialogOpen": false
+      },
+      "screenshot": "evidence/registration-broken-005.png",
+      "sha256": "a3d24fc188d2eef600baeaa4875c403d7e1e7877dda3a1bf18cf8b2eca03e1df"
+    },
+    {
+      "index": 6,
+      "key": "Tab",
+      "phase": "1. tabTo",
+      "note": "Find button “Register for Web Foundations” using sequential keyboard navigation.",
+      "elapsedMs": 2126,
+      "focus": {
+        "tag": "a",
+        "id": null,
+        "role": null,
+        "name": "Skip to content",
+        "tabIndex": 0,
+        "focusVisible": true,
+        "outline": "4px solid rgb(178, 86, 39)",
+        "rect": {
+          "x": 20,
+          "y": 10,
+          "width": 129.84375,
+          "height": 42
+        },
+        "shadowHosts": [],
+        "dialogOpen": false
+      },
+      "screenshot": "evidence/registration-broken-006.png",
+      "sha256": "a67fce24d3be22f344482e73eab1fd38cbffd2448da44488d999940dc7d75a92"
+    },
+    {
+      "index": 7,
+      "key": "Tab",
+      "phase": "1. tabTo",
+      "note": "Find button “Register for Web Foundations” using sequential keyboard navigation.",
+      "elapsedMs": 2402,
+      "focus": {
+        "tag": "a",
+        "id": null,
+        "role": null,
+        "name": "Courses",
+        "tabIndex": 0,
+        "focusVisible": true,
+        "outline": "4px solid rgb(178, 86, 39)",
+        "rect": {
+          "x": 979.65625,
+          "y": 43,
+          "width": 59.578125,
+          "height": 18
+        },
+        "shadowHosts": [],
+        "dialogOpen": false
+      },
+      "screenshot": "evidence/registration-broken-007.png",
+      "sha256": "f71b44999e7e3e88efb39d725d184060f2ef0595a6e1142aec010e4acc0e6506"
+    },
+    {
+      "index": 8,
+      "key": "Tab",
+      "phase": "1. tabTo",
+      "note": "Find button “Register for Web Foundations” using sequential keyboard navigation.",
+      "elapsedMs": 2681,
+      "focus": {
+        "tag": "button",
+        "id": "updates",
+        "role": null,
+        "name": "Get updates",
+        "tabIndex": 0,
+        "focusVisible": true,
+        "outline": "4px solid rgb(178, 86, 39)",
+        "rect": {
+          "x": 1063.234375,
+          "y": 30,
+          "width": 127.171875,
+          "height": 44
+        },
+        "shadowHosts": [],
+        "dialogOpen": false
+      },
+      "screenshot": "evidence/registration-broken-008.png",
+      "sha256": "9904e4d3e26b63f8ea6159957d14c1fc72d5d675754f9ae39d1db1645cd30eed"
+    },
+    {
+      "index": 9,
+      "key": "Tab",
+      "phase": "1. tabTo",
+      "note": "Find button “Register for Web Foundations” using sequential keyboard navigation.",
+      "elapsedMs": 3022,
+      "focus": {
+        "tag": "a",
+        "id": null,
+        "role": null,
+        "name": "Accessibility support",
+        "tabIndex": 0,
+        "focusVisible": true,
+        "outline": "4px solid rgb(178, 86, 39)",
+        "rect": {
+          "x": 154.59375,
+          "y": 818.625,
+          "width": 108.71875,
+          "height": 14
+        },
+        "shadowHosts": [],
+        "dialogOpen": false
+      },
+      "screenshot": "evidence/registration-broken-009.png",
+      "sha256": "51c0331383cc5725db56577aa1a40a149cfe273ba5176bd3bab34b65d543eef6"
+    },
+    {
+      "index": 10,
+      "key": "Tab",
+      "phase": "1. tabTo",
+      "note": "Find button “Register for Web Foundations” using sequential keyboard navigation.",
+      "elapsedMs": 3295,
+      "focus": {
+        "tag": "body",
+        "id": null,
+        "role": null,
+        "name": "Skip to contentNorthstar Open CampusCoursesGet updatesCONTROLLED TEST FIXTURE · NO REAL REGISTRATIONMake room forsomething new.Practical evening courses for curious people. Learn t",
+        "tabIndex": -1,
+        "focusVisible": false,
+        "outline": "3px none rgb(35, 59, 59)",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 915.625
+        },
+        "shadowHosts": [],
+        "dialogOpen": false
+      },
+      "screenshot": "evidence/registration-broken-010.png",
+      "sha256": "a3d24fc188d2eef600baeaa4875c403d7e1e7877dda3a1bf18cf8b2eca03e1df"
+    },
+    {
+      "index": 11,
+      "key": "Tab",
+      "phase": "1. tabTo",
+      "note": "Find button “Register for Web Foundations” using sequential keyboard navigation.",
+      "elapsedMs": 3555,
+      "focus": {
+        "tag": "a",
+        "id": null,
+        "role": null,
+        "name": "Skip to content",
+        "tabIndex": 0,
+        "focusVisible": true,
+        "outline": "4px solid rgb(178, 86, 39)",
+        "rect": {
+          "x": 20,
+          "y": 10,
+          "width": 129.84375,
+          "height": 42
+        },
+        "shadowHosts": [],
+        "dialogOpen": false
+      },
+      "screenshot": "evidence/registration-broken-011.png",
+      "sha256": "a67fce24d3be22f344482e73eab1fd38cbffd2448da44488d999940dc7d75a92"
+    },
+    {
+      "index": 12,
+      "key": "Tab",
+      "phase": "1. tabTo",
+      "note": "Find button “Register for Web Foundations” using sequential keyboard navigation.",
+      "elapsedMs": 3795,
+      "focus": {
+        "tag": "a",
+        "id": null,
+        "role": null,
+        "name": "Courses",
+        "tabIndex": 0,
+        "focusVisible": true,
+        "outline": "4px solid rgb(178, 86, 39)",
+        "rect": {
+          "x": 979.65625,
+          "y": 43,
+          "width": 59.578125,
+          "height": 18
+        },
+        "shadowHosts": [],
+        "dialogOpen": false
+      },
+      "screenshot": "evidence/registration-broken-012.png",
+      "sha256": "f71b44999e7e3e88efb39d725d184060f2ef0595a6e1142aec010e4acc0e6506"
+    },
+    {
+      "index": 13,
+      "key": "Tab",
+      "phase": "1. tabTo",
+      "note": "Find button “Register for Web Foundations” using sequential keyboard navigation.",
+      "elapsedMs": 4074,
+      "focus": {
+        "tag": "button",
+        "id": "updates",
+        "role": null,
+        "name": "Get updates",
+        "tabIndex": 0,
+        "focusVisible": true,
+        "outline": "4px solid rgb(178, 86, 39)",
+        "rect": {
+          "x": 1063.234375,
+          "y": 30,
+          "width": 127.171875,
+          "height": 44
+        },
+        "shadowHosts": [],
+        "dialogOpen": false
+      },
+      "screenshot": "evidence/registration-broken-013.png",
+      "sha256": "9904e4d3e26b63f8ea6159957d14c1fc72d5d675754f9ae39d1db1645cd30eed"
+    },
+    {
+      "index": 14,
+      "key": "Tab",
+      "phase": "1. tabTo",
+      "note": "Find button “Register for Web Foundations” using sequential keyboard navigation.",
+      "elapsedMs": 4347,
+      "focus": {
+        "tag": "a",
+        "id": null,
+        "role": null,
+        "name": "Accessibility support",
+        "tabIndex": 0,
+        "focusVisible": true,
+        "outline": "4px solid rgb(178, 86, 39)",
+        "rect": {
+          "x": 154.59375,
+          "y": 818.625,
+          "width": 108.71875,
+          "height": 14
+        },
+        "shadowHosts": [],
+        "dialogOpen": false
+      },
+      "screenshot": "evidence/registration-broken-014.png",
+      "sha256": "51c0331383cc5725db56577aa1a40a149cfe273ba5176bd3bab34b65d543eef6"
+    },
+    {
+      "index": 15,
+      "key": "Tab",
+      "phase": "1. tabTo",
+      "note": "Find button “Register for Web Foundations” using sequential keyboard navigation.",
+      "elapsedMs": 4643,
+      "focus": {
+        "tag": "body",
+        "id": null,
+        "role": null,
+        "name": "Skip to contentNorthstar Open CampusCoursesGet updatesCONTROLLED TEST FIXTURE · NO REAL REGISTRATIONMake room forsomething new.Practical evening courses for curious people. Learn t",
+        "tabIndex": -1,
+        "focusVisible": false,
+        "outline": "3px none rgb(35, 59, 59)",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 915.625
+        },
+        "shadowHosts": [],
+        "dialogOpen": false
+      },
+      "screenshot": "evidence/registration-broken-015.png",
+      "sha256": "a3d24fc188d2eef600baeaa4875c403d7e1e7877dda3a1bf18cf8b2eca03e1df"
+    },
+    {
+      "index": 16,
+      "key": "Tab",
+      "phase": "1. tabTo",
+      "note": "Find button “Register for Web Foundations” using sequential keyboard navigation.",
+      "elapsedMs": 4901,
+      "focus": {
+        "tag": "a",
+        "id": null,
+        "role": null,
+        "name": "Skip to content",
+        "tabIndex": 0,
+        "focusVisible": true,
+        "outline": "4px solid rgb(178, 86, 39)",
+        "rect": {
+          "x": 20,
+          "y": 10,
+          "width": 129.84375,
+          "height": 42
+        },
+        "shadowHosts": [],
+        "dialogOpen": false
+      },
+      "screenshot": "evidence/registration-broken-016.png",
+      "sha256": "a67fce24d3be22f344482e73eab1fd38cbffd2448da44488d999940dc7d75a92"
+    },
+    {
+      "index": 17,
+      "key": "Tab",
+      "phase": "1. tabTo",
+      "note": "Find button “Register for Web Foundations” using sequential keyboard navigation.",
+      "elapsedMs": 5178,
+      "focus": {
+        "tag": "a",
+        "id": null,
+        "role": null,
+        "name": "Courses",
+        "tabIndex": 0,
+        "focusVisible": true,
+        "outline": "4px solid rgb(178, 86, 39)",
+        "rect": {
+          "x": 979.65625,
+          "y": 43,
+          "width": 59.578125,
+          "height": 18
+        },
+        "shadowHosts": [],
+        "dialogOpen": false
+      },
+      "screenshot": "evidence/registration-broken-017.png",
+      "sha256": "f71b44999e7e3e88efb39d725d184060f2ef0595a6e1142aec010e4acc0e6506"
+    },
+    {
+      "index": 18,
+      "key": "Tab",
+      "phase": "1. tabTo",
+      "note": "Find button “Register for Web Foundations” using sequential keyboard navigation.",
+      "elapsedMs": 5486,
+      "focus": {
+        "tag": "button",
+        "id": "updates",
+        "role": null,
+        "name": "Get updates",
+        "tabIndex": 0,
+        "focusVisible": true,
+        "outline": "4px solid rgb(178, 86, 39)",
+        "rect": {
+          "x": 1063.234375,
+          "y": 30,
+          "width": 127.171875,
+          "height": 44
+        },
+        "shadowHosts": [],
+        "dialogOpen": false
+      },
+      "screenshot": "evidence/registration-broken-018.png",
+      "sha256": "9904e4d3e26b63f8ea6159957d14c1fc72d5d675754f9ae39d1db1645cd30eed"
+    }
+  ],
+  "findings": [
+    {
+      "code": "TARGET_NOT_REACHED",
+      "title": "The task target was not reached",
+      "severity": "blocker",
+      "summary": "18 Tab presses did not focus “Register for Web Foundations”. This result applies to this bounded sequence.",
+      "target": {
+        "tag": "div",
+        "id": "register",
+        "role": "button",
+        "tabIndex": -1,
+        "html": "<div id=\"register\" role=\"button\" class=\"faux\">Register for Web Foundations</div>"
+      },
+      "stepIndex": 0,
+      "evidenceStep": 18,
+      "observations": [
+        "The target is present with tabIndex -1.",
+        "The same focus stop occurred 4 times."
+      ],
+      "suggestedFix": "Use a native button for this action. Keep it in sequential focus order and preserve Enter/Space activation."
+    }
+  ],
+  "limits": [
+    "One Chromium viewport and keyboard sequence; no WCAG certification.",
+    "A focus cycle alone is not proof of a keyboard trap.",
+    "Names in focus observations are approximate; target matching uses Playwright accessible roles/names."
+  ],
+  "artifacts": {
+    "video": "evidence/registration-broken.webm"
+  },
+  "durationMs": 6228,
+  "keyCount": 18,
+  "reproduction": [
+    "Open http://127.0.0.1:53761/fixtures/campus.html?journey=registration&version=broken",
+    "Use a fresh browser context; viewport 1280 × 900.",
+    "Tab",
+    "Tab",
+    "Tab",
+    "Tab",
+    "Tab",
+    "Tab",
+    "Tab",
+    "Tab",
+    "Tab",
+    "Tab",
+    "Tab",
+    "Tab",
+    "Tab",
+    "Tab",
+    "Tab",
+    "Tab",
+    "Tab",
+    "Tab",
+    "Observed result: blocked"
+  ],
+  "fixture": {
+    "journey": "registration",
+    "version": "broken",
+    "publicPath": "fixtures/campus.html?journey=registration&version=broken"
+  }
+}

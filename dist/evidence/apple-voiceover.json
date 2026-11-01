@@ -1,0 +1,1252 @@
+{
+  "schemaVersion": 1,
+  "id": "apple-voiceover",
+  "createdAt": "2026-11-01T22:55:12.976Z",
+  "task": "Find the iPhone VoiceOver setup guide on Apple.com",
+  "contract": {
+    "id": "apple-voiceover",
+    "name": "Find the iPhone VoiceOver setup guide on Apple.com",
+    "goal": "Turn on and practice VoiceOver on iPhone",
+    "steps": [
+      {
+        "type": "tabTo",
+        "role": "button",
+        "name": "Learn more about VoiceOver",
+        "limit": 60
+      },
+      {
+        "type": "press",
+        "key": "Enter"
+      },
+      {
+        "type": "expectVisible",
+        "role": "button",
+        "name": "Next, Generated Subtitles"
+      },
+      {
+        "type": "tabTo",
+        "role": "link",
+        "name": "iPhone, Set up VoiceOver",
+        "limit": 24
+      },
+      {
+        "type": "press",
+        "key": "Enter"
+      },
+      {
+        "type": "expectVisible",
+        "role": "heading",
+        "name": "Turn on and practice VoiceOver on iPhone"
+      }
+    ]
+  },
+  "url": "https://www.apple.com/accessibility/",
+  "outcome": "passed",
+  "engine": {
+    "name": "Playwright keyboard journey runner",
+    "playwright": "1.64.1",
+    "browser": "156.0.8078.4",
+    "platform": "win32",
+    "viewport": {
+      "width": 1920,
+      "height": 1080
+    }
+  },
+  "steps": [
+    {
+      "index": 0,
+      "key": "Start",
+      "phase": "navigation",
+      "note": "Fresh browser context. No mouse clicks or locator.focus().",
+      "elapsedMs": 1355,
+      "url": "https://www.apple.com/accessibility/",
+      "focus": {
+        "tag": "body",
+        "id": null,
+        "role": null,
+        "name": "AppleStoreShopShop the LatestMaciPadiPhoneApple WatchApple Vision ProAirPodsHomeAccessoriesQuick LinksFind a StoreOrder StatusApple UpgradeApple Trade InFinancingPersonal SetupShop",
+        "tabIndex": -1,
+        "focusVisible": false,
+        "outline": "3px none rgb(29, 29, 31)",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 1920,
+          "height": 7355.15625
+        },
+        "shadowHosts": [],
+        "dialogOpen": false
+      },
+      "screenshot": "evidence/apple-voiceover-000.jpg",
+      "sha256": "7a5f1f5f5fea1af26868e714d0bd3e4cff56bf90196058dd83f8bbe5d4098a06"
+    },
+    {
+      "index": 1,
+      "key": "Tab",
+      "phase": "1. tabTo",
+      "note": "Find button “Learn more about VoiceOver” using sequential keyboard navigation.",
+      "elapsedMs": 1701,
+      "url": "https://www.apple.com/accessibility/",
+      "focus": {
+        "tag": "a",
+        "id": null,
+        "role": null,
+        "name": "Apple",
+        "tabIndex": 0,
+        "focusVisible": true,
+        "outline": "2px solid rgb(0, 113, 227)",
+        "rect": {
+          "x": 462,
+          "y": 0,
+          "width": 30,
+          "height": 44
+        },
+        "shadowHosts": [],
+        "dialogOpen": false
+      },
+      "screenshot": "evidence/apple-voiceover-001.jpg",
+      "sha256": "e1097a370b36b058dfa33a930d1b0c43c0cb08e0b225c7f116c3c40dcf71fd0f"
+    },
+    {
+      "index": 2,
+      "key": "Tab",
+      "phase": "1. tabTo",
+      "note": "Find button “Learn more about VoiceOver” using sequential keyboard navigation.",
+      "elapsedMs": 2154,
+      "url": "https://www.apple.com/accessibility/",
+      "focus": {
+        "tag": "a",
+        "id": null,
+        "role": null,
+        "name": "Store",
+        "tabIndex": 0,
+        "focusVisible": true,
+        "outline": "2px solid rgb(0, 113, 227)",
+        "rect": {
+          "x": 513.609375,
+          "y": 0,
+          "width": 46,
+          "height": 44
+        },
+        "shadowHosts": [],
+        "dialogOpen": true
+      },
+      "screenshot": "evidence/apple-voiceover-002.jpg",
+      "sha256": "513b9f1aa10bed922c29073dcd24b613af802043de4aa9ef243ff3d5d7366ba4"
+    },
+    {
+      "index": 3,
+      "key": "Tab",
+      "phase": "1. tabTo",
+      "note": "Find button “Learn more about VoiceOver” using sequential keyboard navigation.",
+      "elapsedMs": 2482,
+      "url": "https://www.apple.com/accessibility/",
+      "focus": {
+        "tag": "button",
+        "id": "globalnav-menubutton-link-store",
+        "role": null,
+        "name": "Store menu",
+        "tabIndex": 0,
+        "focusVisible": true,
+        "outline": "2px solid rgb(0, 113, 227)",
+        "rect": {
+          "x": 544.609375,
+          "y": 0,
+          "width": 22,
+          "height": 44
+        },
+        "shadowHosts": [],
+        "dialogOpen": true
+      },
+      "screenshot": "evidence/apple-voiceover-003.jpg",
+      "sha256": "09c7dcf5901cab1b7f128e8e5023b7502f9f98766966b12888b36228006788c1"
+    },
+    {
+      "index": 4,
+      "key": "Tab",
+      "phase": "1. tabTo",
+      "note": "Find button “Learn more about VoiceOver” using sequential keyboard navigation.",
+      "elapsedMs": 2973,
+      "url": "https://www.apple.com/accessibility/",
+      "focus": {
+        "tag": "a",
+        "id": null,
+        "role": null,
+        "name": "Mac",
+        "tabIndex": 0,
+        "focusVisible": true,
+        "outline": "2px solid rgb(0, 113, 227)",
+        "rect": {
+          "x": 581.234375,
+          "y": 0,
+          "width": 39,
+          "height": 44
+        },
+        "shadowHosts": [],
+        "dialogOpen": true
+      },
+      "screenshot": "evidence/apple-voiceover-004.jpg",
+      "sha256": "7bec7543e7a0901177d64f0dc0d282cfe02382bec297456060b0bcdf48325f68"
+    },
+    {
+      "index": 5,
+      "key": "Tab",
+      "phase": "1. tabTo",
+      "note": "Find button “Learn more about VoiceOver” using sequential keyboard navigation.",
+      "elapsedMs": 3522,
+      "url": "https://www.apple.com/accessibility/",
+      "focus": {
+        "tag": "button",
+        "id": "globalnav-menubutton-link-mac",
+        "role": null,
+        "name": "Mac menu",
+        "tabIndex": 0,
+        "focusVisible": true,
+        "outline": "2px solid rgb(0, 113, 227)",
+        "rect": {
+          "x": 605.234375,
+          "y": 0,
+          "width": 22,
+          "height": 44
+        },
+        "shadowHosts": [],
+        "dialogOpen": true
+      },
+      "screenshot": "evidence/apple-voiceover-005.jpg",
+      "sha256": "a1cc5f490c00975fae892151255a49d19b270e7892d15b1fddb401bf52c6d3b9"
+    },
+    {
+      "index": 6,
+      "key": "Tab",
+      "phase": "1. tabTo",
+      "note": "Find button “Learn more about VoiceOver” using sequential keyboard navigation.",
+      "elapsedMs": 3999,
+      "url": "https://www.apple.com/accessibility/",
+      "focus": {
+        "tag": "a",
+        "id": null,
+        "role": null,
+        "name": "iPad",
+        "tabIndex": 0,
+        "focusVisible": true,
+        "outline": "2px solid rgb(0, 113, 227)",
+        "rect": {
+          "x": 641.84375,
+          "y": 0,
+          "width": 40,
+          "height": 44
+        },
+        "shadowHosts": [],
+        "dialogOpen": true
+      },
+      "screenshot": "evidence/apple-voiceover-006.jpg",
+      "sha256": "a749ef6898a6e8007e55e1ea965d213f72e8e4e685d38689db9327bb91def98a"
+    },
+    {
+      "index": 7,
+      "key": "Tab",
+      "phase": "1. tabTo",
+      "note": "Find button “Learn more about VoiceOver” using sequential keyboard navigation.",
+      "elapsedMs": 4394,
+      "url": "https://www.apple.com/accessibility/",
+      "focus": {
+        "tag": "button",
+        "id": "globalnav-menubutton-link-ipad",
+        "role": null,
+        "name": "iPad menu",
+        "tabIndex": 0,
+        "focusVisible": true,
+        "outline": "2px solid rgb(0, 113, 227)",
+        "rect": {
+          "x": 666.84375,
+          "y": 0,
+          "width": 22,
+          "height": 44
+        },
+        "shadowHosts": [],
+        "dialogOpen": true
+      },
+      "screenshot": "evidence/apple-voiceover-007.jpg",
+      "sha256": "1b0d156f456b3f72e8a0de2e6e9fac91274944039fdb0ff48479f81a23644820"
+    },
+    {
+      "index": 8,
+      "key": "Tab",
+      "phase": "1. tabTo",
+      "note": "Find button “Learn more about VoiceOver” using sequential keyboard navigation.",
+      "elapsedMs": 4888,
+      "url": "https://www.apple.com/accessibility/",
+      "focus": {
+        "tag": "a",
+        "id": null,
+        "role": null,
+        "name": "iPhone",
+        "tabIndex": 0,
+        "focusVisible": true,
+        "outline": "2px solid rgb(0, 113, 227)",
+        "rect": {
+          "x": 703.46875,
+          "y": 0,
+          "width": 54,
+          "height": 44
+        },
+        "shadowHosts": [],
+        "dialogOpen": true
+      },
+      "screenshot": "evidence/apple-voiceover-008.jpg",
+      "sha256": "7f2ef3ba6d92ed1544ba95709fbda58241a24e285deea75a8b2888e721d531b0"
+    },
+    {
+      "index": 9,
+      "key": "Tab",
+      "phase": "1. tabTo",
+      "note": "Find button “Learn more about VoiceOver” using sequential keyboard navigation.",
+      "elapsedMs": 5503,
+      "url": "https://www.apple.com/accessibility/",
+      "focus": {
+        "tag": "button",
+        "id": "globalnav-menubutton-link-iphone",
+        "role": null,
+        "name": "iPhone menu",
+        "tabIndex": 0,
+        "focusVisible": true,
+        "outline": "2px solid rgb(0, 113, 227)",
+        "rect": {
+          "x": 742.46875,
+          "y": 0,
+          "width": 22,
+          "height": 44
+        },
+        "shadowHosts": [],
+        "dialogOpen": true
+      },
+      "screenshot": "evidence/apple-voiceover-009.jpg",
+      "sha256": "b106eb6d8e8364f5ca5f688829a5aa61cee968e207125efa9e06dfc5dabffe88"
+    },
+    {
+      "index": 10,
+      "key": "Tab",
+      "phase": "1. tabTo",
+      "note": "Find button “Learn more about VoiceOver” using sequential keyboard navigation.",
+      "elapsedMs": 6085,
+      "url": "https://www.apple.com/accessibility/",
+      "focus": {
+        "tag": "a",
+        "id": null,
+        "role": null,
+        "name": "Watch",
+        "tabIndex": 0,
+        "focusVisible": true,
+        "outline": "2px solid rgb(0, 113, 227)",
+        "rect": {
+          "x": 779.078125,
+          "y": 0,
+          "width": 51,
+          "height": 44
+        },
+        "shadowHosts": [],
+        "dialogOpen": true
+      },
+      "screenshot": "evidence/apple-voiceover-010.jpg",
+      "sha256": "9fa4437c0036f507ac5005ad09243fabd6513f59d6a93ab81ed38e2db7fecd9b"
+    },
+    {
+      "index": 11,
+      "key": "Tab",
+      "phase": "1. tabTo",
+      "note": "Find button “Learn more about VoiceOver” using sequential keyboard navigation.",
+      "elapsedMs": 6744,
+      "url": "https://www.apple.com/accessibility/",
+      "focus": {
+        "tag": "button",
+        "id": "globalnav-menubutton-link-watch",
+        "role": null,
+        "name": "Watch menu",
+        "tabIndex": 0,
+        "focusVisible": true,
+        "outline": "2px solid rgb(0, 113, 227)",
+        "rect": {
+          "x": 815.078125,
+          "y": 0,
+          "width": 22,
+          "height": 44
+        },
+        "shadowHosts": [],
+        "dialogOpen": true
+      },
+      "screenshot": "evidence/apple-voiceover-011.jpg",
+      "sha256": "d61217f9e99ac6cfcc823f34786561f23acd8020de7c763e0684174cd74e236e"
+    },
+    {
+      "index": 12,
+      "key": "Tab",
+      "phase": "1. tabTo",
+      "note": "Find button “Learn more about VoiceOver” using sequential keyboard navigation.",
+      "elapsedMs": 7280,
+      "url": "https://www.apple.com/accessibility/",
+      "focus": {
+        "tag": "a",
+        "id": null,
+        "role": null,
+        "name": "Vision",
+        "tabIndex": 0,
+        "focusVisible": true,
+        "outline": "2px solid rgb(0, 113, 227)",
+        "rect": {
+          "x": 851.6875,
+          "y": 0,
+          "width": 50,
+          "height": 44
+        },
+        "shadowHosts": [],
+        "dialogOpen": true
+      },
+      "screenshot": "evidence/apple-voiceover-012.jpg",
+      "sha256": "0e98c3a51996a8c65ff72ba2bce664047fadcb54b412b73ff6a4bbcdc073e0b8"
+    },
+    {
+      "index": 13,
+      "key": "Tab",
+      "phase": "1. tabTo",
+      "note": "Find button “Learn more about VoiceOver” using sequential keyboard navigation.",
+      "elapsedMs": 7830,
+      "url": "https://www.apple.com/accessibility/",
+      "focus": {
+        "tag": "button",
+        "id": "globalnav-menubutton-link-vision",
+        "role": null,
+        "name": "Vision menu",
+        "tabIndex": 0,
+        "focusVisible": true,
+        "outline": "2px solid rgb(0, 113, 227)",
+        "rect": {
+          "x": 886.6875,
+          "y": 0,
+          "width": 22,
+          "height": 44
+        },
+        "shadowHosts": [],
+        "dialogOpen": true
+      },
+      "screenshot": "evidence/apple-voiceover-013.jpg",
+      "sha256": "291d94d16510b11b41107fbb8ad9da670dc72cc161620879b79033a634f20009"
+    },
+    {
+      "index": 14,
+      "key": "Tab",
+      "phase": "1. tabTo",
+      "note": "Find button “Learn more about VoiceOver” using sequential keyboard navigation.",
+      "elapsedMs": 8294,
+      "url": "https://www.apple.com/accessibility/",
+      "focus": {
+        "tag": "a",
+        "id": null,
+        "role": null,
+        "name": "AirPods",
+        "tabIndex": 0,
+        "focusVisible": true,
+        "outline": "2px solid rgb(0, 113, 227)",
+        "rect": {
+          "x": 923.3125,
+          "y": 0,
+          "width": 59,
+          "height": 44
+        },
+        "shadowHosts": [],
+        "dialogOpen": true
+      },
+      "screenshot": "evidence/apple-voiceover-014.jpg",
+      "sha256": "1f131b270b8ea9a96c3510779b93f63b9e299e92ebce3ae2b18e6eeb0f5e8ae6"
+    },
+    {
+      "index": 15,
+      "key": "Tab",
+      "phase": "1. tabTo",
+      "note": "Find button “Learn more about VoiceOver” using sequential keyboard navigation.",
+      "elapsedMs": 8835,
+      "url": "https://www.apple.com/accessibility/",
+      "focus": {
+        "tag": "button",
+        "id": "globalnav-menubutton-link-airpods",
+        "role": null,
+        "name": "AirPods menu",
+        "tabIndex": 0,
+        "focusVisible": true,
+        "outline": "2px solid rgb(0, 113, 227)",
+        "rect": {
+          "x": 967.3125,
+          "y": 0,
+          "width": 22,
+          "height": 44
+        },
+        "shadowHosts": [],
+        "dialogOpen": true
+      },
+      "screenshot": "evidence/apple-voiceover-015.jpg",
+      "sha256": "3569b0d760768c3be15e49ee35ebe25287dd188dfb544fbca8615db98c910fbf"
+    },
+    {
+      "index": 16,
+      "key": "Tab",
+      "phase": "1. tabTo",
+      "note": "Find button “Learn more about VoiceOver” using sequential keyboard navigation.",
+      "elapsedMs": 9256,
+      "url": "https://www.apple.com/accessibility/",
+      "focus": {
+        "tag": "a",
+        "id": null,
+        "role": null,
+        "name": "Home",
+        "tabIndex": 0,
+        "focusVisible": true,
+        "outline": "2px solid rgb(0, 113, 227)",
+        "rect": {
+          "x": 1003.921875,
+          "y": 0,
+          "width": 49,
+          "height": 44
+        },
+        "shadowHosts": [],
+        "dialogOpen": true
+      },
+      "screenshot": "evidence/apple-voiceover-016.jpg",
+      "sha256": "31d0c885e2651cbe6ca249750127db77ad1756ec07aa8ef4a5cf2662a0de6bb2"
+    },
+    {
+      "index": 17,
+      "key": "Tab",
+      "phase": "1. tabTo",
+      "note": "Find button “Learn more about VoiceOver” using sequential keyboard navigation.",
+      "elapsedMs": 9765,
+      "url": "https://www.apple.com/accessibility/",
+      "focus": {
+        "tag": "button",
+        "id": "globalnav-menubutton-link-tv-home",
+        "role": null,
+        "name": "Home menu",
+        "tabIndex": 0,
+        "focusVisible": true,
+        "outline": "2px solid rgb(0, 113, 227)",
+        "rect": {
+          "x": 1037.921875,
+          "y": 0,
+          "width": 22,
+          "height": 44
+        },
+        "shadowHosts": [],
+        "dialogOpen": true
+      },
+      "screenshot": "evidence/apple-voiceover-017.jpg",
+      "sha256": "093c13977ebf86cf2f6bdd3f85cbf6390d6b41534ae5529ca0dd92010f643684"
+    },
+    {
+      "index": 18,
+      "key": "Tab",
+      "phase": "1. tabTo",
+      "note": "Find button “Learn more about VoiceOver” using sequential keyboard navigation.",
+      "elapsedMs": 10315,
+      "url": "https://www.apple.com/accessibility/",
+      "focus": {
+        "tag": "a",
+        "id": null,
+        "role": null,
+        "name": "Entertainment",
+        "tabIndex": 0,
+        "focusVisible": true,
+        "outline": "2px solid rgb(0, 113, 227)",
+        "rect": {
+          "x": 1074.53125,
+          "y": 0,
+          "width": 93,
+          "height": 44
+        },
+        "shadowHosts": [],
+        "dialogOpen": true
+      },
+      "screenshot": "evidence/apple-voiceover-018.jpg",
+      "sha256": "cf46e6c08d816a55aac235cd153f3d3ffa1e0fa648041c58cc99055d46c318c4"
+    },
+    {
+      "index": 19,
+      "key": "Tab",
+      "phase": "1. tabTo",
+      "note": "Find button “Learn more about VoiceOver” using sequential keyboard navigation.",
+      "elapsedMs": 10848,
+      "url": "https://www.apple.com/accessibility/",
+      "focus": {
+        "tag": "button",
+        "id": "globalnav-menubutton-link-entertainment",
+        "role": null,
+        "name": "Entertainment menu",
+        "tabIndex": 0,
+        "focusVisible": true,
+        "outline": "2px solid rgb(0, 113, 227)",
+        "rect": {
+          "x": 1152.53125,
+          "y": 0,
+          "width": 22,
+          "height": 44
+        },
+        "shadowHosts": [],
+        "dialogOpen": true
+      },
+      "screenshot": "evidence/apple-voiceover-019.jpg",
+      "sha256": "21f302c9aea7b2825fa04c8a13b8550927ab3cd6a8e0577a2274e06cc19a2d1d"
+    },
+    {
+      "index": 20,
+      "key": "Tab",
+      "phase": "1. tabTo",
+      "note": "Find button “Learn more about VoiceOver” using sequential keyboard navigation.",
+      "elapsedMs": 11347,
+      "url": "https://www.apple.com/accessibility/",
+      "focus": {
+        "tag": "a",
+        "id": null,
+        "role": null,
+        "name": "Accessories",
+        "tabIndex": 0,
+        "focusVisible": true,
+        "outline": "2px solid rgb(0, 113, 227)",
+        "rect": {
+          "x": 1189.15625,
+          "y": 0,
+          "width": 83,
+          "height": 44
+        },
+        "shadowHosts": [],
+        "dialogOpen": true
+      },
+      "screenshot": "evidence/apple-voiceover-020.jpg",
+      "sha256": "4c67ced1dcda55146e61a614af608c190149682a5e4e3b250950b89737513c38"
+    },
+    {
+      "index": 21,
+      "key": "Tab",
+      "phase": "1. tabTo",
+      "note": "Find button “Learn more about VoiceOver” using sequential keyboard navigation.",
+      "elapsedMs": 11740,
+      "url": "https://www.apple.com/accessibility/",
+      "focus": {
+        "tag": "button",
+        "id": "globalnav-menubutton-link-accessories",
+        "role": null,
+        "name": "Accessories menu",
+        "tabIndex": 0,
+        "focusVisible": true,
+        "outline": "2px solid rgb(0, 113, 227)",
+        "rect": {
+          "x": 1257.15625,
+          "y": 0,
+          "width": 22,
+          "height": 44
+        },
+        "shadowHosts": [],
+        "dialogOpen": true
+      },
+      "screenshot": "evidence/apple-voiceover-021.jpg",
+      "sha256": "f17044d94e928783aaccdad8828cc36578a2892c0696329a5e0cb944215de2eb"
+    },
+    {
+      "index": 22,
+      "key": "Tab",
+      "phase": "1. tabTo",
+      "note": "Find button “Learn more about VoiceOver” using sequential keyboard navigation.",
+      "elapsedMs": 12255,
+      "url": "https://www.apple.com/accessibility/",
+      "focus": {
+        "tag": "a",
+        "id": null,
+        "role": null,
+        "name": "Support",
+        "tabIndex": 0,
+        "focusVisible": true,
+        "outline": "2px solid rgb(0, 113, 227)",
+        "rect": {
+          "x": 1293.765625,
+          "y": 0,
+          "width": 60,
+          "height": 44
+        },
+        "shadowHosts": [],
+        "dialogOpen": true
+      },
+      "screenshot": "evidence/apple-voiceover-022.jpg",
+      "sha256": "36dc5593cd7d1bbfef4885a9876828246c009a57d751d12b91178743d6553863"
+    },
+    {
+      "index": 23,
+      "key": "Tab",
+      "phase": "1. tabTo",
+      "note": "Find button “Learn more about VoiceOver” using sequential keyboard navigation.",
+      "elapsedMs": 12780,
+      "url": "https://www.apple.com/accessibility/",
+      "focus": {
+        "tag": "button",
+        "id": "globalnav-menubutton-link-support",
+        "role": null,
+        "name": "Support menu",
+        "tabIndex": 0,
+        "focusVisible": true,
+        "outline": "2px solid rgb(0, 113, 227)",
+        "rect": {
+          "x": 1338.765625,
+          "y": 0,
+          "width": 22,
+          "height": 44
+        },
+        "shadowHosts": [],
+        "dialogOpen": true
+      },
+      "screenshot": "evidence/apple-voiceover-023.jpg",
+      "sha256": "5a0903192d0de41f0fef092f67755454b053447772b63fd42f57188764ca77de"
+    },
+    {
+      "index": 24,
+      "key": "Tab",
+      "phase": "1. tabTo",
+      "note": "Find button “Learn more about VoiceOver” using sequential keyboard navigation.",
+      "elapsedMs": 13240,
+      "url": "https://www.apple.com/accessibility/",
+      "focus": {
+        "tag": "a",
+        "id": "globalnav-menubutton-link-search",
+        "role": "button",
+        "name": "Search apple.com",
+        "tabIndex": 0,
+        "focusVisible": true,
+        "outline": "2px solid rgb(0, 113, 227)",
+        "rect": {
+          "x": 1375.390625,
+          "y": 0,
+          "width": 31,
+          "height": 44
+        },
+        "shadowHosts": [],
+        "dialogOpen": true
+      },
+      "screenshot": "evidence/apple-voiceover-024.jpg",
+      "sha256": "1ea054fd7ab816a9543690c0b245a6f972a61be4c0f7418b0a2dfcca9bf2ac43"
+    },
+    {
+      "index": 25,
+      "key": "Tab",
+      "phase": "1. tabTo",
+      "note": "Find button “Learn more about VoiceOver” using sequential keyboard navigation.",
+      "elapsedMs": 13710,
+      "url": "https://www.apple.com/accessibility/",
+      "focus": {
+        "tag": "a",
+        "id": "globalnav-menubutton-link-bag",
+        "role": "button",
+        "name": "Shopping Bag",
+        "tabIndex": 0,
+        "focusVisible": true,
+        "outline": "2px solid rgb(0, 113, 227)",
+        "rect": {
+          "x": 1428,
+          "y": 0,
+          "width": 30,
+          "height": 44
+        },
+        "shadowHosts": [],
+        "dialogOpen": true
+      },
+      "screenshot": "evidence/apple-voiceover-025.jpg",
+      "sha256": "021d5cfed8ccebf3f2b5e63d9028f6f3e95d550e6652fa055482ff79a9ca0648"
+    },
+    {
+      "index": 26,
+      "key": "Tab",
+      "phase": "1. tabTo",
+      "note": "Find button “Learn more about VoiceOver” using sequential keyboard navigation.",
+      "elapsedMs": 14151,
+      "url": "https://www.apple.com/accessibility/",
+      "focus": {
+        "tag": "a",
+        "id": null,
+        "role": null,
+        "name": "Accessibility",
+        "tabIndex": 0,
+        "focusVisible": true,
+        "outline": "2px solid rgb(0, 113, 227)",
+        "rect": {
+          "x": 470,
+          "y": 58,
+          "width": 120.484375,
+          "height": 24
+        },
+        "shadowHosts": [],
+        "dialogOpen": true
+      },
+      "screenshot": "evidence/apple-voiceover-026.jpg",
+      "sha256": "8823ec6b765117ba151fdb4afeecef277fd1f2781955b907e1ed7d73a58aa5d6"
+    },
+    {
+      "index": 27,
+      "key": "Tab",
+      "phase": "1. tabTo",
+      "note": "Find button “Learn more about VoiceOver” using sequential keyboard navigation.",
+      "elapsedMs": 14512,
+      "url": "https://www.apple.com/accessibility/",
+      "focus": {
+        "tag": "a",
+        "id": null,
+        "role": null,
+        "name": "Features",
+        "tabIndex": 0,
+        "focusVisible": true,
+        "outline": "2px solid rgb(0, 113, 227)",
+        "rect": {
+          "x": 1401.71875,
+          "y": 59,
+          "width": 48.28125,
+          "height": 22
+        },
+        "shadowHosts": [],
+        "dialogOpen": true
+      },
+      "screenshot": "evidence/apple-voiceover-027.jpg",
+      "sha256": "4cf57cdb33100a99e229f7086a2aa147d94387648284ac073109ba3ec5d26945"
+    },
+    {
+      "index": 28,
+      "key": "Tab",
+      "phase": "1. tabTo",
+      "note": "Find button “Learn more about VoiceOver” using sequential keyboard navigation.",
+      "elapsedMs": 15169,
+      "url": "https://www.apple.com/accessibility/",
+      "focus": {
+        "tag": "a",
+        "id": null,
+        "role": null,
+        "name": "Browse all features",
+        "tabIndex": 0,
+        "focusVisible": true,
+        "outline": "2px solid rgb(0, 113, 227)",
+        "rect": {
+          "x": 1643.90625,
+          "y": 556,
+          "width": 156.09375,
+          "height": 20
+        },
+        "shadowHosts": [],
+        "dialogOpen": true
+      },
+      "screenshot": "evidence/apple-voiceover-028.jpg",
+      "sha256": "f17fc6918148326a7b318aaf67e327784b2f66793b8bcec5801fcb97f7dbfd7c"
+    },
+    {
+      "index": 29,
+      "key": "Tab",
+      "phase": "1. tabTo",
+      "note": "Find button “Learn more about VoiceOver” using sequential keyboard navigation.",
+      "elapsedMs": 15553,
+      "url": "https://www.apple.com/accessibility/",
+      "focus": {
+        "tag": "button",
+        "id": null,
+        "role": null,
+        "name": "Learn more about VoiceOver",
+        "tabIndex": 0,
+        "focusVisible": true,
+        "outline": "2px solid rgb(0, 113, 227)",
+        "rect": {
+          "x": 120,
+          "y": 360,
+          "width": 372,
+          "height": 720
+        },
+        "shadowHosts": [],
+        "dialogOpen": true
+      },
+      "screenshot": "evidence/apple-voiceover-029.jpg",
+      "sha256": "a1452fafd03a8250d4db206241c4f5ba237458832698aff80579d180707ec7d5"
+    },
+    {
+      "index": 30,
+      "key": "Enter",
+      "phase": "2. press",
+      "note": "",
+      "elapsedMs": 17025,
+      "url": "https://www.apple.com/accessibility/",
+      "focus": {
+        "tag": "button",
+        "id": null,
+        "role": null,
+        "name": "Learn more about VoiceOver",
+        "tabIndex": -1,
+        "focusVisible": true,
+        "outline": "2px solid rgb(0, 113, 227)",
+        "rect": {
+          "x": 120,
+          "y": 360,
+          "width": 372,
+          "height": 720
+        },
+        "shadowHosts": [],
+        "dialogOpen": true
+      },
+      "screenshot": "evidence/apple-voiceover-030.jpg",
+      "sha256": "ac4f2b53e4273c1ce3fafcfcdac48d5a8b6ec3d2a426f5ad1b0ed47571d8903a"
+    },
+    {
+      "index": 31,
+      "key": "Assert",
+      "phase": "3. expectVisible",
+      "note": "expectVisible: button “Next, Generated Subtitles” — passed",
+      "elapsedMs": 17858,
+      "url": "https://www.apple.com/accessibility/",
+      "focus": {
+        "tag": "div",
+        "id": null,
+        "role": "dialog",
+        "name": "VoiceOver",
+        "tabIndex": -1,
+        "focusVisible": true,
+        "outline": "2px solid rgb(0, 113, 227)",
+        "rect": {
+          "x": 445.5,
+          "y": 40,
+          "width": 1029,
+          "height": 1161.375
+        },
+        "shadowHosts": [],
+        "dialogOpen": true
+      },
+      "screenshot": "evidence/apple-voiceover-031.jpg",
+      "sha256": "ac4f2b53e4273c1ce3fafcfcdac48d5a8b6ec3d2a426f5ad1b0ed47571d8903a"
+    },
+    {
+      "index": 32,
+      "key": "Tab",
+      "phase": "4. tabTo",
+      "note": "Find link “iPhone, Set up VoiceOver” using sequential keyboard navigation.",
+      "elapsedMs": 18862,
+      "url": "https://www.apple.com/accessibility/",
+      "focus": {
+        "tag": "a",
+        "id": null,
+        "role": null,
+        "name": "Footnote 1",
+        "tabIndex": 0,
+        "focusVisible": true,
+        "outline": "2px solid rgb(0, 113, 227)",
+        "rect": {
+          "x": 652.375,
+          "y": 480.59375,
+          "width": 4.09375,
+          "height": 20
+        },
+        "shadowHosts": [],
+        "dialogOpen": true
+      },
+      "screenshot": "evidence/apple-voiceover-032.jpg",
+      "sha256": "4bae42bfa6ad94c0ef6d9b5652898a99b98cd6adf605b3cc5ee133cbd9758042"
+    },
+    {
+      "index": 33,
+      "key": "Tab",
+      "phase": "4. tabTo",
+      "note": "Find link “iPhone, Set up VoiceOver” using sequential keyboard navigation.",
+      "elapsedMs": 19868,
+      "url": "https://www.apple.com/accessibility/",
+      "focus": {
+        "tag": "a",
+        "id": null,
+        "role": null,
+        "name": "Footnote 2",
+        "tabIndex": 0,
+        "focusVisible": true,
+        "outline": "2px solid rgb(0, 113, 227)",
+        "rect": {
+          "x": 634,
+          "y": 505.59375,
+          "width": 5.4375,
+          "height": 20
+        },
+        "shadowHosts": [],
+        "dialogOpen": true
+      },
+      "screenshot": "evidence/apple-voiceover-033.jpg",
+      "sha256": "31cc85c01fad510f6873637c620fe56f2cf4ecaba1d9b82e3b41190f47906d1e"
+    },
+    {
+      "index": 34,
+      "key": "Tab",
+      "phase": "4. tabTo",
+      "note": "Find link “iPhone, Set up VoiceOver” using sequential keyboard navigation.",
+      "elapsedMs": 20910,
+      "url": "https://www.apple.com/accessibility/",
+      "focus": {
+        "tag": "a",
+        "id": null,
+        "role": null,
+        "name": "Footnote 3",
+        "tabIndex": 0,
+        "focusVisible": true,
+        "outline": "2px solid rgb(0, 113, 227)",
+        "rect": {
+          "x": 702.4375,
+          "y": 544.1875,
+          "width": 5.65625,
+          "height": 20
+        },
+        "shadowHosts": [],
+        "dialogOpen": true
+      },
+      "screenshot": "evidence/apple-voiceover-034.jpg",
+      "sha256": "ea0e2d06474f2c03baefff687a5a94731a101350d34afbf3ddebfd40ac1f9e75"
+    },
+    {
+      "index": 35,
+      "key": "Tab",
+      "phase": "4. tabTo",
+      "note": "Find link “iPhone, Set up VoiceOver” using sequential keyboard navigation.",
+      "elapsedMs": 21971,
+      "url": "https://www.apple.com/accessibility/",
+      "focus": {
+        "tag": "a",
+        "id": null,
+        "role": null,
+        "name": "Footnote 4",
+        "tabIndex": 0,
+        "focusVisible": true,
+        "outline": "2px solid rgb(0, 113, 227)",
+        "rect": {
+          "x": 884,
+          "y": 619.1875,
+          "width": 5.8125,
+          "height": 20
+        },
+        "shadowHosts": [],
+        "dialogOpen": true
+      },
+      "screenshot": "evidence/apple-voiceover-035.jpg",
+      "sha256": "5cbab741a8b5c3bea963a8a566b09b783c417608f1b4a8787224099729b63252"
+    },
+    {
+      "index": 36,
+      "key": "Tab",
+      "phase": "4. tabTo",
+      "note": "Find link “iPhone, Set up VoiceOver” using sequential keyboard navigation.",
+      "elapsedMs": 22949,
+      "url": "https://www.apple.com/accessibility/",
+      "focus": {
+        "tag": "a",
+        "id": null,
+        "role": null,
+        "name": "iOS and iPadOS feature",
+        "tabIndex": 0,
+        "focusVisible": true,
+        "outline": "2px solid rgb(0, 113, 227)",
+        "rect": {
+          "x": 642.984375,
+          "y": 707.78125,
+          "width": 120.65625,
+          "height": 20
+        },
+        "shadowHosts": [],
+        "dialogOpen": true
+      },
+      "screenshot": "evidence/apple-voiceover-036.jpg",
+      "sha256": "f218413cf01b4838c7973306ad68ccd28a2d4f1994c5ad575ec63ae07af4f33d"
+    },
+    {
+      "index": 37,
+      "key": "Tab",
+      "phase": "4. tabTo",
+      "note": "Find link “iPhone, Set up VoiceOver” using sequential keyboard navigation.",
+      "elapsedMs": 23990,
+      "url": "https://www.apple.com/accessibility/",
+      "focus": {
+        "tag": "a",
+        "id": null,
+        "role": null,
+        "name": "macOS feature",
+        "tabIndex": 0,
+        "focusVisible": true,
+        "outline": "2px solid rgb(0, 113, 227)",
+        "rect": {
+          "x": 788.234375,
+          "y": 707.78125,
+          "width": 55.765625,
+          "height": 20
+        },
+        "shadowHosts": [],
+        "dialogOpen": true
+      },
+      "screenshot": "evidence/apple-voiceover-037.jpg",
+      "sha256": "5775f1b4e52219d4fbc78f9638f1604ca162819e24441b3e6685b63f899ba733"
+    },
+    {
+      "index": 38,
+      "key": "Tab",
+      "phase": "4. tabTo",
+      "note": "Find link “iPhone, Set up VoiceOver” using sequential keyboard navigation.",
+      "elapsedMs": 25003,
+      "url": "https://www.apple.com/accessibility/",
+      "focus": {
+        "tag": "a",
+        "id": null,
+        "role": null,
+        "name": "iOS and iPadOS feature",
+        "tabIndex": 0,
+        "focusVisible": true,
+        "outline": "2px solid rgb(0, 113, 227)",
+        "rect": {
+          "x": 1053.3125,
+          "y": 707.78125,
+          "width": 120.65625,
+          "height": 20
+        },
+        "shadowHosts": [],
+        "dialogOpen": true
+      },
+      "screenshot": "evidence/apple-voiceover-038.jpg",
+      "sha256": "bbb1fcb321c9724ee9b22963d038a1db6ff269ca26503ce8d6c105038e1cfac2"
+    },
+    {
+      "index": 39,
+      "key": "Tab",
+      "phase": "4. tabTo",
+      "note": "Find link “iPhone, Set up VoiceOver” using sequential keyboard navigation.",
+      "elapsedMs": 26045,
+      "url": "https://www.apple.com/accessibility/",
+      "focus": {
+        "tag": "a",
+        "id": null,
+        "role": null,
+        "name": "iPhone, Set up VoiceOver",
+        "tabIndex": 0,
+        "focusVisible": true,
+        "outline": "2px solid rgb(0, 113, 227)",
+        "rect": {
+          "x": 521.5,
+          "y": 834.375,
+          "width": 75.6875,
+          "height": 36
+        },
+        "shadowHosts": [],
+        "dialogOpen": true
+      },
+      "screenshot": "evidence/apple-voiceover-039.jpg",
+      "sha256": "9c220bcc7aa8f8694d9ae4db7648f1cf12bd087d5b807cccc08d41d77a95c30f"
+    },
+    {
+      "index": 40,
+      "key": "Enter",
+      "phase": "5. press",
+      "note": "",
+      "elapsedMs": 27640,
+      "url": "https://support.apple.com/guide/iphone/turn-on-and-practice-voiceover-iph3e2e415f/ios",
+      "focus": {
+        "tag": "body",
+        "id": null,
+        "role": null,
+        "name": "AppleStoreMaciPadiPhoneWatch VisionAirPodsHomeEntertainmentAccessoriesSupport",
+        "tabIndex": -1,
+        "focusVisible": false,
+        "outline": "3px none rgb(51, 51, 51)",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 1920,
+          "height": 0
+        },
+        "shadowHosts": [],
+        "dialogOpen": false
+      },
+      "screenshot": "evidence/apple-voiceover-040.jpg",
+      "sha256": "22da20a5372101f92298ba5b37259382266e2560179ca433b5fca5c96149a8f7"
+    },
+    {
+      "index": 41,
+      "key": "Assert",
+      "phase": "6. expectVisible",
+      "note": "expectVisible: heading “Turn on and practice VoiceOver on iPhone” — passed",
+      "elapsedMs": 27917,
+      "url": "https://support.apple.com/guide/iphone/turn-on-and-practice-voiceover-iph3e2e415f/ios",
+      "focus": {
+        "tag": "body",
+        "id": "iph3e2e415f",
+        "role": null,
+        "name": "AppleStoreShopShop the LatestMaciPadiPhoneApple WatchApple Vision ProAirPodsHomeAccessoriesQuick LinksFind a StoreOrder StatusApple UpgradeApple Trade InFinancingPersonal SetupShop",
+        "tabIndex": -1,
+        "focusVisible": false,
+        "outline": "3px none rgb(51, 51, 51)",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 1920,
+          "height": 2559.46875
+        },
+        "shadowHosts": [],
+        "dialogOpen": false
+      },
+      "screenshot": "evidence/apple-voiceover-041.jpg",
+      "sha256": "22da20a5372101f92298ba5b37259382266e2560179ca433b5fca5c96149a8f7"
+    }
+  ],
+  "findings": [],
+  "limits": [
+    "One Chromium viewport and keyboard sequence; no WCAG certification.",
+    "A focus cycle alone is not proof of a keyboard trap.",
+    "Names in focus observations are approximate; target matching uses Playwright accessible roles/names."
+  ],
+  "artifacts": {
+    "video": "evidence/apple-voiceover.webm"
+  },
+  "durationMs": 29706,
+  "keyCount": 39,
+  "reproduction": [
+    "Open https://www.apple.com/accessibility/",
+    "Use a fresh browser context; viewport 1920 × 1080.",
+    "Tab",
+    "Tab",
+    "Tab",
+    "Tab",
+    "Tab",
+    "Tab",
+    "Tab",
+    "Tab",
+    "Tab",
+    "Tab",
+    "Tab",
+    "Tab",
+    "Tab",
+    "Tab",
+    "Tab",
+    "Tab",
+    "Tab",
+    "Tab",
+    "Tab",
+    "Tab",
+    "Tab",
+    "Tab",
+    "Tab",
+    "Tab",
+    "Tab",
+    "Tab",
+    "Tab",
+    "Tab",
+    "Tab",
+    "Enter",
+    "Tab",
+    "Tab",
+    "Tab",
+    "Tab",
+    "Tab",
+    "Tab",
+    "Tab",
+    "Tab",
+    "Enter",
+    "Observed result: passed"
+  ],
+  "external": {
+    "site": "Apple",
+    "label": "Live public website",
+    "capturedAt": "2026-11-01T22:55:12.976Z",
+    "notice": "Independent keyboard task observation. No affiliation with Apple; no account or transaction. A pass applies only to this captured sequence."
+  }
+}

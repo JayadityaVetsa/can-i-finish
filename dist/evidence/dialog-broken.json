@@ -1,0 +1,484 @@
+{
+  "schemaVersion": 1,
+  "id": "dialog-broken",
+  "createdAt": "2026-11-01T22:40:25.642Z",
+  "task": "Dismiss updates and continue registration",
+  "contract": {
+    "id": "dialog",
+    "name": "Dismiss updates and continue registration",
+    "goal": "Registration details",
+    "steps": [
+      {
+        "type": "tabTo",
+        "role": "button",
+        "name": "Get updates",
+        "limit": 12
+      },
+      {
+        "type": "press",
+        "key": "Enter"
+      },
+      {
+        "type": "expectVisible",
+        "role": "dialog",
+        "name": "A little inspiration."
+      },
+      {
+        "type": "press",
+        "key": "Escape"
+      },
+      {
+        "type": "expectHidden",
+        "role": "dialog",
+        "name": "A little inspiration."
+      },
+      {
+        "type": "tabTo",
+        "role": "button",
+        "name": "Register for Web Foundations",
+        "limit": 18
+      },
+      {
+        "type": "press",
+        "key": "Enter"
+      },
+      {
+        "type": "expectVisible",
+        "role": "heading",
+        "name": "Registration details"
+      }
+    ]
+  },
+  "url": "http://127.0.0.1:53761/fixtures/campus.html?journey=dialog&version=broken",
+  "outcome": "blocked",
+  "engine": {
+    "name": "Playwright keyboard journey runner",
+    "playwright": "1.64.1",
+    "browser": "156.0.8078.4",
+    "platform": "win32",
+    "viewport": {
+      "width": 1280,
+      "height": 900
+    }
+  },
+  "steps": [
+    {
+      "index": 0,
+      "key": "Start",
+      "phase": "navigation",
+      "note": "Fresh browser context. No mouse clicks or locator.focus().",
+      "elapsedMs": 162,
+      "focus": {
+        "tag": "body",
+        "id": null,
+        "role": null,
+        "name": "Skip to contentNorthstar Open CampusCoursesGet updatesCONTROLLED TEST FIXTURE · NO REAL REGISTRATIONMake room forsomething new.Practical evening courses for curious people. Learn t",
+        "tabIndex": -1,
+        "focusVisible": false,
+        "outline": "3px none rgb(35, 59, 59)",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 915.625
+        },
+        "shadowHosts": [],
+        "dialogOpen": false
+      },
+      "screenshot": "evidence/dialog-broken-000.png",
+      "sha256": "a3d24fc188d2eef600baeaa4875c403d7e1e7877dda3a1bf18cf8b2eca03e1df"
+    },
+    {
+      "index": 1,
+      "key": "Tab",
+      "phase": "1. tabTo",
+      "note": "Find button “Get updates” using sequential keyboard navigation.",
+      "elapsedMs": 428,
+      "focus": {
+        "tag": "a",
+        "id": null,
+        "role": null,
+        "name": "Skip to content",
+        "tabIndex": 0,
+        "focusVisible": true,
+        "outline": "4px solid rgb(178, 86, 39)",
+        "rect": {
+          "x": 20,
+          "y": 10,
+          "width": 129.84375,
+          "height": 42
+        },
+        "shadowHosts": [],
+        "dialogOpen": false
+      },
+      "screenshot": "evidence/dialog-broken-001.png",
+      "sha256": "a67fce24d3be22f344482e73eab1fd38cbffd2448da44488d999940dc7d75a92"
+    },
+    {
+      "index": 2,
+      "key": "Tab",
+      "phase": "1. tabTo",
+      "note": "Find button “Get updates” using sequential keyboard navigation.",
+      "elapsedMs": 681,
+      "focus": {
+        "tag": "a",
+        "id": null,
+        "role": null,
+        "name": "Courses",
+        "tabIndex": 0,
+        "focusVisible": true,
+        "outline": "4px solid rgb(178, 86, 39)",
+        "rect": {
+          "x": 979.65625,
+          "y": 43,
+          "width": 59.578125,
+          "height": 18
+        },
+        "shadowHosts": [],
+        "dialogOpen": false
+      },
+      "screenshot": "evidence/dialog-broken-002.png",
+      "sha256": "f71b44999e7e3e88efb39d725d184060f2ef0595a6e1142aec010e4acc0e6506"
+    },
+    {
+      "index": 3,
+      "key": "Tab",
+      "phase": "1. tabTo",
+      "note": "Find button “Get updates” using sequential keyboard navigation.",
+      "elapsedMs": 935,
+      "focus": {
+        "tag": "button",
+        "id": "updates",
+        "role": null,
+        "name": "Get updates",
+        "tabIndex": 0,
+        "focusVisible": true,
+        "outline": "4px solid rgb(178, 86, 39)",
+        "rect": {
+          "x": 1063.234375,
+          "y": 30,
+          "width": 127.171875,
+          "height": 44
+        },
+        "shadowHosts": [],
+        "dialogOpen": false
+      },
+      "screenshot": "evidence/dialog-broken-003.png",
+      "sha256": "9904e4d3e26b63f8ea6159957d14c1fc72d5d675754f9ae39d1db1645cd30eed"
+    },
+    {
+      "index": 4,
+      "key": "Enter",
+      "phase": "2. press",
+      "note": "",
+      "elapsedMs": 1178,
+      "focus": {
+        "tag": "input",
+        "id": "email",
+        "role": null,
+        "name": "Email address",
+        "tabIndex": 0,
+        "focusVisible": true,
+        "outline": "4px solid rgb(178, 86, 39)",
+        "rect": {
+          "x": 455,
+          "y": 464.4375,
+          "width": 370,
+          "height": 46
+        },
+        "shadowHosts": [],
+        "dialogOpen": true
+      },
+      "screenshot": "evidence/dialog-broken-004.png",
+      "sha256": "adc7aa99ab6ef58e84956a5c7191a3f7c07fa70233bd532aef489fd089a65d27"
+    },
+    {
+      "index": 5,
+      "key": "Assert",
+      "phase": "3. expectVisible",
+      "note": "expectVisible: dialog “A little inspiration.” — passed",
+      "elapsedMs": 1279,
+      "focus": {
+        "tag": "input",
+        "id": "email",
+        "role": null,
+        "name": "Email address",
+        "tabIndex": 0,
+        "focusVisible": true,
+        "outline": "4px solid rgb(178, 86, 39)",
+        "rect": {
+          "x": 455,
+          "y": 464.4375,
+          "width": 370,
+          "height": 46
+        },
+        "shadowHosts": [],
+        "dialogOpen": true
+      },
+      "screenshot": "evidence/dialog-broken-005.png",
+      "sha256": "adc7aa99ab6ef58e84956a5c7191a3f7c07fa70233bd532aef489fd089a65d27"
+    },
+    {
+      "index": 6,
+      "key": "Escape",
+      "phase": "4. press",
+      "note": "",
+      "elapsedMs": 1483,
+      "focus": {
+        "tag": "input",
+        "id": "email",
+        "role": null,
+        "name": "Email address",
+        "tabIndex": 0,
+        "focusVisible": true,
+        "outline": "4px solid rgb(178, 86, 39)",
+        "rect": {
+          "x": 455,
+          "y": 464.4375,
+          "width": 370,
+          "height": 46
+        },
+        "shadowHosts": [],
+        "dialogOpen": true
+      },
+      "screenshot": "evidence/dialog-broken-006.png",
+      "sha256": "adc7aa99ab6ef58e84956a5c7191a3f7c07fa70233bd532aef489fd089a65d27"
+    },
+    {
+      "index": 7,
+      "key": "Assert",
+      "phase": "5. expectHidden",
+      "note": "expectHidden: dialog “A little inspiration.” — failed",
+      "elapsedMs": 1594,
+      "focus": {
+        "tag": "input",
+        "id": "email",
+        "role": null,
+        "name": "Email address",
+        "tabIndex": 0,
+        "focusVisible": true,
+        "outline": "4px solid rgb(178, 86, 39)",
+        "rect": {
+          "x": 455,
+          "y": 464.4375,
+          "width": 370,
+          "height": 46
+        },
+        "shadowHosts": [],
+        "dialogOpen": true
+      },
+      "screenshot": "evidence/dialog-broken-007.png",
+      "sha256": "adc7aa99ab6ef58e84956a5c7191a3f7c07fa70233bd532aef489fd089a65d27"
+    },
+    {
+      "index": 8,
+      "key": "Tab",
+      "phase": "Diagnostic probe",
+      "note": "Inspect focus after the failed Escape; these keys are not a replacement pass condition.",
+      "elapsedMs": 1806,
+      "focus": {
+        "tag": "button",
+        "id": "subscribe",
+        "role": null,
+        "name": "Subscribe",
+        "tabIndex": 0,
+        "focusVisible": true,
+        "outline": "4px solid rgb(178, 86, 39)",
+        "rect": {
+          "x": 455,
+          "y": 528.4375,
+          "width": 111.15625,
+          "height": 44
+        },
+        "shadowHosts": [],
+        "dialogOpen": true
+      },
+      "screenshot": "evidence/dialog-broken-008.png",
+      "sha256": "b9fd1e961b32ec510b3366e5441c55ecb9a2707fe7470ca0f545f82b25e1b53f"
+    },
+    {
+      "index": 9,
+      "key": "Tab",
+      "phase": "Diagnostic probe",
+      "note": "Inspect focus after the failed Escape; these keys are not a replacement pass condition.",
+      "elapsedMs": 2014,
+      "focus": {
+        "tag": "input",
+        "id": "email",
+        "role": null,
+        "name": "Email address",
+        "tabIndex": 0,
+        "focusVisible": true,
+        "outline": "4px solid rgb(178, 86, 39)",
+        "rect": {
+          "x": 455,
+          "y": 464.4375,
+          "width": 370,
+          "height": 46
+        },
+        "shadowHosts": [],
+        "dialogOpen": true
+      },
+      "screenshot": "evidence/dialog-broken-009.png",
+      "sha256": "adc7aa99ab6ef58e84956a5c7191a3f7c07fa70233bd532aef489fd089a65d27"
+    },
+    {
+      "index": 10,
+      "key": "Tab",
+      "phase": "Diagnostic probe",
+      "note": "Inspect focus after the failed Escape; these keys are not a replacement pass condition.",
+      "elapsedMs": 2265,
+      "focus": {
+        "tag": "button",
+        "id": "subscribe",
+        "role": null,
+        "name": "Subscribe",
+        "tabIndex": 0,
+        "focusVisible": true,
+        "outline": "4px solid rgb(178, 86, 39)",
+        "rect": {
+          "x": 455,
+          "y": 528.4375,
+          "width": 111.15625,
+          "height": 44
+        },
+        "shadowHosts": [],
+        "dialogOpen": true
+      },
+      "screenshot": "evidence/dialog-broken-010.png",
+      "sha256": "b9fd1e961b32ec510b3366e5441c55ecb9a2707fe7470ca0f545f82b25e1b53f"
+    },
+    {
+      "index": 11,
+      "key": "Shift+Tab",
+      "phase": "Diagnostic probe",
+      "note": "Inspect focus after the failed Escape; these keys are not a replacement pass condition.",
+      "elapsedMs": 2502,
+      "focus": {
+        "tag": "input",
+        "id": "email",
+        "role": null,
+        "name": "Email address",
+        "tabIndex": 0,
+        "focusVisible": true,
+        "outline": "4px solid rgb(178, 86, 39)",
+        "rect": {
+          "x": 455,
+          "y": 464.4375,
+          "width": 370,
+          "height": 46
+        },
+        "shadowHosts": [],
+        "dialogOpen": true
+      },
+      "screenshot": "evidence/dialog-broken-011.png",
+      "sha256": "adc7aa99ab6ef58e84956a5c7191a3f7c07fa70233bd532aef489fd089a65d27"
+    },
+    {
+      "index": 12,
+      "key": "Tab",
+      "phase": "Diagnostic probe",
+      "note": "Inspect focus after the failed Escape; these keys are not a replacement pass condition.",
+      "elapsedMs": 2741,
+      "focus": {
+        "tag": "button",
+        "id": "subscribe",
+        "role": null,
+        "name": "Subscribe",
+        "tabIndex": 0,
+        "focusVisible": true,
+        "outline": "4px solid rgb(178, 86, 39)",
+        "rect": {
+          "x": 455,
+          "y": 528.4375,
+          "width": 111.15625,
+          "height": 44
+        },
+        "shadowHosts": [],
+        "dialogOpen": true
+      },
+      "screenshot": "evidence/dialog-broken-012.png",
+      "sha256": "b9fd1e961b32ec510b3366e5441c55ecb9a2707fe7470ca0f545f82b25e1b53f"
+    },
+    {
+      "index": 13,
+      "key": "Tab",
+      "phase": "Diagnostic probe",
+      "note": "Inspect focus after the failed Escape; these keys are not a replacement pass condition.",
+      "elapsedMs": 3021,
+      "focus": {
+        "tag": "input",
+        "id": "email",
+        "role": null,
+        "name": "Email address",
+        "tabIndex": 0,
+        "focusVisible": true,
+        "outline": "4px solid rgb(178, 86, 39)",
+        "rect": {
+          "x": 455,
+          "y": 464.4375,
+          "width": 370,
+          "height": 46
+        },
+        "shadowHosts": [],
+        "dialogOpen": true
+      },
+      "screenshot": "evidence/dialog-broken-013.png",
+      "sha256": "adc7aa99ab6ef58e84956a5c7191a3f7c07fa70233bd532aef489fd089a65d27"
+    }
+  ],
+  "findings": [
+    {
+      "code": "DIALOG_DID_NOT_DISMISS",
+      "title": "Escape did not dismiss the dialog",
+      "severity": "blocker",
+      "summary": "The dialog remained visible after Escape. Additional Tab and Shift+Tab probes stayed within its controls. A human should check whether another documented exit exists.",
+      "target": {
+        "tag": "section",
+        "id": "modal",
+        "role": "dialog",
+        "tabIndex": -1,
+        "html": "<section id=\"modal\" role=\"dialog\" aria-modal=\"true\" aria-labelledby=\"dialog-title\"><h2 id=\"dialog-title\">A little inspiration.</h2><p>Get occasional course updates. This demo does not send email.</p><label for=\"email\">Email address</label><input id=\"email\" type=\"email\" autocomplete=\"off\" style=\"\"><button id=\"subscribe\">Subscribe</button><div id=\"close-slot\"><div id=\"close\" class=\"faux\" role=\"button\">Close updates</div></div><p id=\"modal-note\">Press Escape to return to the course.</p></section>"
+      },
+      "stepIndex": 4,
+      "evidenceStep": 13,
+      "observations": [
+        "Escape was pressed while focus was inside the dialog.",
+        "The dialog remained visible.",
+        "This is an observed journey failure, not an automatic WCAG verdict."
+      ],
+      "suggestedFix": "Provide a keyboard-operable close button, support Escape where appropriate, and restore focus to the trigger. Keep the modal’s normal focus containment."
+    }
+  ],
+  "limits": [
+    "One Chromium viewport and keyboard sequence; no WCAG certification.",
+    "A focus cycle alone is not proof of a keyboard trap.",
+    "Names in focus observations are approximate; target matching uses Playwright accessible roles/names."
+  ],
+  "artifacts": {
+    "video": "evidence/dialog-broken.webm"
+  },
+  "durationMs": 3689,
+  "keyCount": 11,
+  "reproduction": [
+    "Open http://127.0.0.1:53761/fixtures/campus.html?journey=dialog&version=broken",
+    "Use a fresh browser context; viewport 1280 × 900.",
+    "Tab",
+    "Tab",
+    "Tab",
+    "Enter",
+    "Escape",
+    "Tab",
+    "Tab",
+    "Tab",
+    "Shift+Tab",
+    "Tab",
+    "Tab",
+    "Observed result: blocked"
+  ],
+  "fixture": {
+    "journey": "dialog",
+    "version": "broken",
+    "publicPath": "fixtures/campus.html?journey=dialog&version=broken"
+  }
+}
