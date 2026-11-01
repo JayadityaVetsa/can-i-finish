@@ -59,6 +59,8 @@ This is an independent, narrowly scoped observation, with no Apple affiliation o
 
 The public `demo.html` provides a 78-second edited screencast with locally synthesized Microsoft Zira narration and readable burned-in captions. It uses real 1080p screen recordings; repetitive footage is condensed. The raw Apple browser recording remains separately available. Video output is 1920×1080 at 30 fps; native browser source is 25 fps. `docs/edit-timeline.json` records edits. This short product demo is below the event's written 2–5 minute submission-video range; a final compliant submission cut remains necessary before submitting the draft.
 
+The source ZIP includes the app, runner, tests, screenshots, and native browser recordings. It excludes the edited MP4 to fit the host's per-file limit. For an offline copy of that demo page, separately download the MP4 from the public demo and place it at `dist/media/demo.mp4`.
+
 ### Controlled before-and-after tasks
 
 | Journey | Before | After |
