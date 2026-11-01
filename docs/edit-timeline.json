@@ -1,0 +1,159 @@
+{
+  "durationSeconds": 78.137,
+  "resolution": "1920x1080",
+  "outputFrameRate": 30,
+  "browserSourceFrameRate": 25,
+  "narration": "Microsoft Zira Desktop, locally synthesized",
+  "parts": [
+    {
+      "part": 1,
+      "start": 0,
+      "duration": 6.908,
+      "title": "A task. A keyboard. Proof.",
+      "narration": "Can I Finish tests whether a keyboard user can complete a real task, and keeps the browser evidence.",
+      "sourceSpeed": 1.028,
+      "clips": [
+        {
+          "file": "docs\\viewer-recordings\\viewer-contract.webm",
+          "start": 0.2,
+          "end": 7.3
+        }
+      ]
+    },
+    {
+      "part": 2,
+      "start": 6.908,
+      "duration": 7.308,
+      "title": "REAL WEBSITE / APPLE.COM",
+      "narration": "Here is a real example on Apple dot com. Find the iPhone VoiceOver setup guide, using only the keyboard.",
+      "sourceSpeed": 2.052,
+      "clips": [
+        {
+          "file": "dist\\evidence\\apple-voiceover.webm",
+          "start": 0.7,
+          "end": 15.7
+        }
+      ]
+    },
+    {
+      "part": 3,
+      "start": 14.217,
+      "duration": 10.438,
+      "title": "39 KEY EVENTS / TASK COMPLETED",
+      "narration": "The runner opens VoiceOver, follows the iPhone setup link, and verifies the destination article. This run passed in thirty nine key events.",
+      "sourceSpeed": 1.298,
+      "clips": [
+        {
+          "file": "dist\\evidence\\apple-voiceover.webm",
+          "start": 15.4,
+          "end": 28.95
+        }
+      ]
+    },
+    {
+      "part": 4,
+      "start": 24.654,
+      "duration": 11.047,
+      "title": "INSPECT THE ACTUAL RUN",
+      "narration": "Every key has a screenshot, a focus record and a timestamp. The report preserves the actual browser recording, and exports a repeatable task contract.",
+      "sourceSpeed": 1.025,
+      "clips": [
+        {
+          "file": "docs\\viewer-recordings\\viewer-contract.webm",
+          "start": 8.64,
+          "end": 14.64
+        },
+        {
+          "file": "docs\\viewer-recordings\\viewer-export.webm",
+          "start": 0,
+          "end": 5.32
+        }
+      ]
+    },
+    {
+      "part": 5,
+      "start": 35.702,
+      "duration": 9.843,
+      "title": "CONTROLLED FIXTURE / BEFORE",
+      "narration": "Now a deliberately broken registration form. The control responds to a mouse click, but never receives focus during eighteen Tab presses.",
+      "sourceSpeed": 1.132,
+      "clips": [
+        {
+          "file": "docs\\film-fixtures\\registration-broken.webm",
+          "start": 0.1,
+          "end": 6.44
+        },
+        {
+          "file": "docs\\viewer-recordings\\viewer-compare.webm",
+          "start": 4.24,
+          "end": 9.04
+        }
+      ]
+    },
+    {
+      "part": 6,
+      "start": 45.544,
+      "duration": 9.758,
+      "title": "SAME CONTRACT / AFTER",
+      "narration": "Replace that div with a native button, and run the identical contract again. The fixed version reaches registration in five key events.",
+      "sourceSpeed": 1.019,
+      "clips": [
+        {
+          "file": "docs\\film-fixtures\\registration-fixed.webm",
+          "start": 0.1,
+          "end": 2.64
+        },
+        {
+          "file": "docs\\viewer-recordings\\viewer-compare.webm",
+          "start": 1.64,
+          "end": 9.04
+        }
+      ]
+    },
+    {
+      "part": 7,
+      "start": 55.302,
+      "duration": 9.778,
+      "title": "ESCAPE / EXIT / CONTINUE",
+      "narration": "A second fixture catches a dialog that ignores Escape. Its fixed version closes, restores focus, and lets the keyboard journey continue.",
+      "sourceSpeed": 1.982,
+      "clips": [
+        {
+          "file": "docs\\film-fixtures\\dialog-broken.webm",
+          "start": 0.2,
+          "end": 15.84
+        },
+        {
+          "file": "docs\\film-fixtures\\dialog-fixed.webm",
+          "start": 0.1,
+          "end": 3.84
+        }
+      ]
+    },
+    {
+      "part": 8,
+      "start": 65.08,
+      "duration": 13.057,
+      "title": "KEEP THE REGRESSION TEST",
+      "narration": "Download an executable keyboard regression test and rerun it after a change. The runner is free and local. This is reproducible task evidence, not an accessibility certification.",
+      "sourceSpeed": 1.054,
+      "clips": [
+        {
+          "file": "docs\\viewer-recordings\\viewer-export.webm",
+          "start": 0.1,
+          "end": 5.32
+        },
+        {
+          "file": "docs\\viewer-recordings\\viewer-contract.webm",
+          "start": 8.64,
+          "end": 14.64
+        },
+        {
+          "file": "docs\\film-fixtures\\registration-fixed.webm",
+          "start": 0.1,
+          "end": 2.64
+        }
+      ]
+    }
+  ]
+}

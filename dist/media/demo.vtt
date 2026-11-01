@@ -1,0 +1,33 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:06.908
+Can I Finish tests whether a keyboard user can complete a real task, and keeps the browser evidence.
+
+2
+00:00:06.908 --> 00:00:14.216
+Here is a real example on Apple dot com. Find the iPhone VoiceOver setup guide, using only the keyboard.
+
+3
+00:00:14.217 --> 00:00:24.655
+The runner opens VoiceOver, follows the iPhone setup link, and verifies the destination article. This run passed in thirty nine key events.
+
+4
+00:00:24.654 --> 00:00:35.701
+Every key has a screenshot, a focus record and a timestamp. The report preserves the actual browser recording, and exports a repeatable task contract.
+
+5
+00:00:35.702 --> 00:00:45.545
+Now a deliberately broken registration form. The control responds to a mouse click, but never receives focus during eighteen Tab presses.
+
+6
+00:00:45.544 --> 00:00:55.302
+Replace that div with a native button, and run the identical contract again. The fixed version reaches registration in five key events.
+
+7
+00:00:55.302 --> 00:01:05.080
+A second fixture catches a dialog that ignores Escape. Its fixed version closes, restores focus, and lets the keyboard journey continue.
+
+8
+00:01:05.080 --> 00:01:18.137
+Download an executable keyboard regression test and rerun it after a change. The runner is free and local. This is reproducible task evidence, not an accessibility certification.

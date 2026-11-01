@@ -1,0 +1,10 @@
+[
+  {"id":"01-overview","title":"A task. A keyboard. Proof.","text":"Can I Finish tests whether a keyboard user can complete a real task, and keeps the browser evidence."},
+  {"id":"02-apple","title":"REAL WEBSITE / APPLE.COM","text":"Here is a real example on Apple dot com. Find the iPhone VoiceOver setup guide, using only the keyboard."},
+  {"id":"03-result","title":"39 KEY EVENTS / TASK COMPLETED","text":"The runner opens VoiceOver, follows the iPhone setup link, and verifies the destination article. This run passed in thirty nine key events."},
+  {"id":"04-evidence","title":"INSPECT THE ACTUAL RUN","text":"Every key has a screenshot, a focus record and a timestamp. The report preserves the actual browser recording, and exports a repeatable task contract."},
+  {"id":"05-broken","title":"CONTROLLED FIXTURE / BEFORE","text":"Now a deliberately broken registration form. The control responds to a mouse click, but never receives focus during eighteen Tab presses."},
+  {"id":"06-fixed","title":"SAME CONTRACT / AFTER","text":"Replace that div with a native button, and run the identical contract again. The fixed version reaches registration in five key events."},
+  {"id":"07-dialog","title":"ESCAPE / EXIT / CONTINUE","text":"A second fixture catches a dialog that ignores Escape. Its fixed version closes, restores focus, and lets the keyboard journey continue."},
+  {"id":"08-export","title":"KEEP THE REGRESSION TEST","text":"Download an executable keyboard regression test and rerun it after a change. The runner is free and local. This is reproducible task evidence, not an accessibility certification."}
+]

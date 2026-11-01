@@ -49,6 +49,18 @@ On each key, it captures a PNG, focus metadata, timestamp, and hash. Native vide
 
 ## Observed demo results
 
+### A real public-site task
+
+The runner executed this contract against Apple's live public website on November 1, 2026: start at https://www.apple.com/accessibility/ , reach the VoiceOver details using sequential Tab navigation, activate the iPhone setup link, and assert the heading of the actual Apple Support article. It passed in 39 key events, with 42 evidence frames and a 1920×1080 native browser recording. Total captured run duration was 29.7 seconds. The report and every frame are under `dist/evidence/apple-voiceover*`.
+
+This is an independent, narrowly scoped observation, with no Apple affiliation or endorsement. It does not claim that Apple's website is fully accessible or that we found and repaired an Apple defect. The first diagnostic attempt exposed a navigation race in this runner; that was corrected, and the successful capture came from a fresh context. Only the final successful capture is in the public evidence bundle.
+
+`node record-apple.mjs` repeats the live contract. Website content or focus order can change, so future outcomes need not match this snapshot.
+
+The public `demo.html` provides a 78-second edited screencast with locally synthesized Microsoft Zira narration and readable burned-in captions. It uses real 1080p screen recordings; repetitive footage is condensed. The raw Apple browser recording remains separately available. Video output is 1920×1080 at 30 fps; native browser source is 25 fps. `docs/edit-timeline.json` records edits. This short product demo is below the event's written 2–5 minute submission-video range; a final compliant submission cut remains necessary before submitting the draft.
+
+### Controlled before-and-after tasks
+
 | Journey | Before | After |
 | --- | --- | --- |
 | Reach registration | Target not reached after 18 Tab presses; rendered div button has tabIndex -1 | Completed in 5 key events |
