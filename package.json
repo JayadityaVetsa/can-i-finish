@@ -7,9 +7,18 @@
   "scripts": {
     "start": "node start.mjs",
     "demo": "node cli.mjs demo",
-    "test": "node --test tests/*.test.mjs"
+    "test": "node --test tests/*.test.mjs",
+    "build": "node prepare-ai.mjs"
   },
   "dependencies": {
+    "@huggingface/transformers": "4.3.2",
+    "kokoro-js": "1.2.1",
     "playwright": "1.64.1"
+  },
+  "devDependencies": {
+    "esbuild": "0.28.2"
+  },
+  "overrides": {
+    "sharp": "^0.35.5"
   }
 }

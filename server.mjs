@@ -3,6 +3,7 @@ import fs from 'node:fs/promises';
 import path from 'node:path';
 import crypto from 'node:crypto';
 import dns from 'node:dns/promises';
+import checkoutHandler from './api/checkout.mjs';
 import {fileURLToPath} from 'node:url';
 import {CONTRACTS,validateContract} from './lib/contracts.mjs';
 import {runJourney} from './lib/runner.mjs';
@@ -11,6 +12,7 @@ export async function createServer({port=4174}={}){
  const json=(res,status,value)=>{res.writeHead(status,{'Content-Type':'application/json','Cache-Control':'no-store'});res.end(JSON.stringify(value));};
  const server=http.createServer(async(req,res)=>{
  try{const base=`http://127.0.0.1:${server.address().port}`,url=new URL(req.url,base);
+ if(url.pathname==='/api/checkout'){if(req.method==='POST'){let raw='';for await(const part of req){raw+=part;if(raw.length>2048){json(res,413,{error:'Request too large.'});return;}}req.body=JSON.parse(raw||'{}');}await checkoutHandler(req,res);return;}
  if(url.pathname==='/api/status'){json(res,200,{localRunner:true,busy,version:1});return;}
  if(url.pathname==='/api/run'&&req.method==='POST'){
   if(req.headers.origin!==base&&req.headers.origin!==`http://localhost:${server.address().port}`){json(res,403,{error:'Open the local workspace to run a test.'});return;}
@@ -24,7 +26,7 @@ export async function createServer({port=4174}={}){
  }
  if(req.method!=='GET'&&req.method!=='HEAD'){res.writeHead(405).end();return;}
  const reportAsset=url.pathname.startsWith('/reports/');const dir=reportAsset?reportsRoot:root;const relative=decodeURIComponent(reportAsset?url.pathname.slice(9):url.pathname);const filename=path.resolve(dir,'.'+path.sep+relative);if(!filename.startsWith(dir+path.sep)&&filename!==dir){res.writeHead(403).end();return;}
- const file=filename===dir?path.join(dir,'index.html'):filename;const data=await fs.readFile(file);const types={html:'text/html; charset=utf-8',js:'text/javascript',css:'text/css',json:'application/json',png:'image/png',webm:'video/webm',md:'text/markdown'};res.writeHead(200,{'Content-Type':types[file.split('.').pop()]||'application/octet-stream','X-Content-Type-Options':'nosniff'});res.end(req.method==='HEAD'?undefined:data);
+ const file=filename===dir?path.join(dir,'index.html'):filename;const data=await fs.readFile(file);const types={html:'text/html; charset=utf-8',js:'text/javascript',mjs:'text/javascript',wasm:'application/wasm',jpg:'image/jpeg',mp4:'video/mp4',vtt:'text/vtt',css:'text/css',json:'application/json',png:'image/png',webm:'video/webm',md:'text/markdown'};res.writeHead(200,{'Content-Type':types[file.split('.').pop()]||'application/octet-stream','X-Content-Type-Options':'nosniff'});res.end(req.method==='HEAD'?undefined:data);
  }catch(error){if(!res.headersSent)json(res,error.code==='ENOENT'?404:400,{error:error.code==='ENOENT'?'Not found':error.message});else res.end();}
  });await new Promise(resolve=>server.listen(port,'127.0.0.1',resolve));return server;
 }

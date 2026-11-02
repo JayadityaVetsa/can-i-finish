@@ -1,0 +1,1 @@
+{"version":2,"outputDirectory":"dist","buildCommand":"node prepare-ai.mjs","rewrites":[{"source":"/demo","destination":"/demo.html"}]}

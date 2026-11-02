@@ -1,0 +1,164 @@
+{
+  "durationSeconds": 175.165,
+  "resolution": "1920x1080",
+  "outputFrameRate": 30,
+  "browserSourceFrameRate": 25,
+  "narration": "Kokoro-82M v1.0 af_heart, locally synthesized",
+  "parts": [
+    {
+      "part": 1,
+      "start": 0,
+      "duration": 18.155,
+      "title": "THE LAST BUTTON SHOULD NOT BE A BARRIER",
+      "narration": "Imagine finding the course you need. Registration is open. You have made your choice. But the last button never receives keyboard focus. You should not have to ask someone else to finish. Can I Finish helps developers reproduce that barrier, inspect the evidence, and check their repair.",
+      "sourceSpeed": 1,
+      "clips": [
+        {
+          "file": "docs\\film-fixtures\\registration-broken.webm",
+          "start": 0.1,
+          "end": 6.44
+        },
+        {
+          "file": "docs\\viewer-recordings\\viewer-compare.webm",
+          "start": 0.2,
+          "end": 9.04
+        }
+      ]
+    },
+    {
+      "part": 2,
+      "start": 18.155,
+      "duration": 21.58,
+      "title": "REAL WEBSITE / APPLE.COM",
+      "narration": "First, a real public website. The task is to find the iPhone VoiceOver setup guide from Apple's accessibility page, using only the keyboard. The runner opens a fresh browser and follows an explicit task contract. These are real browser recordings. Repetitive navigation has been condensed for the demonstration.",
+      "sourceSpeed": 1,
+      "clips": [
+        {
+          "file": "dist\\evidence\\apple-voiceover.webm",
+          "start": 0.7,
+          "end": 20.5
+        }
+      ]
+    },
+    {
+      "part": 3,
+      "start": 39.735,
+      "duration": 18.805,
+      "title": "A SPECIFIC TASK / AN OBSERVED RESULT",
+      "narration": "The runner reaches the VoiceOver details, activates the iPhone setup link, and verifies the heading on the actual support article. The captured run passed in thirty nine key events. That is evidence about this one journey, in this browser. It is not a claim that the whole website is accessible.",
+      "sourceSpeed": 1,
+      "clips": [
+        {
+          "file": "dist\\evidence\\apple-voiceover.webm",
+          "start": 20.5,
+          "end": 37.2
+        }
+      ]
+    },
+    {
+      "part": 4,
+      "start": 58.54,
+      "duration": 20.68,
+      "title": "EVERY INPUT LEAVES EVIDENCE",
+      "narration": "Every key has a screenshot, a focus record, and a timestamp. You can inspect the task contract and replay the exact point where progress stopped. The original browser recording is also preserved. This turns an unclear report, such as I cannot get through, into a concrete sequence another developer can investigate.",
+      "sourceSpeed": 1,
+      "clips": [
+        {
+          "file": "docs\\viewer-recordings\\viewer-contract.webm",
+          "start": 8.64,
+          "end": 14.64
+        },
+        {
+          "file": "docs\\viewer-recordings\\viewer-export.webm",
+          "start": 0,
+          "end": 5.32
+        }
+      ]
+    },
+    {
+      "part": 5,
+      "start": 79.22,
+      "duration": 23.83,
+      "title": "CONTROLLED EXAMPLE / REGISTRATION BEFORE",
+      "narration": "Now the registration barrier from our opening example. This is our deliberately broken demonstration page. The control responds to a mouse click, but is missing from sequential keyboard focus. After eighteen Tab presses, the runner stops with a blocked result. The screenshot and target markup explain what was observed, without pretending every failure has the same cause.",
+      "sourceSpeed": 1,
+      "clips": [
+        {
+          "file": "docs\\film-fixtures\\registration-broken.webm",
+          "start": 0.1,
+          "end": 6.44
+        },
+        {
+          "file": "docs\\viewer-recordings\\viewer-compare.webm",
+          "start": 0.1,
+          "end": 9.04
+        }
+      ]
+    },
+    {
+      "part": 6,
+      "start": 103.05,
+      "duration": 23.58,
+      "title": "IDENTICAL TASK / CORRECTED CONTROL",
+      "narration": "Here the demonstration replaces that control with a native button. The identical contract now reaches registration in five key events. The comparison keeps the task constant while the implementation changes. That matters because a suggested fix is only a hypothesis until the task has been exercised again and the finish line has actually been reached.",
+      "sourceSpeed": 1,
+      "clips": [
+        {
+          "file": "docs\\film-fixtures\\registration-fixed.webm",
+          "start": 0.1,
+          "end": 2.56
+        },
+        {
+          "file": "docs\\viewer-recordings\\viewer-compare.webm",
+          "start": 0.1,
+          "end": 9.04
+        }
+      ]
+    },
+    {
+      "part": 7,
+      "start": 126.63,
+      "duration": 24.23,
+      "title": "SECOND BARRIER / ESCAPE AND CONTINUE",
+      "narration": "A second example checks a dialog. In the broken version, Escape leaves it open, and the diagnostic keys remain inside. In the corrected version, Escape closes the dialog, restores focus, and lets registration continue. The issue is the failed exit and task continuation, rather than the normal focus containment that a modal dialog is supposed to provide.",
+      "sourceSpeed": 1,
+      "clips": [
+        {
+          "file": "docs\\film-fixtures\\dialog-broken.webm",
+          "start": 0.2,
+          "end": 16.2
+        },
+        {
+          "file": "docs\\film-fixtures\\dialog-fixed.webm",
+          "start": 0.1,
+          "end": 3.6
+        }
+      ]
+    },
+    {
+      "part": 8,
+      "start": 150.86,
+      "duration": 24.305,
+      "title": "INDEPENDENCE SHOULD SURVIVE THE NEXT RELEASE",
+      "narration": "Finally, export the evidence and an executable keyboard regression test. Run it again after the next change. The browser runner is free and local, and the hosted viewer makes its captured evidence easy to inspect. Can I Finish is a prototype, not a full accessibility audit. Its purpose is practical: help teams make sure people can finish ordinary tasks independently.",
+      "sourceSpeed": 1,
+      "clips": [
+        {
+          "file": "docs\\viewer-recordings\\viewer-export.webm",
+          "start": 0.1,
+          "end": 5.32
+        },
+        {
+          "file": "docs\\viewer-recordings\\viewer-contract.webm",
+          "start": 8.64,
+          "end": 14.64
+        },
+        {
+          "file": "docs\\film-fixtures\\registration-fixed.webm",
+          "start": 0.1,
+          "end": 2.56
+        }
+      ]
+    }
+  ]
+}

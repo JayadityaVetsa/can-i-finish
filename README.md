@@ -1,5 +1,8 @@
 # Can I Finish?
 
+Current development status: see [November 2 implementation notes](docs/implementation-status-2026-11-02.md). New review video: `dist/media/general-v2.mp4` (2:55, Kokoro narration). AI and live PayPal sandbox validation remain pending.
+
+
 **Keyboard journeys, with evidence you can rerun.**
 
 Define a concrete task, send keyboard input through a real browser, inspect where it stops, and run the same contract after a fix. Built for Next Byte Hacks V5 on November 1, 2026. The entry stays a draft until the user explicitly requests submission.
@@ -51,7 +54,7 @@ On each key, it captures a PNG, focus metadata, timestamp, and hash. Native vide
 
 ### A real public-site task
 
-The runner executed this contract against Apple's live public website on November 1, 2026: start at https://www.apple.com/accessibility/ , reach the VoiceOver details using sequential Tab navigation, activate the iPhone setup link, and assert the heading of the actual Apple Support article. It passed in 39 key events, with 42 evidence frames and a 1920×1080 native browser recording. Total captured run duration was 29.7 seconds. The report and every frame are under `dist/evidence/apple-voiceover*`.
+The runner executed this contract against Apple's live public website on November 1, 2026: start at https://www.apple.com/accessibility/ , reach the VoiceOver details using sequential Tab navigation, activate the iPhone setup link, and assert the heading of the actual Apple Support article. It passed in 39 key events, with 42 evidence frames and a 1920×1080 native browser recording. The November 2 rerun captured 38.1 seconds, again with 39 key events and 42 frames. The report and every frame are under `dist/evidence/apple-voiceover*`.
 
 This is an independent, narrowly scoped observation, with no Apple affiliation or endorsement. It does not claim that Apple's website is fully accessible or that we found and repaired an Apple defect. The first diagnostic attempt exposed a navigation race in this runner; that was corrected, and the successful capture came from a fresh context. Only the final successful capture is in the public evidence bundle.
 
@@ -84,4 +87,10 @@ Sources: https://www.deque.com/blog/intelligent-automation-and-the-new-era-of-gu
 
 ## AI and licensing
 
-Codex assisted in architecture, code, fixtures, tests, interface, and documentation. The running product does not use a language model. Playwright is Apache-2.0 licensed; Chromium and bundled tooling retain their respective licenses. Original project code is MIT licensed. No user interviews, production adoption, or measured user-impact claims are fabricated.
+Codex assisted in architecture, code, fixtures, tests, interface, and documentation. The original runner is deterministic. A new browser-local Qwen diagnosis worker is being validated; measured outcomes remain browser assertions. Playwright is Apache-2.0 licensed; Chromium and bundled tooling retain their respective licenses. Original project code is MIT licensed. No user interviews, production adoption, or measured user-impact claims are fabricated.
+
+## New checkout development setup
+
+The sandbox service reads PAYPAL_CLIENT_ID, PAYPAL_CLIENT_SECRET, CHECKOUT_SESSION_SECRET and PUBLIC_ORIGIN from the environment. See .env.example for names only. Configure the values privately in Vercel; never use live credentials. For local development, use Node 22+ with `node --env-file=.env.local start.mjs`, setting PUBLIC_ORIGIN to the local origin. Vercel uses HTTPS secure session cookies; test the complete approval/capture flow on the configured HTTPS deployment. The sandbox storefront is `/checkout.html`. Until configured it clearly reports setup pending.
+
+Run `npm ci` and `npm run build` to bundle the pinned browser runtime. Open-model weights download from Hugging Face on demand and are not committed. The diagnosis worker uses WebGPU; unsupported hardware fails explicitly. AI output is an unverified suggestion, never a measured test result.

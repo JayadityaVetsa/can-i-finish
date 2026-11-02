@@ -1,0 +1,5 @@
+import test from 'node:test';import assert from 'node:assert/strict';import fs from 'node:fs';import {diagnosisInput,validateDiagnosis} from '../dist/diagnosis-core.js';
+const {runs}=JSON.parse(fs.readFileSync('dist/evidence/demo.json'));
+test('diagnosis inputs preserve outcomes and bound source',()=>{for(const report of runs){const input=diagnosisInput(report,'a'.repeat(9000));assert.equal(input.source.length,6000);assert.equal(input.outcome,report.outcome);assert.ok(input.evidence.length<=9);}});
+test('model cannot cite absent evidence or establish a verified fix',()=>{const input=diagnosisInput(runs[0]);const value={explanation:'Observed barrier',evidenceSteps:[0],suggestedChange:'Review native semantics',uncertainty:'One task only'};assert.equal(validateDiagnosis(JSON.stringify(value),input).verifiedFix,false);assert.throws(()=>validateDiagnosis(JSON.stringify({...value,evidenceSteps:[999]}),input));assert.throws(()=>validateDiagnosis('{}',input));});
+test('missing evidence is rejected',()=>assert.throws(()=>diagnosisInput({steps:[]})));

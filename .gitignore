@@ -8,3 +8,11 @@ docs/viewer-recordings/
 docs/narration/*.wav
 docs/voice-sample.wav
 docs/video-check-*.jpg
+
+.env
+.env.local
+.vercel/
+docs/voice-review/
+docs/narration-v2/
+
+dist/vendor/
