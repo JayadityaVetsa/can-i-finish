@@ -5,7 +5,7 @@ No event has been submitted. First submission must be Next Byte Hacks V5. Later 
 ## Shared links
 
 - Source and complete local setup: https://github.com/JayadityaVetsa/can-i-finish
-- General review video, captions and transcript: https://github.com/JayadityaVetsa/can-i-finish/releases/tag/review-v2
+- General review video, captions and transcript: https://github.com/JayadityaVetsa/can-i-finish/releases/tag/review-v3
 - PayPal review video, captions and transcript: https://github.com/JayadityaVetsa/can-i-finish/releases/tag/paypal-review-v1
 - Vercel URL: https://can-i-finish.vercel.app (public Hobby deployment; viewer, downloads, API configuration and real sandbox create/cancel verified).
 - YouTube URLs: pending entrant approval and upload. PayPal requires a publicly visible YouTube video.
@@ -16,7 +16,7 @@ Title: Can I Finish?
 
 Pitch: Find the keyboard barrier that stops a real task. Replay browser evidence, compare a fix, and keep a regression test so people can finish independently.
 
-The existing draft (1277600) has this title, a new thumbnail, three new gallery images, an updated project story, and the source/review links. Four old AccessKit gallery images await deletion confirmation. Final Vercel and YouTube fields remain pending. Do not accept final terms or submit before the entrant approves the video and supplies its link.
+The existing draft (1277600) has this title, a new thumbnail, three new gallery images, an updated project story, and the source/review links. Four old AccessKit gallery images await deletion confirmation. The Vercel link is saved; the YouTube field remains pending. Do not accept final terms or submit before the entrant approves the video and supplies its link.
 
 ## Remote Control AI — proposed description
 

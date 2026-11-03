@@ -1,0 +1,42 @@
+[
+  {
+    "id": "01-overview",
+    "title": "THE LAST BUTTON SHOULD NOT BE A BARRIER",
+    "text": "Imagine finding the course you need. Registration is open. You have made your choice. But the last button never receives keyboard focus. You should not have to ask someone else to finish. Can I Finish helps developers reproduce that barrier, inspect the evidence, and check their repair."
+  },
+  {
+    "id": "02-apple",
+    "title": "REAL WEBSITE / APPLE.COM",
+    "text": "First, a real public website. The task is to find the iPhone VoiceOver setup guide from Apple's accessibility page, using only the keyboard. The runner opens a fresh browser and follows an explicit task contract. These are real browser recordings. Repetitive navigation has been condensed for the demonstration."
+  },
+  {
+    "id": "03-result",
+    "title": "A SPECIFIC TASK / AN OBSERVED RESULT",
+    "text": "The runner reaches the VoiceOver details, activates the iPhone setup link, and verifies the heading on the actual support article. The captured run passed in thirty nine key events. That is evidence about this one journey, in this browser. It is not a claim that the whole website is accessible."
+  },
+  {
+    "id": "04-evidence",
+    "title": "BROWSER EVIDENCE / AI SUGGESTION / VERIFIED RERUN",
+    "text": "Each key leaves a screenshot, focus record, and timestamp. An experimental model runs on your device to explain the supplied findings and source. Here, its recorded suggestion proposes a native button. That suggestion is unverified. The browser outcome stays separate, and the same task must run again before we can call the repair successful."
+  },
+  {
+    "id": "05-broken",
+    "title": "CONTROLLED EXAMPLE / REGISTRATION BEFORE",
+    "text": "Now the registration barrier from our opening example. This is our deliberately broken demonstration page. The control responds to a mouse click, but is missing from sequential keyboard focus. After eighteen Tab presses, the runner stops with a blocked result. The screenshot and target markup explain what was observed, without pretending every failure has the same cause."
+  },
+  {
+    "id": "06-fixed",
+    "title": "IDENTICAL TASK / CORRECTED CONTROL",
+    "text": "Here the demonstration replaces that control with a native button. The identical contract now reaches registration in five key events. The comparison keeps the task constant while the implementation changes. That matters because a suggested fix is only a hypothesis until the task has been exercised again and the finish line has actually been reached."
+  },
+  {
+    "id": "07-dialog",
+    "title": "SECOND BARRIER / ESCAPE AND CONTINUE",
+    "text": "A second example checks a dialog. In the broken version, Escape leaves it open, and the diagnostic keys remain inside. In the corrected version, Escape closes the dialog, restores focus, and lets registration continue. The issue is the failed exit and task continuation, rather than the normal focus containment that a modal dialog is supposed to provide."
+  },
+  {
+    "id": "08-export",
+    "title": "INDEPENDENCE SHOULD SURVIVE THE NEXT RELEASE",
+    "text": "Finally, export the evidence and an executable keyboard regression test. Run it again after the next change. The browser runner is free and local, and the hosted viewer makes its captured evidence easy to inspect. Can I Finish is a prototype, not a full accessibility audit. Its purpose is practical: help teams make sure people can finish ordinary tasks independently."
+  }
+]

@@ -5,7 +5,7 @@ await fs.mkdir('docs/voice-review',{recursive:true});
 const sample='You find the course you need. Registration is open. But the last button never receives keyboard focus. You should not have to ask someone else to finish.';
 for(const voice of (process.argv.some(a=>a.startsWith('--only='))?[]:['af_heart','af_bella'])){const audio=await tts.generate(sample,{voice,speed:1});await audio.save('docs/voice-review/'+voice+'.wav');console.log('Voice sample saved:',voice);}
 if(process.argv.includes('--samples'))process.exit(0);
-const folder=process.argv.includes('--paypal')?'narration-paypal':'narration-v2';
+const folder=process.argv.includes('--paypal')?'narration-paypal':process.argv.includes('--general-v3')?'narration-v3':'narration-v2';
 const lines=JSON.parse(await fs.readFile('docs/'+folder+'.json','utf8'));
 await fs.mkdir('docs/'+folder,{recursive:true});
 const only=process.argv.find(a=>a.startsWith('--only='))?.slice(7).split(',');

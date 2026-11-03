@@ -2,8 +2,9 @@ from pathlib import Path
 import json,re,sys
 root=Path(__file__).resolve().parent
 paypal='--paypal' in sys.argv
-timeline=json.loads((root/('docs/edit-timeline-paypal.json' if paypal else 'docs/edit-timeline-v2.json')).read_text(encoding='utf-8'))
-stem='paypal-demo' if paypal else 'general-v2'
+v3='--general-v3' in sys.argv
+timeline=json.loads((root/('docs/edit-timeline-paypal.json' if paypal else 'docs/edit-timeline-v3.json' if v3 else 'docs/edit-timeline-v2.json')).read_text(encoding='utf-8'))
+stem='paypal-demo' if paypal else 'general-v3' if v3 else 'general-v2'
 def stamp(t):
     ms=round(t*1000)
     return f'{ms//3600000:02}:{ms//60000%60:02}:{ms//1000%60:02}.{ms%1000:03}'
