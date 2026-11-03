@@ -36,3 +36,11 @@ The entrant approved sandbox order ending736381V. An independent PayPal Orders A
 PayPal-specific video is rendered at about2:52, full HD30fps, with Kokoro narration, captions and no Apple footage. It shows the real merchant handoff, recorded local-model suggestion, saved API verification and native cancellation flow. Buyer approval is explicitly a separate human action. The AI's native-button recommendation was reviewed for the registration example; other generated prose remains unverified. No general AI diagnosis accuracy is claimed.
 
 Next Byte thumbnail and three new gallery images uploaded; four old AccessKit gallery images await action-time deletion confirmation. Story updated with18 checks and actual sandbox evidence. Final deployment and YouTube fields remain pending. No submission was made.
+
+## Public Vercel deployment verified
+
+The existing signed-in dashboard successfully deployed main on the free Hobby plan at https://can-i-finish.vercel.app. The expiring connector consent workflow was abandoned. Private sandbox credentials and the checkout session secret are Vercel environment variables, never source assets. PUBLIC_ORIGIN matches the canonical HTTPS origin.
+
+An isolated fresh Chromium session verified the public viewer, cancellation of AI loading, keyboard reachability of corrected checkout, actual server-side sandbox order creation and PayPal redirect, cancellation back to the canonical origin, mismatched-order rejection, unexpected-origin rejection, and both video players. No JavaScript page errors were observed. No payment was approved in this deployment test. The earlier manually approved local sandbox capture remains the verified success record; a new deployed capture has not been approved.
+
+PayPal draft 1273895 was already registered and empty; renamed Can I Finish?, with story, source and technical fields saved. Personal residence and subjective feedback fields remain pending rather than inferred. Videos still await entrant review; no YouTube URL or hackathon submission has been made.
