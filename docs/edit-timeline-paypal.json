@@ -1,0 +1,174 @@
+{
+  "durationSeconds": 172.515,
+  "resolution": "1920x1080",
+  "outputFrameRate": 30,
+  "browserSourceFrameRate": 25,
+  "narration": "Kokoro-82M v1.0 af_heart, locally synthesized",
+  "parts": [
+    {
+      "part": 1,
+      "start": 0,
+      "duration": 17.18,
+      "title": "THE LAST STEP SHOULD BE REACHABLE",
+      "narration": "Imagine choosing what you need, getting all the way to checkout, and discovering that the last button is out of reach. You should not have to ask somebody else to finish. Can I Finish helps developers investigate that barrier with a concrete keyboard task and evidence they can rerun.",
+      "sourceSpeed": 1.402,
+      "clips": [
+        {
+          "file": "dist\\evidence\\checkout-broken.webm",
+          "start": 0.1,
+          "end": 7.08
+        },
+        {
+          "file": "docs\\paypal-film\\film-checkout-viewer.webm",
+          "start": 0.1,
+          "end": 17.2
+        }
+      ]
+    },
+    {
+      "part": 2,
+      "start": 17.18,
+      "duration": 21.48,
+      "title": "OWNED STOREFRONT / DELIBERATE KEYBOARD BARRIER",
+      "narration": "This is our fictional Field Notes storefront. Everything uses PayPal's sandbox, so no real money or shipment is involved. In the broken version, the checkout action is a div with a button role and a click handler. It never receives focus during eighteen Tab presses. The report keeps the exact target markup and focus sequence.",
+      "sourceSpeed": 1.121,
+      "clips": [
+        {
+          "file": "dist\\evidence\\checkout-broken.webm",
+          "start": 0.1,
+          "end": 7.08
+        },
+        {
+          "file": "docs\\paypal-film\\film-checkout-viewer.webm",
+          "start": 0.1,
+          "end": 17.2
+        }
+      ]
+    },
+    {
+      "part": 3,
+      "start": 38.66,
+      "duration": 23.505,
+      "title": "LOCAL AI / AN EXPLANATION TO REVIEW",
+      "narration": "The experimental AI feature runs an open model on your device. It explains supplied runner findings and relevant source code, rather than pretending to discover a defect independently. In a registration example, it proposes replacing the div with a native button. A model suggestion is not proof of a repair. The browser task must be run again.",
+      "sourceSpeed": 1,
+      "clips": [
+        {
+          "file": "docs\\paypal-film\\film-checkout-viewer.webm",
+          "start": 0.1,
+          "end": 8
+        },
+        {
+          "file": "docs\\paypal-film\\film-ai-proof.webm",
+          "start": 0.1,
+          "end": 12.72
+        }
+      ]
+    },
+    {
+      "part": 4,
+      "start": 62.165,
+      "duration": 22.955,
+      "title": "SAME CONTRACT / REAL PAYPAL SANDBOX HANDOFF",
+      "narration": "After that merchant control is corrected, the same keyboard contract reaches PayPal's real sandbox sign in screen in three key events. The runner uses keyboard events, not mouse clicks or direct focus calls. This contract deliberately stops at sign in. Buyer authentication and payment approval are separate steps, and we label that boundary explicitly.",
+      "sourceSpeed": 1.138,
+      "clips": [
+        {
+          "file": "dist\\evidence\\checkout-fixed.webm",
+          "start": 0.1,
+          "end": 9.12
+        },
+        {
+          "file": "docs\\paypal-film\\film-checkout-viewer.webm",
+          "start": 0.1,
+          "end": 17.2
+        }
+      ]
+    },
+    {
+      "part": 5,
+      "start": 85.12,
+      "duration": 22.73,
+      "title": "ACTUAL SANDBOX PURCHASE / HUMAN APPROVAL",
+      "narration": "Separately, we completed an actual sandbox purchase with the generated test buyer. The entrant pressed Pay, and the application captured the approved order. We then read the order back from PayPal's API. Both the order and capture were completed for one U.S. dollar in sandbox funds. This saved record contains shortened references, not credentials.",
+      "sourceSpeed": 1,
+      "clips": [
+        {
+          "file": "docs\\paypal-film\\film-checkout-viewer.webm",
+          "start": 0.1,
+          "end": 8
+        },
+        {
+          "file": "docs\\paypal-film\\film-payment-proof.webm",
+          "start": 0.1,
+          "end": 12.32
+        }
+      ]
+    },
+    {
+      "part": 6,
+      "start": 107.85,
+      "duration": 20.705,
+      "title": "CANCELLATION / RETURN / RETRY",
+      "narration": "If a shopper cancels, the keyboard journey returns to the merchant with a clear retry path. We separately checked that the cancelled order had no capture. The server binds each order to a signed session, verifies the amount, and makes capture retries idempotent. A receipt message alone is never treated as proof of payment.",
+      "sourceSpeed": 1.331,
+      "clips": [
+        {
+          "file": "docs\\paypal-film\\film-cancellation.webm",
+          "start": 0.1,
+          "end": 10.44
+        },
+        {
+          "file": "docs\\paypal-film\\film-payment-proof.webm",
+          "start": 0.1,
+          "end": 12.32
+        },
+        {
+          "file": "docs\\paypal-film\\film-checkout-viewer.webm",
+          "start": 12.2,
+          "end": 17.2
+        }
+      ]
+    },
+    {
+      "part": 7,
+      "start": 128.555,
+      "duration": 23.28,
+      "title": "A REPORT YOUR TEAM CAN RERUN",
+      "narration": "Inspect a screenshot for every recorded key, compare the same task before and after the fix, then export an executable regression test. The hosted evidence viewer needs no paid browser service. New automated journeys use the local runner. The open model requires a capable browser and an initial download, and its suggestions remain experimental.",
+      "sourceSpeed": 1.277,
+      "clips": [
+        {
+          "file": "docs\\paypal-film\\film-checkout-viewer.webm",
+          "start": 0.1,
+          "end": 17.2
+        },
+        {
+          "file": "docs\\paypal-film\\film-ai-proof.webm",
+          "start": 0.1,
+          "end": 12.72
+        }
+      ]
+    },
+    {
+      "part": 8,
+      "start": 151.835,
+      "duration": 20.68,
+      "title": "BEFORE ASKING SOMEONE TO PAY / MAKE SURE THEY CAN FINISH",
+      "narration": "This prototype does not certify accessibility, and it has not yet been validated in a user study. It offers something specific: a repeatable task, a visible barrier, a verified merchant fix, and a real sandbox integration. Before asking a customer to pay, make sure they can reach the last step independently.",
+      "sourceSpeed": 1.418,
+      "clips": [
+        {
+          "file": "docs\\paypal-film\\film-checkout-viewer.webm",
+          "start": 0.1,
+          "end": 17.2
+        },
+        {
+          "file": "docs\\paypal-film\\film-payment-proof.webm",
+          "start": 0.1,
+          "end": 12.32
+        }
+      ]
+    }
+  ]
+}

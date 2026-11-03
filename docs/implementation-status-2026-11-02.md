@@ -28,3 +28,11 @@ Existing public Sites URL still serves the prior version; new local changes have
 GitHub source and history published successfully to main at commit 8042035. Review video and captions are publicly downloadable from releases/tag/review-v2. Existing PayPal sandbox default app credentials are configured in ignored .env.local; OAuth and actual sandbox order creation succeeded. Default sandbox buyer authenticated and reached approval for the fictional USD1.00 order. Automatic review rejected the agent pressing Pay even in sandbox; user handoff requested. Do not attempt to approve through API or another browser as a workaround. Vercel scope remains 403 pending user consent.
 
 New actual keyboard recordings: checkout-broken blocked after18 Tabs; checkout-fixed reaches PayPal sandbox login in3 key events. They explicitly stop before buyer approval and capture. Two artifact tests cover this boundary and frame/video integrity.
+
+## Verified sandbox completion and second video
+
+The entrant approved sandbox order ending736381V. An independent PayPal Orders API read verified COMPLETED order and capture states for USD1.00. The public record contains shortened references only. The second returned order ending7247256 had no capture. A separate native keyboard cancellation recording passed12 key events.
+
+PayPal-specific video is rendered at about2:52, full HD30fps, with Kokoro narration, captions and no Apple footage. It shows the real merchant handoff, recorded local-model suggestion, saved API verification and native cancellation flow. Buyer approval is explicitly a separate human action. The AI's native-button recommendation was reviewed for the registration example; other generated prose remains unverified. No general AI diagnosis accuracy is claimed.
+
+Next Byte thumbnail and three new gallery images uploaded; four old AccessKit gallery images await action-time deletion confirmation. Story updated with18 checks and actual sandbox evidence. Final deployment and YouTube fields remain pending. No submission was made.

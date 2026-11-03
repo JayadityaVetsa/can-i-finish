@@ -23,6 +23,7 @@ Requires Node.js 20+. Chromium downloads once; no API key or paid service.
 
 ```sh
 npm ci
+npm run build
 npx playwright install chromium
 npm start
 # Open http://127.0.0.1:4174

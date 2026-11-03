@@ -1,0 +1,42 @@
+[
+  {
+    "id": "01-stakes",
+    "title": "THE LAST STEP SHOULD BE REACHABLE",
+    "text": "Imagine choosing what you need, getting all the way to checkout, and discovering that the last button is out of reach. You should not have to ask somebody else to finish. Can I Finish helps developers investigate that barrier with a concrete keyboard task and evidence they can rerun."
+  },
+  {
+    "id": "02-barrier",
+    "title": "OWNED STOREFRONT / DELIBERATE KEYBOARD BARRIER",
+    "text": "This is our fictional Field Notes storefront. Everything uses PayPal's sandbox, so no real money or shipment is involved. In the broken version, the checkout action is a div with a button role and a click handler. It never receives focus during eighteen Tab presses. The report keeps the exact target markup and focus sequence."
+  },
+  {
+    "id": "03-ai",
+    "title": "LOCAL AI / AN EXPLANATION TO REVIEW",
+    "text": "The experimental AI feature runs an open model on your device. It explains supplied runner findings and relevant source code, rather than pretending to discover a defect independently. In a registration example, it proposes replacing the div with a native button. A model suggestion is not proof of a repair. The browser task must be run again."
+  },
+  {
+    "id": "04-fixed",
+    "title": "SAME CONTRACT / REAL PAYPAL SANDBOX HANDOFF",
+    "text": "After that merchant control is corrected, the same keyboard contract reaches PayPal's real sandbox sign in screen in three key events. The runner uses keyboard events, not mouse clicks or direct focus calls. This contract deliberately stops at sign in. Buyer authentication and payment approval are separate steps, and we label that boundary explicitly."
+  },
+  {
+    "id": "05-capture",
+    "title": "ACTUAL SANDBOX PURCHASE / HUMAN APPROVAL",
+    "text": "Separately, we completed an actual sandbox purchase with the generated test buyer. The entrant pressed Pay, and the application captured the approved order. We then read the order back from PayPal's API. Both the order and capture were completed for one U.S. dollar in sandbox funds. This saved record contains shortened references, not credentials."
+  },
+  {
+    "id": "06-engineering",
+    "title": "CANCELLATION / RETURN / RETRY",
+    "text": "If a shopper cancels, the keyboard journey returns to the merchant with a clear retry path. We separately checked that the cancelled order had no capture. The server binds each order to a signed session, verifies the amount, and makes capture retries idempotent. A receipt message alone is never treated as proof of payment."
+  },
+  {
+    "id": "07-reproduce",
+    "title": "A REPORT YOUR TEAM CAN RERUN",
+    "text": "Inspect a screenshot for every recorded key, compare the same task before and after the fix, then export an executable regression test. The hosted evidence viewer needs no paid browser service. New automated journeys use the local runner. The open model requires a capable browser and an initial download, and its suggestions remain experimental."
+  },
+  {
+    "id": "08-close",
+    "title": "BEFORE ASKING SOMEONE TO PAY / MAKE SURE THEY CAN FINISH",
+    "text": "This prototype does not certify accessibility, and it has not yet been validated in a user study. It offers something specific: a repeatable task, a visible barrier, a verified merchant fix, and a real sandbox integration. Before asking a customer to pay, make sure they can reach the last step independently."
+  }
+]

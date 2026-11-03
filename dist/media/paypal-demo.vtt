@@ -1,0 +1,121 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:05.960
+Imagine choosing what you need, getting all the way to checkout, and discovering that the last button
+
+2
+00:00:05.960 --> 00:00:11.921
+is out of reach. You should not have to ask somebody else to finish. Can I Finish
+
+3
+00:00:11.921 --> 00:00:17.180
+helps developers investigate that barrier with a concrete keyboard task and evidence they can rerun.
+
+4
+00:00:17.180 --> 00:00:23.819
+This is our fictional Field Notes storefront. Everything uses PayPal's sandbox, so no real money or shipment
+
+5
+00:00:23.819 --> 00:00:30.459
+is involved. In the broken version, the checkout action is a div with a button role and
+
+6
+00:00:30.459 --> 00:00:37.098
+a click handler. It never receives focus during eighteen Tab presses. The report keeps the exact target
+
+7
+00:00:37.098 --> 00:00:38.660
+markup and focus sequence.
+
+8
+00:00:38.660 --> 00:00:45.670
+The experimental AI feature runs an open model on your device. It explains supplied runner findings and
+
+9
+00:00:45.670 --> 00:00:52.681
+relevant source code, rather than pretending to discover a defect independently. In a registration example, it proposes
+
+10
+00:00:52.681 --> 00:00:59.691
+replacing the div with a native button. A model suggestion is not proof of a repair. The
+
+11
+00:00:59.691 --> 00:01:02.165
+browser task must be run again.
+
+12
+00:01:02.165 --> 00:01:09.392
+After that merchant control is corrected, the same keyboard contract reaches PayPal's real sandbox sign in screen
+
+13
+00:01:09.392 --> 00:01:16.618
+in three key events. The runner uses keyboard events, not mouse clicks or direct focus calls. This
+
+14
+00:01:16.618 --> 00:01:23.845
+contract deliberately stops at sign in. Buyer authentication and payment approval are separate steps, and we label
+
+15
+00:01:23.845 --> 00:01:25.120
+that boundary explicitly.
+
+16
+00:01:25.120 --> 00:01:32.276
+Separately, we completed an actual sandbox purchase with the generated test buyer. The entrant pressed Pay, and
+
+17
+00:01:32.276 --> 00:01:39.431
+the application captured the approved order. We then read the order back from PayPal's API. Both the
+
+18
+00:01:39.431 --> 00:01:46.587
+order and capture were completed for one U.S. dollar in sandbox funds. This saved record contains shortened
+
+19
+00:01:46.587 --> 00:01:47.850
+references, not credentials.
+
+20
+00:01:47.850 --> 00:01:54.368
+If a shopper cancels, the keyboard journey returns to the merchant with a clear retry path. We
+
+21
+00:01:54.368 --> 00:02:00.886
+separately checked that the cancelled order had no capture. The server binds each order to a signed
+
+22
+00:02:00.886 --> 00:02:07.405
+session, verifies the amount, and makes capture retries idempotent. A receipt message alone is never treated as
+
+23
+00:02:07.405 --> 00:02:08.555
+proof of payment.
+
+24
+00:02:08.555 --> 00:02:15.884
+Inspect a screenshot for every recorded key, compare the same task before and after the fix, then
+
+25
+00:02:15.884 --> 00:02:23.213
+export an executable regression test. The hosted evidence viewer needs no paid browser service. New automated journeys
+
+26
+00:02:23.213 --> 00:02:30.542
+use the local runner. The open model requires a capable browser and an initial download, and its
+
+27
+00:02:30.542 --> 00:02:31.835
+suggestions remain experimental.
+
+28
+00:02:31.835 --> 00:02:38.728
+This prototype does not certify accessibility, and it has not yet been validated in a user study.
+
+29
+00:02:38.728 --> 00:02:45.622
+It offers something specific: a repeatable task, a visible barrier, a verified merchant fix, and a real
+
+30
+00:02:45.622 --> 00:02:52.515
+sandbox integration. Before asking a customer to pay, make sure they can reach the last step independently.

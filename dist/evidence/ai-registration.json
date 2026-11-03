@@ -1,0 +1,21 @@
+{
+  "modelOutput": {
+    "explanation": "The task was blocked because the user failed to reach the target element 'Register for Web Foundations' through sequential keyboard navigation. The user pressed 18 tab keys but did not focus the button.",
+    "evidenceSteps": [
+      0,
+      18
+    ],
+    "suggestedChange": "Replace the div with a native button for this action. Keep it in sequential focus order and preserve Enter/Space activation.",
+    "uncertainty": "There is no specific limit provided for this task, but it is generally recommended to use native buttons for interactive elements.",
+    "measuredOutcome": "blocked",
+    "model": "onnx-community/Qwen2.5-Coder-1.5B-Instruct",
+    "generatedAt": "2026-11-03T00:18:08.374Z",
+    "verifiedFix": false,
+    "basis": "AI explanation of supplied runner findings and source; not independent defect discovery"
+  },
+  "review": {
+    "fixture": "registration",
+    "proposedChangeReview": "Native button recommendation is consistent with the captured target markup and implemented fixture fix.",
+    "limitations": "Other generated prose, including uncertainty, is not treated as verified. One reviewed example does not establish general diagnosis accuracy."
+  }
+}

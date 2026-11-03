@@ -9,5 +9,13 @@
   "orderReference": "ending 36381V",
   "captureReference": "ending 05490C",
   "buyerApproval": "Performed by the entrant in the sandbox browser",
-  "scope": "One fictional sandbox purchase. No real money. This is payment evidence, not a complete keyboard-accessibility verdict."
+  "scope": "One fictional sandbox purchase. No real money. This is payment evidence, not a complete keyboard-accessibility verdict.",
+  "cancellationCheck": {
+    "orderReference": "ending 247256",
+    "observedOrderStatus": "PAYER_ACTION_REQUIRED",
+    "captureCount": 0,
+    "checkedAt": "2026-11-03T00:26:46.129Z",
+    "browserObservation": "Return to merchant displayed cancellation and allowed retry",
+    "note": "Cancellation return does not delete the unapproved PayPal order; no capture was observed."
+  }
 }
