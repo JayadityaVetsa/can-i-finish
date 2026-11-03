@@ -1,0 +1,13 @@
+{
+  "sandbox": true,
+  "checkedAt": "2026-11-03T00:20:14.016Z",
+  "verification": "Read back from the PayPal Orders API after human approval",
+  "orderStatus": "COMPLETED",
+  "captureStatus": "COMPLETED",
+  "amount": "1.00",
+  "currency": "USD",
+  "orderReference": "ending 36381V",
+  "captureReference": "ending 05490C",
+  "buyerApproval": "Performed by the entrant in the sandbox browser",
+  "scope": "One fictional sandbox purchase. No real money. This is payment evidence, not a complete keyboard-accessibility verdict."
+}

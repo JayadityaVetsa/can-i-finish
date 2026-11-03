@@ -1,0 +1,623 @@
+{
+  "schemaVersion": 1,
+  "id": "checkout-broken",
+  "createdAt": "2026-11-03T00:14:25.040Z",
+  "task": "Reach PayPal sandbox checkout using the keyboard",
+  "contract": {
+    "id": "checkout-handoff",
+    "name": "Reach PayPal sandbox checkout using the keyboard",
+    "goal": "Pay with PayPal",
+    "steps": [
+      {
+        "type": "tabTo",
+        "role": "button",
+        "name": "Continue to PayPal sandbox",
+        "limit": 18
+      },
+      {
+        "type": "press",
+        "key": "Enter"
+      },
+      {
+        "type": "expectVisible",
+        "role": "heading",
+        "name": "Pay with PayPal"
+      }
+    ]
+  },
+  "url": "http://127.0.0.1:4174/checkout.html?version=broken",
+  "outcome": "blocked",
+  "engine": {
+    "name": "Playwright keyboard journey runner",
+    "playwright": "1.64.1",
+    "browser": "156.0.8078.4",
+    "platform": "win32",
+    "viewport": {
+      "width": 1920,
+      "height": 1080
+    }
+  },
+  "steps": [
+    {
+      "index": 0,
+      "key": "Start",
+      "phase": "navigation",
+      "note": "Fresh browser context. No mouse clicks or locator.focus().",
+      "elapsedMs": 522,
+      "url": "http://127.0.0.1:4174/checkout.html?version=broken",
+      "focus": {
+        "tag": "body",
+        "id": null,
+        "role": null,
+        "name": "\u2190 Can I Finish?OWNED STOREFRONT \u00b7 PAYPAL SANDBOX ONLYThe last step should be reachable.A fictional purchase for testing keyboard journeys. No real money or shipment.Field NotesA fi",
+        "tabIndex": -1,
+        "focusVisible": false,
+        "outline": "3px none rgb(23, 33, 58)",
+        "rect": {
+          "x": 0,
+          "y": 60,
+          "width": 1920,
+          "height": 485.3125
+        },
+        "shadowHosts": [],
+        "dialogOpen": false
+      },
+      "screenshot": "evidence/checkout-broken-000.jpg",
+      "sha256": "4cc85bdd0214e53f514c9f11259ceb9d193d55a3239a34100a74a39b77eeb482"
+    },
+    {
+      "index": 1,
+      "key": "Tab",
+      "phase": "1. tabTo",
+      "note": "Find button \u201cContinue to PayPal sandbox\u201d using sequential keyboard navigation.",
+      "elapsedMs": 804,
+      "url": "http://127.0.0.1:4174/checkout.html?version=broken",
+      "focus": {
+        "tag": "a",
+        "id": null,
+        "role": null,
+        "name": "\u2190 Can I Finish?",
+        "tabIndex": 0,
+        "focusVisible": true,
+        "outline": "3px solid rgb(141, 90, 243)",
+        "rect": {
+          "x": 565,
+          "y": 90,
+          "width": 114.71875,
+          "height": 17
+        },
+        "shadowHosts": [],
+        "dialogOpen": false
+      },
+      "screenshot": "evidence/checkout-broken-001.jpg",
+      "sha256": "7e78bcc1274f4d51b1d08d8893a99fd74787cb52745c81147e9c4c9123a0b771"
+    },
+    {
+      "index": 2,
+      "key": "Tab",
+      "phase": "1. tabTo",
+      "note": "Find button \u201cContinue to PayPal sandbox\u201d using sequential keyboard navigation.",
+      "elapsedMs": 984,
+      "url": "http://127.0.0.1:4174/checkout.html?version=broken",
+      "focus": {
+        "tag": "a",
+        "id": null,
+        "role": null,
+        "name": "Deliberately broken control",
+        "tabIndex": 0,
+        "focusVisible": true,
+        "outline": "3px solid rgb(141, 90, 243)",
+        "rect": {
+          "x": 565,
+          "y": 429.3125,
+          "width": 190.328125,
+          "height": 17
+        },
+        "shadowHosts": [],
+        "dialogOpen": false
+      },
+      "screenshot": "evidence/checkout-broken-002.jpg",
+      "sha256": "dda0ab6c02d3aba2ceda60ad602938609c692f43539eed74c1206fdf2d36614b"
+    },
+    {
+      "index": 3,
+      "key": "Tab",
+      "phase": "1. tabTo",
+      "note": "Find button \u201cContinue to PayPal sandbox\u201d using sequential keyboard navigation.",
+      "elapsedMs": 1179,
+      "url": "http://127.0.0.1:4174/checkout.html?version=broken",
+      "focus": {
+        "tag": "a",
+        "id": null,
+        "role": null,
+        "name": "Corrected native button",
+        "tabIndex": 0,
+        "focusVisible": true,
+        "outline": "3px solid rgb(141, 90, 243)",
+        "rect": {
+          "x": 769.546875,
+          "y": 429.3125,
+          "width": 166.328125,
+          "height": 17
+        },
+        "shadowHosts": [],
+        "dialogOpen": false
+      },
+      "screenshot": "evidence/checkout-broken-003.jpg",
+      "sha256": "3ea6ade807d25d8ba8dc26908bba6ca455da45e1d092579b4c75bb25c3863461"
+    },
+    {
+      "index": 4,
+      "key": "Tab",
+      "phase": "1. tabTo",
+      "note": "Find button \u201cContinue to PayPal sandbox\u201d using sequential keyboard navigation.",
+      "elapsedMs": 1364,
+      "url": "http://127.0.0.1:4174/checkout.html?version=broken",
+      "focus": {
+        "tag": "body",
+        "id": null,
+        "role": null,
+        "name": "\u2190 Can I Finish?OWNED STOREFRONT \u00b7 PAYPAL SANDBOX ONLYThe last step should be reachable.A fictional purchase for testing keyboard journeys. No real money or shipment.Field NotesA fi",
+        "tabIndex": -1,
+        "focusVisible": false,
+        "outline": "3px none rgb(23, 33, 58)",
+        "rect": {
+          "x": 0,
+          "y": 60,
+          "width": 1920,
+          "height": 485.3125
+        },
+        "shadowHosts": [],
+        "dialogOpen": false
+      },
+      "screenshot": "evidence/checkout-broken-004.jpg",
+      "sha256": "4cc85bdd0214e53f514c9f11259ceb9d193d55a3239a34100a74a39b77eeb482"
+    },
+    {
+      "index": 5,
+      "key": "Tab",
+      "phase": "1. tabTo",
+      "note": "Find button \u201cContinue to PayPal sandbox\u201d using sequential keyboard navigation.",
+      "elapsedMs": 1567,
+      "url": "http://127.0.0.1:4174/checkout.html?version=broken",
+      "focus": {
+        "tag": "a",
+        "id": null,
+        "role": null,
+        "name": "\u2190 Can I Finish?",
+        "tabIndex": 0,
+        "focusVisible": true,
+        "outline": "3px solid rgb(141, 90, 243)",
+        "rect": {
+          "x": 565,
+          "y": 90,
+          "width": 114.71875,
+          "height": 17
+        },
+        "shadowHosts": [],
+        "dialogOpen": false
+      },
+      "screenshot": "evidence/checkout-broken-005.jpg",
+      "sha256": "7e78bcc1274f4d51b1d08d8893a99fd74787cb52745c81147e9c4c9123a0b771"
+    },
+    {
+      "index": 6,
+      "key": "Tab",
+      "phase": "1. tabTo",
+      "note": "Find button \u201cContinue to PayPal sandbox\u201d using sequential keyboard navigation.",
+      "elapsedMs": 1736,
+      "url": "http://127.0.0.1:4174/checkout.html?version=broken",
+      "focus": {
+        "tag": "a",
+        "id": null,
+        "role": null,
+        "name": "Deliberately broken control",
+        "tabIndex": 0,
+        "focusVisible": true,
+        "outline": "3px solid rgb(141, 90, 243)",
+        "rect": {
+          "x": 565,
+          "y": 429.3125,
+          "width": 190.328125,
+          "height": 17
+        },
+        "shadowHosts": [],
+        "dialogOpen": false
+      },
+      "screenshot": "evidence/checkout-broken-006.jpg",
+      "sha256": "dda0ab6c02d3aba2ceda60ad602938609c692f43539eed74c1206fdf2d36614b"
+    },
+    {
+      "index": 7,
+      "key": "Tab",
+      "phase": "1. tabTo",
+      "note": "Find button \u201cContinue to PayPal sandbox\u201d using sequential keyboard navigation.",
+      "elapsedMs": 1926,
+      "url": "http://127.0.0.1:4174/checkout.html?version=broken",
+      "focus": {
+        "tag": "a",
+        "id": null,
+        "role": null,
+        "name": "Corrected native button",
+        "tabIndex": 0,
+        "focusVisible": true,
+        "outline": "3px solid rgb(141, 90, 243)",
+        "rect": {
+          "x": 769.546875,
+          "y": 429.3125,
+          "width": 166.328125,
+          "height": 17
+        },
+        "shadowHosts": [],
+        "dialogOpen": false
+      },
+      "screenshot": "evidence/checkout-broken-007.jpg",
+      "sha256": "3ea6ade807d25d8ba8dc26908bba6ca455da45e1d092579b4c75bb25c3863461"
+    },
+    {
+      "index": 8,
+      "key": "Tab",
+      "phase": "1. tabTo",
+      "note": "Find button \u201cContinue to PayPal sandbox\u201d using sequential keyboard navigation.",
+      "elapsedMs": 2244,
+      "url": "http://127.0.0.1:4174/checkout.html?version=broken",
+      "focus": {
+        "tag": "body",
+        "id": null,
+        "role": null,
+        "name": "\u2190 Can I Finish?OWNED STOREFRONT \u00b7 PAYPAL SANDBOX ONLYThe last step should be reachable.A fictional purchase for testing keyboard journeys. No real money or shipment.Field NotesA fi",
+        "tabIndex": -1,
+        "focusVisible": false,
+        "outline": "3px none rgb(23, 33, 58)",
+        "rect": {
+          "x": 0,
+          "y": 60,
+          "width": 1920,
+          "height": 485.3125
+        },
+        "shadowHosts": [],
+        "dialogOpen": false
+      },
+      "screenshot": "evidence/checkout-broken-008.jpg",
+      "sha256": "4cc85bdd0214e53f514c9f11259ceb9d193d55a3239a34100a74a39b77eeb482"
+    },
+    {
+      "index": 9,
+      "key": "Tab",
+      "phase": "1. tabTo",
+      "note": "Find button \u201cContinue to PayPal sandbox\u201d using sequential keyboard navigation.",
+      "elapsedMs": 2485,
+      "url": "http://127.0.0.1:4174/checkout.html?version=broken",
+      "focus": {
+        "tag": "a",
+        "id": null,
+        "role": null,
+        "name": "\u2190 Can I Finish?",
+        "tabIndex": 0,
+        "focusVisible": true,
+        "outline": "3px solid rgb(141, 90, 243)",
+        "rect": {
+          "x": 565,
+          "y": 90,
+          "width": 114.71875,
+          "height": 17
+        },
+        "shadowHosts": [],
+        "dialogOpen": false
+      },
+      "screenshot": "evidence/checkout-broken-009.jpg",
+      "sha256": "7e78bcc1274f4d51b1d08d8893a99fd74787cb52745c81147e9c4c9123a0b771"
+    },
+    {
+      "index": 10,
+      "key": "Tab",
+      "phase": "1. tabTo",
+      "note": "Find button \u201cContinue to PayPal sandbox\u201d using sequential keyboard navigation.",
+      "elapsedMs": 2725,
+      "url": "http://127.0.0.1:4174/checkout.html?version=broken",
+      "focus": {
+        "tag": "a",
+        "id": null,
+        "role": null,
+        "name": "Deliberately broken control",
+        "tabIndex": 0,
+        "focusVisible": true,
+        "outline": "3px solid rgb(141, 90, 243)",
+        "rect": {
+          "x": 565,
+          "y": 429.3125,
+          "width": 190.328125,
+          "height": 17
+        },
+        "shadowHosts": [],
+        "dialogOpen": false
+      },
+      "screenshot": "evidence/checkout-broken-010.jpg",
+      "sha256": "dda0ab6c02d3aba2ceda60ad602938609c692f43539eed74c1206fdf2d36614b"
+    },
+    {
+      "index": 11,
+      "key": "Tab",
+      "phase": "1. tabTo",
+      "note": "Find button \u201cContinue to PayPal sandbox\u201d using sequential keyboard navigation.",
+      "elapsedMs": 2965,
+      "url": "http://127.0.0.1:4174/checkout.html?version=broken",
+      "focus": {
+        "tag": "a",
+        "id": null,
+        "role": null,
+        "name": "Corrected native button",
+        "tabIndex": 0,
+        "focusVisible": true,
+        "outline": "3px solid rgb(141, 90, 243)",
+        "rect": {
+          "x": 769.546875,
+          "y": 429.3125,
+          "width": 166.328125,
+          "height": 17
+        },
+        "shadowHosts": [],
+        "dialogOpen": false
+      },
+      "screenshot": "evidence/checkout-broken-011.jpg",
+      "sha256": "3ea6ade807d25d8ba8dc26908bba6ca455da45e1d092579b4c75bb25c3863461"
+    },
+    {
+      "index": 12,
+      "key": "Tab",
+      "phase": "1. tabTo",
+      "note": "Find button \u201cContinue to PayPal sandbox\u201d using sequential keyboard navigation.",
+      "elapsedMs": 3233,
+      "url": "http://127.0.0.1:4174/checkout.html?version=broken",
+      "focus": {
+        "tag": "body",
+        "id": null,
+        "role": null,
+        "name": "\u2190 Can I Finish?OWNED STOREFRONT \u00b7 PAYPAL SANDBOX ONLYThe last step should be reachable.A fictional purchase for testing keyboard journeys. No real money or shipment.Field NotesA fi",
+        "tabIndex": -1,
+        "focusVisible": false,
+        "outline": "3px none rgb(23, 33, 58)",
+        "rect": {
+          "x": 0,
+          "y": 60,
+          "width": 1920,
+          "height": 485.3125
+        },
+        "shadowHosts": [],
+        "dialogOpen": false
+      },
+      "screenshot": "evidence/checkout-broken-012.jpg",
+      "sha256": "4cc85bdd0214e53f514c9f11259ceb9d193d55a3239a34100a74a39b77eeb482"
+    },
+    {
+      "index": 13,
+      "key": "Tab",
+      "phase": "1. tabTo",
+      "note": "Find button \u201cContinue to PayPal sandbox\u201d using sequential keyboard navigation.",
+      "elapsedMs": 3523,
+      "url": "http://127.0.0.1:4174/checkout.html?version=broken",
+      "focus": {
+        "tag": "a",
+        "id": null,
+        "role": null,
+        "name": "\u2190 Can I Finish?",
+        "tabIndex": 0,
+        "focusVisible": true,
+        "outline": "3px solid rgb(141, 90, 243)",
+        "rect": {
+          "x": 565,
+          "y": 90,
+          "width": 114.71875,
+          "height": 17
+        },
+        "shadowHosts": [],
+        "dialogOpen": false
+      },
+      "screenshot": "evidence/checkout-broken-013.jpg",
+      "sha256": "7e78bcc1274f4d51b1d08d8893a99fd74787cb52745c81147e9c4c9123a0b771"
+    },
+    {
+      "index": 14,
+      "key": "Tab",
+      "phase": "1. tabTo",
+      "note": "Find button \u201cContinue to PayPal sandbox\u201d using sequential keyboard navigation.",
+      "elapsedMs": 3752,
+      "url": "http://127.0.0.1:4174/checkout.html?version=broken",
+      "focus": {
+        "tag": "a",
+        "id": null,
+        "role": null,
+        "name": "Deliberately broken control",
+        "tabIndex": 0,
+        "focusVisible": true,
+        "outline": "3px solid rgb(141, 90, 243)",
+        "rect": {
+          "x": 565,
+          "y": 429.3125,
+          "width": 190.328125,
+          "height": 17
+        },
+        "shadowHosts": [],
+        "dialogOpen": false
+      },
+      "screenshot": "evidence/checkout-broken-014.jpg",
+      "sha256": "dda0ab6c02d3aba2ceda60ad602938609c692f43539eed74c1206fdf2d36614b"
+    },
+    {
+      "index": 15,
+      "key": "Tab",
+      "phase": "1. tabTo",
+      "note": "Find button \u201cContinue to PayPal sandbox\u201d using sequential keyboard navigation.",
+      "elapsedMs": 4002,
+      "url": "http://127.0.0.1:4174/checkout.html?version=broken",
+      "focus": {
+        "tag": "a",
+        "id": null,
+        "role": null,
+        "name": "Corrected native button",
+        "tabIndex": 0,
+        "focusVisible": true,
+        "outline": "3px solid rgb(141, 90, 243)",
+        "rect": {
+          "x": 769.546875,
+          "y": 429.3125,
+          "width": 166.328125,
+          "height": 17
+        },
+        "shadowHosts": [],
+        "dialogOpen": false
+      },
+      "screenshot": "evidence/checkout-broken-015.jpg",
+      "sha256": "3ea6ade807d25d8ba8dc26908bba6ca455da45e1d092579b4c75bb25c3863461"
+    },
+    {
+      "index": 16,
+      "key": "Tab",
+      "phase": "1. tabTo",
+      "note": "Find button \u201cContinue to PayPal sandbox\u201d using sequential keyboard navigation.",
+      "elapsedMs": 4278,
+      "url": "http://127.0.0.1:4174/checkout.html?version=broken",
+      "focus": {
+        "tag": "body",
+        "id": null,
+        "role": null,
+        "name": "\u2190 Can I Finish?OWNED STOREFRONT \u00b7 PAYPAL SANDBOX ONLYThe last step should be reachable.A fictional purchase for testing keyboard journeys. No real money or shipment.Field NotesA fi",
+        "tabIndex": -1,
+        "focusVisible": false,
+        "outline": "3px none rgb(23, 33, 58)",
+        "rect": {
+          "x": 0,
+          "y": 60,
+          "width": 1920,
+          "height": 485.3125
+        },
+        "shadowHosts": [],
+        "dialogOpen": false
+      },
+      "screenshot": "evidence/checkout-broken-016.jpg",
+      "sha256": "4cc85bdd0214e53f514c9f11259ceb9d193d55a3239a34100a74a39b77eeb482"
+    },
+    {
+      "index": 17,
+      "key": "Tab",
+      "phase": "1. tabTo",
+      "note": "Find button \u201cContinue to PayPal sandbox\u201d using sequential keyboard navigation.",
+      "elapsedMs": 4610,
+      "url": "http://127.0.0.1:4174/checkout.html?version=broken",
+      "focus": {
+        "tag": "a",
+        "id": null,
+        "role": null,
+        "name": "\u2190 Can I Finish?",
+        "tabIndex": 0,
+        "focusVisible": true,
+        "outline": "3px solid rgb(141, 90, 243)",
+        "rect": {
+          "x": 565,
+          "y": 90,
+          "width": 114.71875,
+          "height": 17
+        },
+        "shadowHosts": [],
+        "dialogOpen": false
+      },
+      "screenshot": "evidence/checkout-broken-017.jpg",
+      "sha256": "7e78bcc1274f4d51b1d08d8893a99fd74787cb52745c81147e9c4c9123a0b771"
+    },
+    {
+      "index": 18,
+      "key": "Tab",
+      "phase": "1. tabTo",
+      "note": "Find button \u201cContinue to PayPal sandbox\u201d using sequential keyboard navigation.",
+      "elapsedMs": 4915,
+      "url": "http://127.0.0.1:4174/checkout.html?version=broken",
+      "focus": {
+        "tag": "a",
+        "id": null,
+        "role": null,
+        "name": "Deliberately broken control",
+        "tabIndex": 0,
+        "focusVisible": true,
+        "outline": "3px solid rgb(141, 90, 243)",
+        "rect": {
+          "x": 565,
+          "y": 429.3125,
+          "width": 190.328125,
+          "height": 17
+        },
+        "shadowHosts": [],
+        "dialogOpen": false
+      },
+      "screenshot": "evidence/checkout-broken-018.jpg",
+      "sha256": "dda0ab6c02d3aba2ceda60ad602938609c692f43539eed74c1206fdf2d36614b"
+    }
+  ],
+  "findings": [
+    {
+      "code": "TARGET_NOT_REACHED",
+      "title": "The task target was not reached",
+      "severity": "blocker",
+      "summary": "18 Tab presses did not focus \u201cContinue to PayPal sandbox\u201d. This result applies to this bounded sequence.",
+      "target": {
+        "tag": "div",
+        "id": null,
+        "role": "button",
+        "tabIndex": -1,
+        "html": "<div class=\"button primary\" role=\"button\">Continue to PayPal sandbox</div>"
+      },
+      "stepIndex": 0,
+      "evidenceStep": 18,
+      "observations": [
+        "The target is present with tabIndex -1.",
+        "The same focus stop occurred 5 times."
+      ],
+      "suggestedFix": "Use a native button for this action. Keep it in sequential focus order and preserve Enter/Space activation."
+    }
+  ],
+  "limits": [
+    "One Chromium viewport and keyboard sequence; no WCAG certification.",
+    "A focus cycle alone is not proof of a keyboard trap.",
+    "Names in focus observations are approximate; target matching uses Playwright accessible roles/names."
+  ],
+  "artifacts": {
+    "video": "evidence/checkout-broken.webm"
+  },
+  "durationMs": 7198,
+  "keyCount": 18,
+  "reproduction": [
+    "Open http://127.0.0.1:4174/checkout.html?version=broken",
+    "Use a fresh browser context; viewport 1920 \u00d7 1080.",
+    "Tab",
+    "Tab",
+    "Tab",
+    "Tab",
+    "Tab",
+    "Tab",
+    "Tab",
+    "Tab",
+    "Tab",
+    "Tab",
+    "Tab",
+    "Tab",
+    "Tab",
+    "Tab",
+    "Tab",
+    "Tab",
+    "Tab",
+    "Tab",
+    "Observed result: blocked"
+  ],
+  "checkout": {
+    "sandbox": true,
+    "stage": "merchant-to-PayPal-login",
+    "buyerApprovalTested": false,
+    "captureTested": false,
+    "description": "This keyboard contract ends at PayPal sign-in. It does not automate buyer approval or claim a completed payment."
+  },
+  "fixture": {
+    "journey": "checkout",
+    "version": "broken",
+    "publicPath": "checkout.html?version=broken"
+  },
+  "publicMetadataNote": "PayPal URL query strings removed from this public copy; screenshot and video bytes are unchanged."
+}

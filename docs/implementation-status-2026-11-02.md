@@ -22,3 +22,9 @@
 Finish live AI diagnosis validation and film it. Add segment to general cut without exceeding 3 minutes before using it for Remote Control AI. Validate actual sandbox approval/capture, cancellation/retry, then film PayPal cut. Publish source/release files and Vercel deployment after account access. Replace draft gallery/thumbnail and final URLs. Register new events only after any required user acceptance of rules. Record confirmations; do not equate draft saves with submission.
 
 Existing public Sites URL still serves the prior version; new local changes have NOT been published there. Vercel configuration builds browser runtime into dist/vendor; generated vendor binaries are gitignored. The old runner-source.zip is an older artifact and must be regenerated or replaced by the GitHub source download before final publication.
+
+## Account continuation
+
+GitHub source and history published successfully to main at commit 8042035. Review video and captions are publicly downloadable from releases/tag/review-v2. Existing PayPal sandbox default app credentials are configured in ignored .env.local; OAuth and actual sandbox order creation succeeded. Default sandbox buyer authenticated and reached approval for the fictional USD1.00 order. Automatic review rejected the agent pressing Pay even in sandbox; user handoff requested. Do not attempt to approve through API or another browser as a workaround. Vercel scope remains 403 pending user consent.
+
+New actual keyboard recordings: checkout-broken blocked after18 Tabs; checkout-fixed reaches PayPal sandbox login in3 key events. They explicitly stop before buyer approval and capture. Two artifact tests cover this boundary and frame/video integrity.
