@@ -8,6 +8,7 @@ export function diagnosisMessages(input){return [{role:'system',content:'You exp
 export function validateDiagnosis(text,input){
  const match=text.trim().replace(/^```(?:json)?\s*/,'').replace(/\s*```$/,'');
  const value=JSON.parse(match);for(const key of ['explanation','suggestedChange','uncertainty'])if(typeof value[key]!=='string'||!value[key].trim()||value[key].length>4000)throw new Error('Model returned an incomplete diagnosis.');
+ if(input.outcome==='passed'&&value.suggestedChange.trim()!=='No change proposed')throw new Error('Model proposed a repair for a passing task; suggestion rejected.');
  const allowed=new Set(input.evidence.map(e=>e.step));if(!Array.isArray(value.evidenceSteps)||!value.evidenceSteps.length||value.evidenceSteps.some(n=>!Number.isInteger(n)||!allowed.has(n)))throw new Error('Model cited evidence that was not supplied.');
  return {...value,measuredOutcome:input.outcome,model:MODEL,generatedAt:new Date().toISOString(),verifiedFix:false,basis:'AI explanation of supplied runner findings and source; not independent defect discovery'};
 }

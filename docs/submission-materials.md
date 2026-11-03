@@ -26,7 +26,7 @@ An explicit task contract runs through real Chromium keyboard events. Each input
 
 An experimental Qwen2.5-Coder model runs locally in a WebGPU worker. It explains supplied runner findings and relevant source, drafts an unverified suggestion, and cites evidence steps. It does not independently discover the fixture bug or control measured pass/fail. Its native-button proposal matches a correction independently exercised by the browser runner. Model prose can still be wrong; this limitation is explicit.
 
-Developers can export evidence, contracts and executable keyboard regressions. The project is free to run locally, with no paid model API. Eighteen automated checks pass. Results concern the displayed task and browser; there is no full accessibility certification or fabricated user-study claim.
+Developers can export evidence, contracts and executable keyboard regressions. The project is free to run locally, with no paid model API. Nineteen automated checks pass. Results concern the displayed task and browser; there is no full accessibility certification or fabricated user-study claim.
 
 Use the PayPal/AI cut if accepted by the entrant. Recheck whether the event considers this AI explanation sufficiently central; do not claim unbuilt autonomous planning or repair. Disclose the earlier Next Byte entry and development dates. Registration and event-specific terms are pending.
 
@@ -54,7 +54,7 @@ Explain the project chronology accurately: the keyboard-lab core began November 
 
 ### Verification and limits
 
-18 automated checks cover artifact integrity, contract limits, output-reference validation, merchant handoff evidence and mocked payment protections. Live sandbox approval/capture and cancellation were checked separately. No user study, broad AI accuracy, screen-reader coverage or WCAG certification is claimed. Public evidence uses shortened payment references and removes sandbox URL query strings.
+19 automated checks cover artifact integrity, contract limits, output-reference validation, merchant handoff evidence and mocked payment protections. Live sandbox approval/capture and cancellation were checked separately. No user study, broad AI accuracy, screen-reader coverage or WCAG certification is claimed. Public evidence uses shortened payment references and removes sandbox URL query strings.
 
 An existing registered PayPal draft (1273895, initially “Some project”) was found. Eligibility acknowledgements, final deployment URL and public YouTube URL remain pending. Do not submit until those are ready and the entrant approves the video.
 

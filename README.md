@@ -1,6 +1,6 @@
 # Can I Finish?
 
-[Public app](https://can-i-finish.vercel.app) · [Video downloads](https://can-i-finish.vercel.app/downloads.html) · [Implementation notes](docs/implementation-status-2026-11-02.md)
+[Public app](https://can-i-finish.vercel.app) · [Video downloads](https://can-i-finish.vercel.app/downloads.html) · [Implementation notes](docs/implementation-status-2026-11-02.md) · [Verification and model limits](docs/deployment-verification.md)
 
 General review cut: 2:58 (v3, including the experimental AI segment). PayPal cut: 2:52. Both use Kokoro synthetic narration and await entrant approval. The sandbox approval/capture and cancellation were verified; AI remains an experimental explanation of supplied runner findings, with one reviewed native-button suggestion. No event has been submitted.
 

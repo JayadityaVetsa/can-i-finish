@@ -20,7 +20,7 @@ The keyboard-lab core began November 1; the PayPal extension and sandbox verific
 
 ### Verification and limits
 
-18 automated checks cover artifact integrity, contract limits, output-reference validation, merchant handoff evidence and mocked payment protections. Live sandbox approval/capture and cancellation were checked separately. No user study, broad AI accuracy, screen-reader coverage or WCAG certification is claimed. Public evidence uses shortened payment references and removes sandbox URL query strings.
+19 automated checks cover artifact integrity, contract limits, output-reference validation, merchant handoff evidence and mocked payment protections. Live sandbox approval/capture and cancellation were checked separately. No user study, broad AI accuracy, screen-reader coverage or WCAG certification is claimed. Public evidence uses shortened payment references and removes sandbox URL query strings.
 
 
 ### Source and review materials
