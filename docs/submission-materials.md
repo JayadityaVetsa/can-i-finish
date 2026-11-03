@@ -59,3 +59,11 @@ Explain the project chronology accurately: the keyboard-lab core began November 
 An existing registered PayPal draft (1273895, initially “Some project”) was found. Eligibility acknowledgements, final deployment URL and public YouTube URL remain pending. Do not submit until those are ready and the entrant approves the video.
 
 PayPal overview, story and technical additional-information fields were saved to draft 1273895-can-i-finish on November 2. Residence, optional-sponsor selection, feedback/learning answers, final media and eligibility review still need completion. No final agreement was accepted.
+
+## Registration and draft continuation
+
+Remote Control AI registration was completed after the entrant explicitly approved its eligibility and Official Rules/Devpost Terms agreement. Draft 1279852-can-i-finish is saved with a 251-word description, live demo/source links, thumbnail and two evidence images. Its public preview is https://devpost.com/software/can-i-finish . No final agreement or project submission was made.
+
+The entrant supplied the remaining PayPal residence and feedback answers; these were saved and verified after reopening the form. Optional sponsors are accurately disclosed as none. Final eligibility attestations and final submission agreement remain for review.
+
+Remaining dependencies: entrant video approval and YouTube links; removal confirmation for four old Next Byte AccessKit images; final eligibility/rule review and submission agreements. Next Byte must be submitted first, then actual entry chronology must be reflected in later entries.

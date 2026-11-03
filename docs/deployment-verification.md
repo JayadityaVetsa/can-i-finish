@@ -34,4 +34,4 @@ The earlier recorded registration suggestion correctly proposed a native button.
 
 General v3: 177.70 seconds, H.264/AAC, 1920×1080, 30 fps. Full decode completed without errors. The changed AI scene was visually inspected; unchanged scenes retain the prior review. PayPal cut: 172.55 seconds with the same output format, separately decoded and visually inspected. Caption/transcript files and original browser recordings are preserved. Both cuts still await entrant approval.
 
-Source snapshot for public media: 12d6a26. No event was submitted. Personal residence, subjective PayPal feedback, Remote Control AI registration agreement, old AccessKit gallery removal confirmation, video approval and YouTube links remain pending.
+Source snapshot for public media: 12d6a26. No event was submitted. Remote Control AI registration and the entrant-supplied PayPal residence/feedback fields are now saved. Old AccessKit gallery removal confirmation, video approval, YouTube links, and final event eligibility/submission agreements remain pending.
