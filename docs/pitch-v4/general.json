@@ -1,0 +1,37 @@
+[
+  {
+    "id": "01-stakes",
+    "title": "THE LAST STEP SHOULD BELONG TO EVERYONE",
+    "text": "You're ready to finish. The website isn't. A bus-pass application. A tool you need to use your phone. A checkout button that stays just out of reach. One broken step can turn an ordinary task into asking somebody else for help. We built Can I Finish to change that."
+  },
+  {
+    "id": "02-product",
+    "title": "TASK-COMPLETION INTELLIGENCE",
+    "text": "Start with the thing a person came to do. Set a clear destination. Our browser runner follows the keyboard journey, captures what happens, and gives your team evidence they can act on. Every run connects a human goal to an observable result."
+  },
+  {
+    "id": "03-govuk",
+    "title": "REAL WEBSITE / GOV.UK",
+    "text": "Take a real public service. Find where to apply for a disabled person's bus pass on GOV dot UK. The browser follows the keyboard route, opens the application page, and checks the destination. Twenty-six key events. Twenty-eight evidence frames. That's a concrete answer to a question that matters: can someone get where they need to go?"
+  },
+  {
+    "id": "04-apple",
+    "title": "REAL WEBSITE / APPLE.COM",
+    "text": "Now Apple. Find the iPhone VoiceOver setup guide, using the keyboard. The journey reaches the actual support article. Different website. Different goal. The same evidence-driven workflow, focused on what a person came to do."
+  },
+  {
+    "id": "05-checkout",
+    "title": "A BARRIER YOUR TEAM CAN REPRODUCE",
+    "text": "And when the journey breaks, the evidence gets specific. In our Field Notes checkout, eighteen Tab presses never reach the payment control. The focus trail shows the barrier. The AI proposal points toward a native button. Change the control, run the same task again, and the PayPal handoff succeeds in four key events."
+  },
+  {
+    "id": "06-proof",
+    "title": "FROM A BLOCKED TASK TO A REPEATABLE FIX",
+    "text": "Keep the screenshot, the exact steps, and an executable regression test. The next release gets the same finish line. Developers get something they can reproduce. Teams get a repair they can verify. And accessibility becomes part of how the product ships."
+  },
+  {
+    "id": "07-close",
+    "title": "BUILD A WEB PEOPLE CAN FINISH",
+    "text": "Because on the other side of every interface is someone trying to move forward. Can I Finish. Find the barrier. Prove the repair. Build a web people can finish."
+  }
+]

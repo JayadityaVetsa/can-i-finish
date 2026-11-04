@@ -1,0 +1,197 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:01.400
+The customer has chosen.
+
+2
+00:00:01.840 --> 00:00:02.920
+The price is right.
+
+3
+00:00:03.240 --> 00:00:04.920
+The hard part should be over.
+
+4
+00:00:05.147 --> 00:00:08.247
+Then the checkout button never receives keyboard focus.
+
+5
+00:00:08.487 --> 00:00:10.517
+For the merchant, a sale stops.
+
+6
+00:00:10.947 --> 00:00:13.707
+For the customer, independence stops with it.
+
+7
+00:00:13.900 --> 00:00:16.540
+Can I Finish helps teams find that moment, and
+
+8
+00:00:16.560 --> 00:00:17.500
+fix the journey.
+
+9
+00:00:17.937 --> 00:00:20.817
+Meet Field Notes: a digital notebook with an actual
+
+10
+00:00:20.837 --> 00:00:22.757
+download. One product.
+
+11
+00:00:22.970 --> 00:00:25.350
+One dollar in PayPal sandbox funds.
+
+12
+00:00:25.850 --> 00:00:28.530
+A simple purchase with a clear finish line: reach
+
+13
+00:00:28.550 --> 00:00:31.290
+checkout, approve the order, and receive the notebook.
+
+14
+00:00:31.970 --> 00:00:34.590
+This is where our accessibility workflow meets a working
+
+15
+00:00:34.610 --> 00:00:35.630
+payment integration.
+
+16
+00:00:36.003 --> 00:00:38.343
+First, the merchant control before the repair.
+
+17
+00:00:38.843 --> 00:00:39.563
+It looks ready.
+
+18
+00:00:40.003 --> 00:00:42.363
+But eighteen Tab presses pass it by.
+
+19
+00:00:42.823 --> 00:00:45.823
+Can I Finish records each key, the focused element,
+
+20
+00:00:46.343 --> 00:00:47.063
+and the screenshot.
+
+21
+00:00:47.823 --> 00:00:50.383
+The report identifies a div with a click handler
+
+22
+00:00:50.403 --> 00:00:53.663
+where the customer needs a keyboard-operable button.
+
+23
+00:00:54.072 --> 00:00:57.492
+The on-device AI explains the supplied finding and proposes
+
+24
+00:00:57.512 --> 00:00:58.532
+a native button.
+
+25
+00:00:58.759 --> 00:01:00.139
+The developer makes that change.
+
+26
+00:01:00.879 --> 00:01:02.859
+Then the same browser contract runs again.
+
+27
+00:01:03.086 --> 00:01:05.966
+Four key events later, the corrected checkout opens PayPal.
+
+28
+00:01:06.526 --> 00:01:08.086
+Same task. Same product.
+
+29
+00:01:08.446 --> 00:01:10.266
+A finish line we can actually verify.
+
+30
+00:01:10.640 --> 00:01:14.120
+Under the hood, the PayPal Orders API creates the
+
+31
+00:01:14.140 --> 00:01:16.300
+order and sends the buyer to approval.
+
+32
+00:01:16.880 --> 00:01:20.540
+Here is an actual sandbox purchase: order completed, capture
+
+33
+00:01:20.560 --> 00:01:22.540
+completed, one dollar verified.
+
+34
+00:01:23.400 --> 00:01:26.080
+The server checks the amount and status before showing
+
+35
+00:01:26.100 --> 00:01:28.460
+the receipt. Field Notes is ready to download.
+
+36
+00:01:28.480 --> 00:01:30.720
+The payment has evidence, too.
+
+37
+00:01:31.106 --> 00:01:32.086
+Change your mind?
+
+38
+00:01:32.586 --> 00:01:34.326
+Cancellation brings you back to the store.
+
+39
+00:01:34.886 --> 00:01:36.646
+Ready again? Start checkout again.
+
+40
+00:01:36.666 --> 00:01:39.706
+Signed sessions bind the order to the journey, and
+
+41
+00:01:39.726 --> 00:01:42.686
+idempotent capture handling protects retries.
+
+42
+00:01:42.912 --> 00:01:45.652
+The merchant gets a practical integration, with the keyboard
+
+43
+00:01:45.672 --> 00:01:47.052
+evidence beside it.
+
+44
+00:01:47.573 --> 00:01:52.073
+Can I Finish brings browser evidence, AI-assisted repair proposals,
+
+45
+00:01:52.213 --> 00:01:55.113
+and repeatable verification to the moment a customer wants
+
+46
+00:01:55.133 --> 00:01:57.693
+to finish. Export the regression test.
+
+47
+00:01:57.993 --> 00:01:59.913
+Keep the repair in the next release.
+
+48
+00:02:00.593 --> 00:02:02.853
+Because a better checkout starts with making the last
+
+49
+00:02:02.873 --> 00:02:04.053
+step reachable.

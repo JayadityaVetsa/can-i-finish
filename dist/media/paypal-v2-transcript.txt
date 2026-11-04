@@ -1,0 +1,13 @@
+The customer has chosen. The price is right. The hard part should be over. Then the checkout button never receives keyboard focus. For the merchant, a sale stops. For the customer, independence stops with it. Can I Finish helps teams find that moment, and fix the journey.
+
+Meet Field Notes: a digital notebook with an actual download. One product. One dollar in PayPal sandbox funds. A simple purchase with a clear finish line: reach checkout, approve the order, and receive the notebook. This is where our accessibility workflow meets a working payment integration.
+
+First, the merchant control before the repair. It looks ready. But eighteen Tab presses pass it by. Can I Finish records each key, the focused element, and the screenshot. The report identifies a div with a click handler where the customer needs a keyboard-operable button.
+
+The on-device AI explains the supplied finding and proposes a native button. The developer makes that change. Then the same browser contract runs again. Four key events later, the corrected checkout opens PayPal. Same task. Same product. A finish line we can actually verify.
+
+Under the hood, the PayPal Orders API creates the order and sends the buyer to approval. Here is an actual sandbox purchase: order completed, capture completed, one dollar verified. The server checks the amount and status before showing the receipt. Field Notes is ready to download. The payment has evidence, too.
+
+Change your mind? Cancellation brings you back to the store. Ready again? Start checkout again. Signed sessions bind the order to the journey, and idempotent capture handling protects retries. The merchant gets a practical integration, with the keyboard evidence beside it.
+
+Can I Finish brings browser evidence, AI-assisted repair proposals, and repeatable verification to the moment a customer wants to finish. Export the regression test. Keep the repair in the next release. Because a better checkout starts with making the last step reachable.

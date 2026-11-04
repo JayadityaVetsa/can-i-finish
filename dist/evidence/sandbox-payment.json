@@ -17,5 +17,7 @@
     "checkedAt": "2026-11-03T00:26:46.129Z",
     "browserObservation": "Return to merchant displayed cancellation and allowed retry",
     "note": "Cancellation return does not delete the unapproved PayPal order; no capture was observed."
-  }
+  },
+  "verificationRecheckedAt": "2026-11-03T22:37:39.594Z",
+  "recheckSource": "PayPal sandbox Orders API GET; order and capture completed, USD 1.00"
 }

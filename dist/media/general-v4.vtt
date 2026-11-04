@@ -1,0 +1,185 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:01.380
+You're ready to finish.
+
+2
+00:00:01.840 --> 00:00:03.100
+The website isn't.
+
+3
+00:00:03.360 --> 00:00:04.500
+A bus-pass application.
+
+4
+00:00:05.260 --> 00:00:07.220
+A tool you need to use your phone.
+
+5
+00:00:07.700 --> 00:00:10.400
+A checkout button that stays just out of reach.
+
+6
+00:00:11.160 --> 00:00:14.020
+One broken step can turn an ordinary task into
+
+7
+00:00:14.040 --> 00:00:16.100
+asking somebody else for help.
+
+8
+00:00:16.293 --> 00:00:18.573
+We built Can I Finish to change that.
+
+9
+00:00:18.982 --> 00:00:21.462
+Start with the thing a person came to do.
+
+10
+00:00:21.689 --> 00:00:22.749
+Set a clear destination.
+
+11
+00:00:23.809 --> 00:00:27.649
+Our browser runner follows the keyboard journey, captures what
+
+12
+00:00:27.669 --> 00:00:30.549
+happens, and gives your team evidence they can act
+
+13
+00:00:30.569 --> 00:00:33.602
+on. Every run connects a human goal to an
+
+14
+00:00:33.622 --> 00:00:34.782
+observable result.
+
+15
+00:00:35.182 --> 00:00:36.662
+Take a real public service.
+
+16
+00:00:37.042 --> 00:00:39.862
+Find where to apply for a disabled person's bus
+
+17
+00:00:39.882 --> 00:00:42.302
+pass on GOV dot UK.
+
+18
+00:00:42.922 --> 00:00:45.962
+The browser follows the keyboard route, opens the application
+
+19
+00:00:45.982 --> 00:00:48.082
+page, and checks the destination.
+
+20
+00:00:48.102 --> 00:00:50.142
+Twenty-six key events.
+
+21
+00:00:50.162 --> 00:00:52.102
+Twenty-eight evidence frames.
+
+22
+00:00:52.682 --> 00:00:55.202
+That's a concrete answer to a question that matters:
+
+23
+00:00:55.222 --> 00:00:57.362
+can someone get where they need to go?
+
+24
+00:00:57.885 --> 00:01:01.345
+Now Apple. Find the iPhone VoiceOver setup guide, using
+
+25
+00:01:01.365 --> 00:01:04.585
+the keyboard. The journey reaches the actual support article.
+
+26
+00:01:04.985 --> 00:01:06.745
+Different website. Different goal.
+
+27
+00:01:07.205 --> 00:01:10.245
+The same evidence-driven workflow, focused on what a person
+
+28
+00:01:10.265 --> 00:01:11.225
+came to do.
+
+29
+00:01:11.618 --> 00:01:14.758
+And when the journey breaks, the evidence gets specific.
+
+30
+00:01:15.558 --> 00:01:18.998
+In our Field Notes checkout, eighteen Tab presses never
+
+31
+00:01:19.018 --> 00:01:20.458
+reach the payment control.
+
+32
+00:01:20.798 --> 00:01:22.498
+The focus trail shows the barrier.
+
+33
+00:01:23.058 --> 00:01:25.838
+The AI proposal points toward a native button.
+
+34
+00:01:26.038 --> 00:01:29.078
+Change the control, run the same task again, and
+
+35
+00:01:29.098 --> 00:01:32.278
+the PayPal handoff succeeds in four key events.
+
+36
+00:01:32.684 --> 00:01:35.664
+Keep the screenshot, the exact steps, and an executable
+
+37
+00:01:35.684 --> 00:01:38.864
+regression test. The next release gets the same finish
+
+38
+00:01:38.884 --> 00:01:41.884
+line. Developers get something they can reproduce.
+
+39
+00:01:42.784 --> 00:01:44.624
+Teams get a repair they can verify.
+
+40
+00:01:45.524 --> 00:01:48.204
+And accessibility becomes part of how the product ships.
+
+41
+00:01:48.651 --> 00:01:51.511
+Because on the other side of every interface is
+
+42
+00:01:51.531 --> 00:01:53.391
+someone trying to move forward.
+
+43
+00:01:53.891 --> 00:01:54.751
+Can I Finish.
+
+44
+00:01:55.271 --> 00:01:56.191
+Find the barrier.
+
+45
+00:01:56.751 --> 00:01:57.491
+Prove the repair.
+
+46
+00:01:57.991 --> 00:01:59.691
+Build a web people can finish.

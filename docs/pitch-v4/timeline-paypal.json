@@ -1,0 +1,282 @@
+{
+  "duration": 126.469,
+  "resolution": "1920x1080",
+  "fps": 30,
+  "narration": "Chatterbox, expressive setting 0.72; conversational pacing normalized to 150 words/minute",
+  "music": "Original procedurally composed instrumental bed",
+  "parts": [
+    {
+      "part": 1,
+      "start": 0,
+      "duration": 17.937,
+      "title": "READY TO BUY. ABLE TO FINISH.",
+      "narration": "The customer has chosen. The price is right. The hard part should be over. Then the checkout button never receives keyboard focus. For the merchant, a sale stops. For the customer, independence stops with it. Can I Finish helps teams find that moment, and fix the journey.",
+      "sourceSpeed": 1,
+      "loadingFramesRemoved": true,
+      "clips": [
+        {
+          "file": ".local\\pitch-v4\\intro-paypal.mp4",
+          "start": 0.18,
+          "end": 2.92
+        },
+        {
+          "file": "docs\\film-pitch-v4\\store.webm",
+          "start": 0.489,
+          "end": 6.22
+        },
+        {
+          "file": "dist\\evidence\\checkout-broken.webm",
+          "start": 3.7800000000000002,
+          "end": 8
+        },
+        {
+          "file": "docs\\film-pitch-v4\\comparison.webm",
+          "start": 0.953,
+          "end": 5.935
+        }
+      ],
+      "wordAgreement": 0.894
+    },
+    {
+      "part": 2,
+      "start": 17.937,
+      "duration": 18.066666333333334,
+      "title": "FIELD NOTES / A WORKING DIGITAL CHECKOUT",
+      "narration": "Meet Field Notes: a digital notebook with an actual download. One product. One dollar in PayPal sandbox funds. A simple purchase with a clear finish line: reach checkout, approve the order, and receive the notebook. This is where our accessibility workflow meets a working payment integration.",
+      "sourceSpeed": 1.1298566852782428,
+      "loadingFramesRemoved": true,
+      "clips": [
+        {
+          "file": "docs\\film-pitch-v4\\store.webm",
+          "start": 0.489,
+          "end": 6.22
+        },
+        {
+          "file": "docs\\film-pitch-v4\\payment.webm",
+          "start": 0.498,
+          "end": 7.192
+        },
+        {
+          "file": "dist\\evidence\\checkout-fixed.webm",
+          "start": 1.48,
+          "end": 6.12
+        },
+        {
+          "file": "dist\\evidence\\checkout-fixed.webm",
+          "start": 6.48,
+          "end": 10.12
+        }
+      ],
+      "wordAgreement": 0.957
+    },
+    {
+      "part": 3,
+      "start": 36.003666333333335,
+      "duration": 18.069000000000003,
+      "title": "THE BUTTON IS THERE. THE KEYBOARD CANNOT REACH IT.",
+      "narration": "First, the merchant control before the repair. It looks ready. But eighteen Tab presses pass it by. Can I Finish records each key, the focused element, and the screenshot. The report identifies a div with a click handler where the customer needs a keyboard-operable button.",
+      "sourceSpeed": 1.0029325513196479,
+      "loadingFramesRemoved": true,
+      "clips": [
+        {
+          "file": "dist\\evidence\\checkout-broken.webm",
+          "start": 3.7800000000000002,
+          "end": 10.62,
+          "targetDuration": 6.82
+        },
+        {
+          "file": "docs\\film-pitch-v4\\comparison.webm",
+          "start": 0.953,
+          "end": 5.935,
+          "targetDuration": 5.0
+        },
+        {
+          "file": "docs\\film-pitch-v4\\ai.webm",
+          "start": 0.742,
+          "end": 5.91,
+          "targetDuration": 6.249332999999999
+        }
+      ],
+      "wordAgreement": 0.933
+    },
+    {
+      "part": 4,
+      "start": 54.07266633333334,
+      "duration": 16.566666333333323,
+      "title": "EVIDENCE INTO ACTION",
+      "narration": "The on-device AI explains the supplied finding and proposes a native button. The developer makes that change. Then the same browser contract runs again. Four key events later, the corrected checkout opens PayPal. Same task. Same product. A finish line we can actually verify.",
+      "sourceSpeed": 1.3846153846153846,
+      "loadingFramesRemoved": true,
+      "clips": [
+        {
+          "file": "docs\\film-pitch-v4\\ai.webm",
+          "start": 0.742,
+          "end": 5.91,
+          "targetDuration": 7.04
+        },
+        {
+          "file": "dist\\evidence\\checkout-fixed.webm",
+          "start": 1.48,
+          "end": 6.12,
+          "targetDuration": 3.351111111111112
+        },
+        {
+          "file": "dist\\evidence\\checkout-fixed.webm",
+          "start": 6.48,
+          "end": 10.12,
+          "targetDuration": 2.628888888888888
+        },
+        {
+          "file": "docs\\film-pitch-v4\\comparison.webm",
+          "start": 0.953,
+          "end": 5.935,
+          "targetDuration": 4.110666999999999
+        }
+      ],
+      "wordAgreement": 0.932
+    },
+    {
+      "part": 5,
+      "start": 70.63933266666666,
+      "duration": 20.466667,
+      "title": "REAL PAYPAL SANDBOX / VERIFIED CAPTURE",
+      "narration": "Under the hood, the PayPal Orders API creates the order and sends the buyer to approval. Here is an actual sandbox purchase: order completed, capture completed, one dollar verified. The server checks the amount and status before showing the receipt. Field Notes is ready to download. The payment has evidence, too.",
+      "sourceSpeed": 1.3269230769230769,
+      "loadingFramesRemoved": true,
+      "clips": [
+        {
+          "file": "dist\\evidence\\checkout-fixed.webm",
+          "start": 1.48,
+          "end": 6.12,
+          "targetDuration": 3.4968115942028994
+        },
+        {
+          "file": "dist\\evidence\\checkout-fixed.webm",
+          "start": 6.48,
+          "end": 10.12,
+          "targetDuration": 2.7431884057971008
+        },
+        {
+          "file": "docs\\film-pitch-v4\\payment.webm",
+          "start": 0.498,
+          "end": 7.192,
+          "targetDuration": 9.22
+        },
+        {
+          "file": "docs\\film-pitch-v4\\payment.webm",
+          "start": 2.498,
+          "end": 7.192,
+          "targetDuration": 4.998667000000001
+        }
+      ],
+      "wordAgreement": 0.961
+    },
+    {
+      "part": 6,
+      "start": 91.10599966666666,
+      "duration": 16.46766666666666,
+      "title": "A JOURNEY THAT CAN RECOVER",
+      "narration": "Change your mind? Cancellation brings you back to the store. Ready again? Start checkout again. Signed sessions bind the order to the journey, and idempotent capture handling protects retries. The merchant gets a practical integration, with the keyboard evidence beside it.",
+      "sourceSpeed": 1.535850073346706,
+      "loadingFramesRemoved": true,
+      "clips": [
+        {
+          "file": "docs\\paypal-film\\film-cancellation.webm",
+          "start": 2.08,
+          "end": 7.52
+        },
+        {
+          "file": "docs\\paypal-film\\film-cancellation.webm",
+          "start": 7.88,
+          "end": 16.42
+        },
+        {
+          "file": "docs\\paypal-film\\film-cancellation.webm",
+          "start": 17.08,
+          "end": 20.020000000000003
+        },
+        {
+          "file": "docs\\film-pitch-v4\\store.webm",
+          "start": 0.489,
+          "end": 6.22
+        },
+        {
+          "file": "docs\\film-pitch-v4\\comparison.webm",
+          "start": 1.9529999999999998,
+          "end": 4.952999999999999
+        }
+      ],
+      "wordAgreement": 0.878
+    },
+    {
+      "part": 7,
+      "start": 107.57366633333332,
+      "duration": 18.873999999999995,
+      "title": "MAKE THE LAST STEP REACHABLE",
+      "narration": "Can I Finish brings browser evidence, AI-assisted repair proposals, and repeatable verification to the moment a customer wants to finish. Export the regression test. Keep the repair in the next release. Because a better checkout starts with making the last step reachable.",
+      "sourceSpeed": 1,
+      "loadingFramesRemoved": true,
+      "clips": [
+        {
+          "file": "docs\\film-pitch-v4\\comparison.webm",
+          "start": 0.953,
+          "end": 5.935
+        },
+        {
+          "file": "docs\\film-pitch-v4\\export.webm",
+          "start": 0.693,
+          "end": 6.276
+        },
+        {
+          "file": "docs\\film-pitch-v4\\close.webm",
+          "start": 1.653,
+          "end": 3.871
+        },
+        {
+          "file": ".local\\pitch-v4\\outro.mp4",
+          "start": 0.18,
+          "end": 4.92
+        }
+      ],
+      "wordAgreement": 0.929
+    }
+  ],
+  "pausePolishVersion": 1,
+  "pauseEdits": [
+    {
+      "originalStart": 4.966666666666667,
+      "originalEnd": 5.3,
+      "removedSeconds": 0.33333333333333304
+    },
+    {
+      "originalStart": 8.633333333333333,
+      "originalEnd": 8.833333333333334,
+      "removedSeconds": 0.20000000000000107
+    },
+    {
+      "originalStart": 14.266666666666667,
+      "originalEnd": 14.633333333333333,
+      "removedSeconds": 0.36666666666666536
+    },
+    {
+      "originalStart": 23.7,
+      "originalEnd": 23.966666666666665,
+      "removedSeconds": 0.2666666666666657
+    },
+    {
+      "originalStart": 59.733333333333334,
+      "originalEnd": 59.96666666666667,
+      "removedSeconds": 0.23333333333333428
+    },
+    {
+      "originalStart": 64.3,
+      "originalEnd": 64.63333333333334,
+      "removedSeconds": 0.3333333333333428
+    },
+    {
+      "originalStart": 104.46666666666667,
+      "originalEnd": 104.7,
+      "removedSeconds": 0.23333333333333428
+    }
+  ]
+}

@@ -1,0 +1,845 @@
+{
+  "schemaVersion": 1,
+  "id": "govuk-bus-pass",
+  "createdAt": "2026-11-03T22:18:35.336Z",
+  "task": "Find the disabled person’s bus-pass application on GOV.UK",
+  "contract": {
+    "id": "govuk-bus-pass",
+    "name": "Find the disabled person’s bus-pass application on GOV.UK",
+    "goal": "Apply for a disabled person’s bus pass",
+    "steps": [
+      {
+        "type": "tabTo",
+        "role": "link",
+        "name": "Apply for a disabled person's bus pass",
+        "limit": 60
+      },
+      {
+        "type": "press",
+        "key": "Enter"
+      },
+      {
+        "type": "expectVisible",
+        "role": "heading",
+        "name": "Apply for a disabled person's bus pass"
+      }
+    ]
+  },
+  "url": "https://www.gov.uk/browse/driving/disability-health-condition",
+  "outcome": "passed",
+  "engine": {
+    "name": "Playwright keyboard journey runner",
+    "playwright": "1.64.1",
+    "browser": "156.0.8078.4",
+    "platform": "win32",
+    "viewport": {
+      "width": 1920,
+      "height": 1080
+    }
+  },
+  "steps": [
+    {
+      "index": 0,
+      "key": "Start",
+      "phase": "navigation",
+      "note": "Fresh browser context. No mouse clicks or locator.focus().",
+      "elapsedMs": 5997,
+      "url": "https://www.gov.uk/browse/driving/disability-health-condition",
+      "focus": {
+        "tag": "body",
+        "id": null,
+        "role": null,
+        "name": "//<![CDATA[ document.body.className += ' js-enabled' + ('noModule' in HTMLScriptElement.prototype ? ' govuk-frontend-supported' : ''); //]]> Cookies on GOV.UK We use some essential",
+        "tabIndex": -1,
+        "focusVisible": false,
+        "outline": "3px none rgb(0, 0, 0)",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 1920,
+          "height": 3180
+        },
+        "shadowHosts": [],
+        "dialogOpen": false
+      },
+      "screenshot": "evidence/govuk-bus-pass-000.jpg",
+      "sha256": "9ba5667f993697e8dbc6442c3ced198d048001ec2fb6b67543fd65966745ca8c"
+    },
+    {
+      "index": 1,
+      "key": "Tab",
+      "phase": "1. tabTo",
+      "note": "Find link “Apply for a disabled person's bus pass” using sequential keyboard navigation.",
+      "elapsedMs": 6881,
+      "url": "https://www.gov.uk/browse/driving/disability-health-condition",
+      "focus": {
+        "tag": "button",
+        "id": null,
+        "role": null,
+        "name": "Accept additional cookies",
+        "tabIndex": 0,
+        "focusVisible": true,
+        "outline": "3px solid rgba(0, 0, 0, 0)",
+        "rect": {
+          "x": 480,
+          "y": 255,
+          "width": 234.953125,
+          "height": 38
+        },
+        "shadowHosts": [],
+        "dialogOpen": false
+      },
+      "screenshot": "evidence/govuk-bus-pass-001.jpg",
+      "sha256": "b1e865abce3230240a5a28bb60be007dd6a5f7bf7e00d01df5267ac46f918bcd"
+    },
+    {
+      "index": 2,
+      "key": "Tab",
+      "phase": "1. tabTo",
+      "note": "Find link “Apply for a disabled person's bus pass” using sequential keyboard navigation.",
+      "elapsedMs": 7300,
+      "url": "https://www.gov.uk/browse/driving/disability-health-condition",
+      "focus": {
+        "tag": "button",
+        "id": null,
+        "role": null,
+        "name": "Reject additional cookies",
+        "tabIndex": 0,
+        "focusVisible": true,
+        "outline": "3px solid rgba(0, 0, 0, 0)",
+        "rect": {
+          "x": 729.953125,
+          "y": 255,
+          "width": 229.1875,
+          "height": 38
+        },
+        "shadowHosts": [],
+        "dialogOpen": false
+      },
+      "screenshot": "evidence/govuk-bus-pass-002.jpg",
+      "sha256": "a05ca0e56d3036c081c5e7a7d1efe2428dd0635ba6b5a4e64aa1186e2fe64f01"
+    },
+    {
+      "index": 3,
+      "key": "Tab",
+      "phase": "1. tabTo",
+      "note": "Find link “Apply for a disabled person's bus pass” using sequential keyboard navigation.",
+      "elapsedMs": 7773,
+      "url": "https://www.gov.uk/browse/driving/disability-health-condition",
+      "focus": {
+        "tag": "a",
+        "id": null,
+        "role": null,
+        "name": "View cookies",
+        "tabIndex": 0,
+        "focusVisible": true,
+        "outline": "3px solid rgba(0, 0, 0, 0)",
+        "rect": {
+          "x": 974.140625,
+          "y": 265,
+          "width": 106.625,
+          "height": 19
+        },
+        "shadowHosts": [],
+        "dialogOpen": false
+      },
+      "screenshot": "evidence/govuk-bus-pass-003.jpg",
+      "sha256": "57b9039def284f1421be6734fbc3598344701c7099d71732bc1944f813fde802"
+    },
+    {
+      "index": 4,
+      "key": "Tab",
+      "phase": "1. tabTo",
+      "note": "Find link “Apply for a disabled person's bus pass” using sequential keyboard navigation.",
+      "elapsedMs": 8290,
+      "url": "https://www.gov.uk/browse/driving/disability-health-condition",
+      "focus": {
+        "tag": "a",
+        "id": null,
+        "role": null,
+        "name": "Skip to main content",
+        "tabIndex": 0,
+        "focusVisible": true,
+        "outline": "3px solid rgb(255, 221, 0)",
+        "rect": {
+          "x": 0,
+          "y": 325,
+          "width": 1920,
+          "height": 40
+        },
+        "shadowHosts": [],
+        "dialogOpen": false
+      },
+      "screenshot": "evidence/govuk-bus-pass-004.jpg",
+      "sha256": "2c95f2af8b0f54d8d3870cb3046eb9ecd223468ffd6697b8586a5f3332452061"
+    },
+    {
+      "index": 5,
+      "key": "Tab",
+      "phase": "1. tabTo",
+      "note": "Find link “Apply for a disabled person's bus pass” using sequential keyboard navigation.",
+      "elapsedMs": 8756,
+      "url": "https://www.gov.uk/browse/driving/disability-health-condition",
+      "focus": {
+        "tag": "a",
+        "id": "logo",
+        "role": null,
+        "name": "Go to the GOV.UK homepage",
+        "tabIndex": 0,
+        "focusVisible": true,
+        "outline": "3px solid rgba(0, 0, 0, 0)",
+        "rect": {
+          "x": 480,
+          "y": 337,
+          "width": 162,
+          "height": 37
+        },
+        "shadowHosts": [],
+        "dialogOpen": false
+      },
+      "screenshot": "evidence/govuk-bus-pass-005.jpg",
+      "sha256": "0d0bea2ed903df24213957b498fdc417cd4d9fc560a0d2dce0eab2176bc1f9b7"
+    },
+    {
+      "index": 6,
+      "key": "Tab",
+      "phase": "1. tabTo",
+      "note": "Find link “Apply for a disabled person's bus pass” using sequential keyboard navigation.",
+      "elapsedMs": 9174,
+      "url": "https://www.gov.uk/browse/driving/disability-health-condition",
+      "focus": {
+        "tag": "button",
+        "id": "super-navigation-menu-toggle",
+        "role": null,
+        "name": "Show navigation menu",
+        "tabIndex": 0,
+        "focusVisible": true,
+        "outline": "3px solid rgba(0, 0, 0, 0)",
+        "rect": {
+          "x": 1275.640625,
+          "y": 325,
+          "width": 103.359375,
+          "height": 61
+        },
+        "shadowHosts": [],
+        "dialogOpen": false
+      },
+      "screenshot": "evidence/govuk-bus-pass-006.jpg",
+      "sha256": "ecb9eb31c790b4c7bb748ab9068c67337d8e3acca1b01a38701e541cf1c43a1a"
+    },
+    {
+      "index": 7,
+      "key": "Tab",
+      "phase": "1. tabTo",
+      "note": "Find link “Apply for a disabled person's bus pass” using sequential keyboard navigation.",
+      "elapsedMs": 9600,
+      "url": "https://www.gov.uk/browse/driving/disability-health-condition",
+      "focus": {
+        "tag": "button",
+        "id": "super-search-menu-toggle",
+        "role": null,
+        "name": "Show search menu",
+        "tabIndex": 0,
+        "focusVisible": true,
+        "outline": "3px solid rgba(0, 0, 0, 0)",
+        "rect": {
+          "x": 1379,
+          "y": 325,
+          "width": 61,
+          "height": 61
+        },
+        "shadowHosts": [],
+        "dialogOpen": false
+      },
+      "screenshot": "evidence/govuk-bus-pass-007.jpg",
+      "sha256": "b9d8d471d8dc8cdcd8eebb5e7006df87a24a1685a5bb2de89387c1a2bac902f7"
+    },
+    {
+      "index": 8,
+      "key": "Tab",
+      "phase": "1. tabTo",
+      "note": "Find link “Apply for a disabled person's bus pass” using sequential keyboard navigation.",
+      "elapsedMs": 10019,
+      "url": "https://www.gov.uk/browse/driving/disability-health-condition",
+      "focus": {
+        "tag": "a",
+        "id": null,
+        "role": null,
+        "name": "Home",
+        "tabIndex": 0,
+        "focusVisible": true,
+        "outline": "3px solid rgba(0, 0, 0, 0)",
+        "rect": {
+          "x": 480,
+          "y": 401,
+          "width": 41.75,
+          "height": 19
+        },
+        "shadowHosts": [],
+        "dialogOpen": false
+      },
+      "screenshot": "evidence/govuk-bus-pass-008.jpg",
+      "sha256": "bae17175d27dc5081a682f0160370cea78849c9c378c4c7ea5e65d64176f1fbd"
+    },
+    {
+      "index": 9,
+      "key": "Tab",
+      "phase": "1. tabTo",
+      "note": "Find link “Apply for a disabled person's bus pass” using sequential keyboard navigation.",
+      "elapsedMs": 10589,
+      "url": "https://www.gov.uk/browse/driving/disability-health-condition",
+      "focus": {
+        "tag": "a",
+        "id": null,
+        "role": null,
+        "name": "Driving and transport",
+        "tabIndex": 0,
+        "focusVisible": true,
+        "outline": "3px solid rgba(0, 0, 0, 0)",
+        "rect": {
+          "x": 547.390625,
+          "y": 401,
+          "width": 145.765625,
+          "height": 19
+        },
+        "shadowHosts": [],
+        "dialogOpen": false
+      },
+      "screenshot": "evidence/govuk-bus-pass-009.jpg",
+      "sha256": "f707fc6d65dbfd0a3866134de34596c65bccd3a8cfa041ba900c6ef4f493ad73"
+    },
+    {
+      "index": 10,
+      "key": "Tab",
+      "phase": "1. tabTo",
+      "note": "Find link “Apply for a disabled person's bus pass” using sequential keyboard navigation.",
+      "elapsedMs": 11008,
+      "url": "https://www.gov.uk/browse/driving/disability-health-condition",
+      "focus": {
+        "tag": "a",
+        "id": null,
+        "role": null,
+        "name": "Medical conditions, disabilities and driving",
+        "tabIndex": 0,
+        "focusVisible": true,
+        "outline": "3px solid rgba(0, 0, 0, 0)",
+        "rect": {
+          "x": 480,
+          "y": 937,
+          "width": 345.5,
+          "height": 23
+        },
+        "shadowHosts": [],
+        "dialogOpen": false
+      },
+      "screenshot": "evidence/govuk-bus-pass-010.jpg",
+      "sha256": "9c048f0f615c17d33e6eddea52ad4b7473137994bc7a5fc5dc804c34373a8b30"
+    },
+    {
+      "index": 11,
+      "key": "Tab",
+      "phase": "1. tabTo",
+      "note": "Find link “Apply for a disabled person's bus pass” using sequential keyboard navigation.",
+      "elapsedMs": 11464,
+      "url": "https://www.gov.uk/browse/driving/disability-health-condition",
+      "focus": {
+        "tag": "a",
+        "id": null,
+        "role": null,
+        "name": "Check if a health condition affects your driving",
+        "tabIndex": 0,
+        "focusVisible": true,
+        "outline": "3px solid rgba(0, 0, 0, 0)",
+        "rect": {
+          "x": 480,
+          "y": 987,
+          "width": 376.671875,
+          "height": 23
+        },
+        "shadowHosts": [],
+        "dialogOpen": false
+      },
+      "screenshot": "evidence/govuk-bus-pass-011.jpg",
+      "sha256": "7adcc7e348f932d14ce9580d01c69a9db631250b667cecc2494d3b72c51f8ed8"
+    },
+    {
+      "index": 12,
+      "key": "Tab",
+      "phase": "1. tabTo",
+      "note": "Find link “Apply for a disabled person's bus pass” using sequential keyboard navigation.",
+      "elapsedMs": 12040,
+      "url": "https://www.gov.uk/browse/driving/disability-health-condition",
+      "focus": {
+        "tag": "a",
+        "id": null,
+        "role": null,
+        "name": "Renew your short-term medical driving licence",
+        "tabIndex": 0,
+        "focusVisible": true,
+        "outline": "3px solid rgba(0, 0, 0, 0)",
+        "rect": {
+          "x": 480,
+          "y": 1037,
+          "width": 375.09375,
+          "height": 23
+        },
+        "shadowHosts": [],
+        "dialogOpen": false
+      },
+      "screenshot": "evidence/govuk-bus-pass-012.jpg",
+      "sha256": "3cf60b59d9e7b5996fed1bce2cc31f0b760c435c79ddfde47b2c041291d65374"
+    },
+    {
+      "index": 13,
+      "key": "Tab",
+      "phase": "1. tabTo",
+      "note": "Find link “Apply for a disabled person's bus pass” using sequential keyboard navigation.",
+      "elapsedMs": 12956,
+      "url": "https://www.gov.uk/browse/driving/disability-health-condition",
+      "focus": {
+        "tag": "a",
+        "id": null,
+        "role": null,
+        "name": "Driving eyesight rules",
+        "tabIndex": 0,
+        "focusVisible": true,
+        "outline": "3px solid rgba(0, 0, 0, 0)",
+        "rect": {
+          "x": 480,
+          "y": 528,
+          "width": 175.9375,
+          "height": 23
+        },
+        "shadowHosts": [],
+        "dialogOpen": false
+      },
+      "screenshot": "evidence/govuk-bus-pass-013.jpg",
+      "sha256": "c50b935bc7413d43d2f5ff147716d53bec58194a11ea22745d234e9b2ec0de14"
+    },
+    {
+      "index": 14,
+      "key": "Tab",
+      "phase": "1. tabTo",
+      "note": "Find link “Apply for a disabled person's bus pass” using sequential keyboard navigation.",
+      "elapsedMs": 13404,
+      "url": "https://www.gov.uk/browse/driving/disability-health-condition",
+      "focus": {
+        "tag": "a",
+        "id": null,
+        "role": null,
+        "name": "Reapply for a driving licence following a health condition",
+        "tabIndex": 0,
+        "focusVisible": true,
+        "outline": "3px solid rgba(0, 0, 0, 0)",
+        "rect": {
+          "x": 480,
+          "y": 578,
+          "width": 457.015625,
+          "height": 23
+        },
+        "shadowHosts": [],
+        "dialogOpen": false
+      },
+      "screenshot": "evidence/govuk-bus-pass-014.jpg",
+      "sha256": "b263dbf0a3bedfd57f6f6465435568506c72a1e32421ad3e0971c165d5c1dd3f"
+    },
+    {
+      "index": 15,
+      "key": "Tab",
+      "phase": "1. tabTo",
+      "note": "Find link “Apply for a disabled person's bus pass” using sequential keyboard navigation.",
+      "elapsedMs": 13825,
+      "url": "https://www.gov.uk/browse/driving/disability-health-condition",
+      "focus": {
+        "tag": "a",
+        "id": null,
+        "role": null,
+        "name": "Can I drive while my application is with DVLA? (INF188/6)",
+        "tabIndex": 0,
+        "focusVisible": true,
+        "outline": "3px solid rgba(0, 0, 0, 0)",
+        "rect": {
+          "x": 480,
+          "y": 628,
+          "width": 466.734375,
+          "height": 23
+        },
+        "shadowHosts": [],
+        "dialogOpen": false
+      },
+      "screenshot": "evidence/govuk-bus-pass-015.jpg",
+      "sha256": "cd8ae9c127e24914ab2d0ca4ae8cd42aafde734fbcb4050b690e4684ff80a88a"
+    },
+    {
+      "index": 16,
+      "key": "Tab",
+      "phase": "1. tabTo",
+      "note": "Find link “Apply for a disabled person's bus pass” using sequential keyboard navigation.",
+      "elapsedMs": 14229,
+      "url": "https://www.gov.uk/browse/driving/disability-health-condition",
+      "focus": {
+        "tag": "a",
+        "id": null,
+        "role": null,
+        "name": "Voluntarily surrendering your driving licence",
+        "tabIndex": 0,
+        "focusVisible": true,
+        "outline": "3px solid rgba(0, 0, 0, 0)",
+        "rect": {
+          "x": 480,
+          "y": 678,
+          "width": 357.359375,
+          "height": 23
+        },
+        "shadowHosts": [],
+        "dialogOpen": false
+      },
+      "screenshot": "evidence/govuk-bus-pass-016.jpg",
+      "sha256": "162f3f9c6ce82735639d234336cad8406d767bdcb9ec07a265c3a64226de3298"
+    },
+    {
+      "index": 17,
+      "key": "Tab",
+      "phase": "1. tabTo",
+      "note": "Find link “Apply for a disabled person's bus pass” using sequential keyboard navigation.",
+      "elapsedMs": 14747,
+      "url": "https://www.gov.uk/browse/driving/disability-health-condition",
+      "focus": {
+        "tag": "a",
+        "id": null,
+        "role": null,
+        "name": "Get free vehicle tax if you're a driver with a disability",
+        "tabIndex": 0,
+        "focusVisible": true,
+        "outline": "3px solid rgba(0, 0, 0, 0)",
+        "rect": {
+          "x": 480,
+          "y": 728,
+          "width": 417.625,
+          "height": 23
+        },
+        "shadowHosts": [],
+        "dialogOpen": false
+      },
+      "screenshot": "evidence/govuk-bus-pass-017.jpg",
+      "sha256": "f222b1c4fa0ca64a4fc77f19dbdd1e0e9a8a91e217b0e16b1d4b0ae9260c0154"
+    },
+    {
+      "index": 18,
+      "key": "Tab",
+      "phase": "1. tabTo",
+      "note": "Find link “Apply for a disabled person's bus pass” using sequential keyboard navigation.",
+      "elapsedMs": 15786,
+      "url": "https://www.gov.uk/browse/driving/disability-health-condition",
+      "focus": {
+        "tag": "a",
+        "id": null,
+        "role": null,
+        "name": "Toll concessions if you have a disability",
+        "tabIndex": 0,
+        "focusVisible": true,
+        "outline": "3px solid rgba(0, 0, 0, 0)",
+        "rect": {
+          "x": 480,
+          "y": 778,
+          "width": 313.359375,
+          "height": 23
+        },
+        "shadowHosts": [],
+        "dialogOpen": false
+      },
+      "screenshot": "evidence/govuk-bus-pass-018.jpg",
+      "sha256": "4eab628f28e08d6ea4e60fc03c4bca935019abcd9f5acd2c052f15e92661764c"
+    },
+    {
+      "index": 19,
+      "key": "Tab",
+      "phase": "1. tabTo",
+      "note": "Find link “Apply for a disabled person's bus pass” using sequential keyboard navigation.",
+      "elapsedMs": 16508,
+      "url": "https://www.gov.uk/browse/driving/disability-health-condition",
+      "focus": {
+        "tag": "a",
+        "id": null,
+        "role": null,
+        "name": "Apply for or renew a Blue Badge",
+        "tabIndex": 0,
+        "focusVisible": true,
+        "outline": "3px solid rgba(0, 0, 0, 0)",
+        "rect": {
+          "x": 480,
+          "y": 949,
+          "width": 258.640625,
+          "height": 23
+        },
+        "shadowHosts": [],
+        "dialogOpen": false
+      },
+      "screenshot": "evidence/govuk-bus-pass-019.jpg",
+      "sha256": "9687d3e7d86c0ed33b230b82cc480bc1435209962bc43805d8ab176384850273"
+    },
+    {
+      "index": 20,
+      "key": "Tab",
+      "phase": "1. tabTo",
+      "note": "Find link “Apply for a disabled person's bus pass” using sequential keyboard navigation.",
+      "elapsedMs": 16894,
+      "url": "https://www.gov.uk/browse/driving/disability-health-condition",
+      "focus": {
+        "tag": "a",
+        "id": null,
+        "role": null,
+        "name": "Find out where Blue Badge holders can park",
+        "tabIndex": 0,
+        "focusVisible": true,
+        "outline": "3px solid rgba(0, 0, 0, 0)",
+        "rect": {
+          "x": 480,
+          "y": 999,
+          "width": 358.703125,
+          "height": 23
+        },
+        "shadowHosts": [],
+        "dialogOpen": false
+      },
+      "screenshot": "evidence/govuk-bus-pass-020.jpg",
+      "sha256": "6ed4f471398e63adce72703cd5c3efcdb9ef717339941ea81d440ce9fbf0ae22"
+    },
+    {
+      "index": 21,
+      "key": "Tab",
+      "phase": "1. tabTo",
+      "note": "Find link “Apply for a disabled person's bus pass” using sequential keyboard navigation.",
+      "elapsedMs": 17253,
+      "url": "https://www.gov.uk/browse/driving/disability-health-condition",
+      "focus": {
+        "tag": "a",
+        "id": null,
+        "role": null,
+        "name": "Change the details on your Blue Badge",
+        "tabIndex": 0,
+        "focusVisible": true,
+        "outline": "3px solid rgba(0, 0, 0, 0)",
+        "rect": {
+          "x": 480,
+          "y": 1049,
+          "width": 314.65625,
+          "height": 23
+        },
+        "shadowHosts": [],
+        "dialogOpen": false
+      },
+      "screenshot": "evidence/govuk-bus-pass-021.jpg",
+      "sha256": "e63c2a2e5541a93c9a5724afc16c9db7ccac5fdf9052ea3c1286f05a05c39a37"
+    },
+    {
+      "index": 22,
+      "key": "Tab",
+      "phase": "1. tabTo",
+      "note": "Find link “Apply for a disabled person's bus pass” using sequential keyboard navigation.",
+      "elapsedMs": 17745,
+      "url": "https://www.gov.uk/browse/driving/disability-health-condition",
+      "focus": {
+        "tag": "a",
+        "id": null,
+        "role": null,
+        "name": "Replace a lost, stolen or damaged Blue Badge",
+        "tabIndex": 0,
+        "focusVisible": true,
+        "outline": "3px solid rgba(0, 0, 0, 0)",
+        "rect": {
+          "x": 480,
+          "y": 528,
+          "width": 373.796875,
+          "height": 23
+        },
+        "shadowHosts": [],
+        "dialogOpen": false
+      },
+      "screenshot": "evidence/govuk-bus-pass-022.jpg",
+      "sha256": "5e2b66313f79ddeba5de2c709107c0705e428f8ef2f93d1bf90709e918ffbb5e"
+    },
+    {
+      "index": 23,
+      "key": "Tab",
+      "phase": "1. tabTo",
+      "note": "Find link “Apply for a disabled person's bus pass” using sequential keyboard navigation.",
+      "elapsedMs": 18120,
+      "url": "https://www.gov.uk/browse/driving/disability-health-condition",
+      "focus": {
+        "tag": "a",
+        "id": null,
+        "role": null,
+        "name": "Blue Badge scheme: information from your council",
+        "tabIndex": 0,
+        "focusVisible": true,
+        "outline": "3px solid rgba(0, 0, 0, 0)",
+        "rect": {
+          "x": 480,
+          "y": 578,
+          "width": 410.5,
+          "height": 23
+        },
+        "shadowHosts": [],
+        "dialogOpen": false
+      },
+      "screenshot": "evidence/govuk-bus-pass-023.jpg",
+      "sha256": "bfa37e923ffe209cdc592fb2a9635eac74d9567ed0e9a38047f11ac1db1e377b"
+    },
+    {
+      "index": 24,
+      "key": "Tab",
+      "phase": "1. tabTo",
+      "note": "Find link “Apply for a disabled person's bus pass” using sequential keyboard navigation.",
+      "elapsedMs": 18530,
+      "url": "https://www.gov.uk/browse/driving/disability-health-condition",
+      "focus": {
+        "tag": "a",
+        "id": null,
+        "role": null,
+        "name": "Transport support services for disabled people",
+        "tabIndex": 0,
+        "focusVisible": true,
+        "outline": "3px solid rgba(0, 0, 0, 0)",
+        "rect": {
+          "x": 480,
+          "y": 749,
+          "width": 377.71875,
+          "height": 23
+        },
+        "shadowHosts": [],
+        "dialogOpen": false
+      },
+      "screenshot": "evidence/govuk-bus-pass-024.jpg",
+      "sha256": "8207e76ce266bbeee1209d8e5406fca9a18c1661074d37f577ea51a3d4862040"
+    },
+    {
+      "index": 25,
+      "key": "Tab",
+      "phase": "1. tabTo",
+      "note": "Find link “Apply for a disabled person's bus pass” using sequential keyboard navigation.",
+      "elapsedMs": 19456,
+      "url": "https://www.gov.uk/browse/driving/disability-health-condition",
+      "focus": {
+        "tag": "a",
+        "id": null,
+        "role": null,
+        "name": "Apply for a disabled person's bus pass",
+        "tabIndex": 0,
+        "focusVisible": true,
+        "outline": "3px solid rgba(0, 0, 0, 0)",
+        "rect": {
+          "x": 480,
+          "y": 799,
+          "width": 308.21875,
+          "height": 23
+        },
+        "shadowHosts": [],
+        "dialogOpen": false
+      },
+      "screenshot": "evidence/govuk-bus-pass-025.jpg",
+      "sha256": "12bf71974fea6e4834dc1dee75ab120cd1a223260e9ceb0e4bfdd12be0ec2169"
+    },
+    {
+      "index": 26,
+      "key": "Enter",
+      "phase": "2. press",
+      "note": "",
+      "elapsedMs": 20690,
+      "url": "https://www.gov.uk/apply-for-disabled-bus-pass",
+      "focus": {
+        "tag": "body",
+        "id": null,
+        "role": null,
+        "name": "//<![CDATA[ document.body.className += ' js-enabled' + ('noModule' in HTMLScriptElement.prototype ? ' govuk-frontend-supported' : ''); //]]> Cookies on GOV.UK We use some essential",
+        "tabIndex": -1,
+        "focusVisible": false,
+        "outline": "3px none rgb(0, 0, 0)",
+        "rect": {
+          "x": 0,
+          "y": -1,
+          "width": 1920,
+          "height": 2460.40625
+        },
+        "shadowHosts": [],
+        "dialogOpen": false
+      },
+      "screenshot": "evidence/govuk-bus-pass-026.jpg",
+      "sha256": "2af29fc91ca2757412422dfb33867246a85a64d9b5c27e904f6ec6a57b714533"
+    },
+    {
+      "index": 27,
+      "key": "Assert",
+      "phase": "3. expectVisible",
+      "note": "expectVisible: heading “Apply for a disabled person's bus pass” — passed",
+      "elapsedMs": 21236,
+      "url": "https://www.gov.uk/apply-for-disabled-bus-pass",
+      "focus": {
+        "tag": "body",
+        "id": null,
+        "role": null,
+        "name": "//<![CDATA[ document.body.className += ' js-enabled' + ('noModule' in HTMLScriptElement.prototype ? ' govuk-frontend-supported' : ''); //]]> Cookies on GOV.UK We use some essential",
+        "tabIndex": -1,
+        "focusVisible": false,
+        "outline": "3px none rgb(0, 0, 0)",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 1920,
+          "height": 2638.40625
+        },
+        "shadowHosts": [],
+        "dialogOpen": false
+      },
+      "screenshot": "evidence/govuk-bus-pass-027.jpg",
+      "sha256": "2af29fc91ca2757412422dfb33867246a85a64d9b5c27e904f6ec6a57b714533"
+    }
+  ],
+  "findings": [],
+  "limits": [
+    "One Chromium viewport and keyboard sequence; no WCAG certification.",
+    "A focus cycle alone is not proof of a keyboard trap.",
+    "Names in focus observations are approximate; target matching uses Playwright accessible roles/names."
+  ],
+  "artifacts": {
+    "video": "evidence/govuk-bus-pass.webm"
+  },
+  "durationMs": 63076,
+  "keyCount": 26,
+  "reproduction": [
+    "Open https://www.gov.uk/browse/driving/disability-health-condition",
+    "Use a fresh browser context; viewport 1920 × 1080.",
+    "Tab",
+    "Tab",
+    "Tab",
+    "Tab",
+    "Tab",
+    "Tab",
+    "Tab",
+    "Tab",
+    "Tab",
+    "Tab",
+    "Tab",
+    "Tab",
+    "Tab",
+    "Tab",
+    "Tab",
+    "Tab",
+    "Tab",
+    "Tab",
+    "Tab",
+    "Tab",
+    "Tab",
+    "Tab",
+    "Tab",
+    "Tab",
+    "Tab",
+    "Enter",
+    "Observed result: passed"
+  ],
+  "external": {
+    "site": "GOV.UK",
+    "label": "Find a bus-pass application",
+    "taskUrl": "https://www.gov.uk/browse/driving/disability-health-condition"
+  }
+}

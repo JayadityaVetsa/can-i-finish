@@ -1,13 +1,14 @@
 # Can I Finish?
 
-[Public app](https://can-i-finish.vercel.app) · [Video downloads](https://can-i-finish.vercel.app/downloads.html) · [Implementation notes](docs/implementation-status-2026-11-02.md) · [Verification and model limits](docs/deployment-verification.md)
+[Public app](https://can-i-finish.vercel.app) · [Video downloads](https://can-i-finish.vercel.app/downloads.html) · [Implementation notes](docs/implementation-status-2026-11-03.md) · [Verification and model limits](docs/deployment-verification.md)
 
-General review cut: 2:58 (v3, including the experimental AI segment). PayPal cut: 2:52. Both use Kokoro synthetic narration and await entrant approval. The sandbox approval/capture and cancellation were verified; AI remains an experimental explanation of supplied runner findings, with one reviewed native-button suggestion. No event has been submitted.
+**The last step should belong to everyone.**
 
+A customer is ready. A service is needed. One unreachable control can stop the journey. Can I Finish connects a human goal to browser evidence, an AI-assisted repair proposal, and a repeatable regression test.
 
-**Keyboard journeys, with evidence you can rerun.**
+Explore the real GOV.UK bus-pass application journey, Apple's iPhone VoiceOver guide, and the Field Notes merchant checkout. The checkout pairs an intentionally broken merchant control with its corrected version and a real PayPal sandbox integration.
 
-Define a concrete task, send keyboard input through a real browser, inspect where it stops, and run the same contract after a fix. Built for Next Byte Hacks V5 on November 1, 2026. The entry stays a draft until the user explicitly requests submission.
+[Explore the evidence lab](https://can-i-finish.vercel.app/lab.html) · [Try the storefront](https://can-i-finish.vercel.app/checkout.html) · [Watch the pitches](https://can-i-finish.vercel.app/demo.html)
 
 ## What is working
 
@@ -16,7 +17,7 @@ Define a concrete task, send keyboard input through a real browser, inspect wher
 - A screenshot and focus record after each input, with a SHA-256 content hash.
 - Native browser recording, focus trace, reproduction report, contract export, and generated regression script.
 - Hosted/static evidence viewer with screenshot-backed playback, focus inspector, and before/after comparison.
-- Two controlled journeys in broken and fixed variants: reach course registration; dismiss an updates dialog and continue registration.
+- Two additional developer examples in broken and fixed variants: reach course registration; dismiss an updates dialog and continue registration.
 - Local UI can rerun those fixtures or run a supplied contract against a public URL. No authentication automation or personal form filling.
 
 ## Run for free
@@ -63,9 +64,13 @@ This is an independent, narrowly scoped observation, with no Apple affiliation o
 
 `node record-apple.mjs` repeats the live contract. Website content or focus order can change, so future outcomes need not match this snapshot.
 
-The public `demo.html` provides a 78-second edited screencast with locally synthesized Microsoft Zira narration and readable burned-in captions. It uses real 1080p screen recordings; repetitive footage is condensed. The raw Apple browser recording remains separately available. Video output is 1920×1080 at 30 fps; native browser source is 25 fps. `docs/edit-timeline.json` records edits. This short product demo is below the event's written 2–5 minute submission-video range; a final compliant submission cut remains necessary before submitting the draft.
+### Public-service journey and checkout
 
-The source ZIP includes the app, runner, tests, screenshots, and native browser recordings. It excludes the edited MP4 to fit the host's per-file limit. For an offline copy of that demo page, separately download the MP4 from the public demo and place it at `dist/media/demo.mp4`.
+On November 3, 2026, the runner followed GOV.UK's disability/health driving page to the disabled person's bus-pass application page using 26 key events. It captured 28 evidence frames and a native browser recording. `node record-govuk.mjs` repeats this contract; `dist/evidence/govuk-bus-pass*` contains the observed result.
+
+The redesigned Field Notes checkout was rerun with the identical task contract before and after the merchant-control repair: blocked after 18 Tab presses before; PayPal handoff reached in 4 key events after. The separate payment evidence records an actual user-approved sandbox purchase, server-verified order/capture status and USD 1.00 amount. A read-only API recheck on November 3 confirmed both statuses. The downloadable notebook is a real Markdown artifact. Cancellation was recorded returning from PayPal to the merchant.
+
+The two new 1080p/30 fps product pitches use expressive, locally synthesized Chatterbox narration, speech-aligned captions and original instrumental music. See [production credits](docs/pitch-v4/PRODUCTION.md), scripts and edit timelines. Raw recordings remain preserved locally. These replace earlier Zira/Kokoro review cuts, which remain available in release history.
 
 ### Controlled before-and-after tasks
 
@@ -82,15 +87,9 @@ This is one browser/viewport/keyboard-sequence test, not a full accessibility au
 
 Screenshots and videos can contain page content. Local runs remain under `reports/`; only controlled demo captures are included in the hosted app. Never publish a private report without reviewing it. Hashes establish content integrity within the bundle, not external trust or third-party certification.
 
-## Differentiation and prior art
-
-Keyboard testing already exists in axe DevTools and open-source Playwright tools. This prototype focuses on task outcome contracts, a small inspectable evidence package, generated keyboard regressions, and matched before/after runs. It does not claim to invent keyboard testing or outperform those tools. Real-user studies and independent evaluation remain future work.
-
-Sources: https://www.deque.com/blog/intelligent-automation-and-the-new-era-of-guided-testing/ ; https://github.com/stevefaulkner/keyboard-vibes ; https://playwright.dev/docs/api/class-keyboard ; https://www.w3.org/WAI/WCAG22/Understanding/no-keyboard-trap.html
-
 ## AI and licensing
 
-Codex assisted in architecture, code, fixtures, tests, interface, and documentation. The original runner is deterministic. A new browser-local Qwen diagnosis worker is being validated; measured outcomes remain browser assertions. Playwright is Apache-2.0 licensed; Chromium and bundled tooling retain their respective licenses. Original project code is MIT licensed. No user interviews, production adoption, or measured user-impact claims are fabricated.
+Codex assisted in architecture, code, fixtures, tests, interface, and documentation. The original runner is deterministic. The browser-local Qwen diagnosis worker reviews supplied evidence; measured outcomes remain browser assertions. Playwright is Apache-2.0 licensed; Chromium and bundled tooling retain their respective licenses. Original project code is MIT licensed.
 
 ## New checkout development setup
 

@@ -1,0 +1,267 @@
+{
+  "duration": 122.086,
+  "resolution": "1920x1080",
+  "fps": 30,
+  "narration": "Chatterbox, expressive setting 0.72; conversational pacing normalized to 150 words/minute",
+  "music": "Original procedurally composed instrumental bed",
+  "parts": [
+    {
+      "part": 1,
+      "start": 0,
+      "duration": 18.982333333333333,
+      "title": "THE LAST STEP SHOULD BELONG TO EVERYONE",
+      "narration": "You're ready to finish. The website isn't. A bus-pass application. A tool you need to use your phone. A checkout button that stays just out of reach. One broken step can turn an ordinary task into asking somebody else for help. We built Can I Finish to change that.",
+      "sourceSpeed": 1.3114754098360666,
+      "loadingFramesRemoved": true,
+      "clips": [
+        {
+          "file": ".local\\pitch-v4\\intro-general.mp4",
+          "start": 0.18,
+          "end": 2.92,
+          "targetDuration": 3.36
+        },
+        {
+          "file": "dist\\evidence\\govuk-bus-pass.webm",
+          "start": 22,
+          "end": 24,
+          "targetDuration": 1.9
+        },
+        {
+          "file": "dist\\evidence\\apple-voiceover.webm",
+          "start": 32.2,
+          "end": 35.400000000000006,
+          "targetDuration": 2.4400000000000004
+        },
+        {
+          "file": "dist\\evidence\\checkout-broken.webm",
+          "start": 3.7800000000000002,
+          "end": 10.62,
+          "targetDuration": 8.96
+        },
+        {
+          "file": "docs\\film-pitch-v4\\home.webm",
+          "start": 4.78,
+          "end": 7.637,
+          "targetDuration": 2.6893330000000013
+        }
+      ],
+      "wordAgreement": 0.98
+    },
+    {
+      "part": 2,
+      "start": 18.982333333333333,
+      "duration": 16.2,
+      "title": "TASK-COMPLETION INTELLIGENCE",
+      "narration": "Start with the thing a person came to do. Set a clear destination. Our browser runner follows the keyboard journey, captures what happens, and gives your team evidence they can act on. Every run connects a human goal to an observable result.",
+      "sourceSpeed": 1.451695549787475,
+      "loadingFramesRemoved": true,
+      "clips": [
+        {
+          "file": "docs\\film-pitch-v4\\home.webm",
+          "start": 4.78,
+          "end": 10.759
+        },
+        {
+          "file": "docs\\film-pitch-v4\\gov-viewer.webm",
+          "start": 0.575,
+          "end": 8.404
+        },
+        {
+          "file": "docs\\film-pitch-v4\\comparison.webm",
+          "start": 0.953,
+          "end": 5.935
+        },
+        {
+          "file": "docs\\film-pitch-v4\\export.webm",
+          "start": 0.693,
+          "end": 6.276
+        }
+      ],
+      "wordAgreement": 1.0
+    },
+    {
+      "part": 3,
+      "start": 35.18233333333333,
+      "duration": 22.703000000000003,
+      "title": "REAL WEBSITE / GOV.UK",
+      "narration": "Take a real public service. Find where to apply for a disabled person's bus pass on GOV dot UK. The browser follows the keyboard route, opens the application page, and checks the destination. Twenty-six key events. Twenty-eight evidence frames. That's a concrete answer to a question that matters: can someone get where they need to go?",
+      "sourceSpeed": 1.0346095823285213,
+      "loadingFramesRemoved": true,
+      "clips": [
+        {
+          "file": "dist\\evidence\\govuk-bus-pass.webm",
+          "start": 9.08,
+          "end": 24.12
+        },
+        {
+          "file": "dist\\evidence\\govuk-bus-pass.webm",
+          "start": 24.38,
+          "end": 25
+        },
+        {
+          "file": "docs\\film-pitch-v4\\gov-viewer.webm",
+          "start": 0.575,
+          "end": 8.404
+        }
+      ],
+      "wordAgreement": 0.964
+    },
+    {
+      "part": 4,
+      "start": 57.885333333333335,
+      "duration": 13.733333000000002,
+      "title": "REAL WEBSITE / APPLE.COM",
+      "narration": "Now Apple. Find the iPhone VoiceOver setup guide, using the keyboard. The journey reaches the actual support article. Different website. Different goal. The same evidence-driven workflow, focused on what a person came to do.",
+      "sourceSpeed": 1.2130637930857262,
+      "loadingFramesRemoved": true,
+      "clips": [
+        {
+          "file": "dist\\evidence\\apple-voiceover.webm",
+          "start": 5.48,
+          "end": 9
+        },
+        {
+          "file": "dist\\evidence\\apple-voiceover.webm",
+          "start": 22,
+          "end": 28
+        },
+        {
+          "file": "dist\\evidence\\apple-voiceover.webm",
+          "start": 30,
+          "end": 37.120000000000005
+        }
+      ],
+      "wordAgreement": 0.941
+    },
+    {
+      "part": 5,
+      "start": 71.61866633333334,
+      "duration": 21.066016000000005,
+      "title": "A BARRIER YOUR TEAM CAN REPRODUCE",
+      "narration": "And when the journey breaks, the evidence gets specific. In our Field Notes checkout, eighteen Tab presses never reach the payment control. The focus trail shows the barrier. The AI proposal points toward a native button. Change the control, run the same task again, and the PayPal handoff succeeds in four key events.",
+      "sourceSpeed": 2.7058823529411757,
+      "loadingFramesRemoved": true,
+      "clips": [
+        {
+          "file": "dist\\evidence\\checkout-broken.webm",
+          "start": 3.7800000000000002,
+          "end": 10.62,
+          "targetDuration": 9.18
+        },
+        {
+          "file": "docs\\film-pitch-v4\\comparison.webm",
+          "start": 0.953,
+          "end": 3.453,
+          "targetDuration": 2.26
+        },
+        {
+          "file": "docs\\film-pitch-v4\\ai.webm",
+          "start": 0.742,
+          "end": 5.91,
+          "targetDuration": 2.9800000000000004
+        },
+        {
+          "file": "dist\\evidence\\checkout-fixed.webm",
+          "start": 1.48,
+          "end": 6.12,
+          "targetDuration": 1.7147826086956528
+        },
+        {
+          "file": "dist\\evidence\\checkout-fixed.webm",
+          "start": 6.48,
+          "end": 10.12,
+          "targetDuration": 1.3452173913043477
+        },
+        {
+          "file": "docs\\film-pitch-v4\\comparison.webm",
+          "start": 2.453,
+          "end": 5.935,
+          "targetDuration": 3.576000000000001
+        }
+      ],
+      "wordAgreement": 0.981
+    },
+    {
+      "part": 6,
+      "start": 92.68468233333334,
+      "duration": 15.966667000000001,
+      "title": "FROM A BLOCKED TASK TO A REPEATABLE FIX",
+      "narration": "Keep the screenshot, the exact steps, and an executable regression test. The next release gets the same finish line. Developers get something they can reproduce. Teams get a repair they can verify. And accessibility becomes part of how the product ships.",
+      "sourceSpeed": 1.2059769962928415,
+      "loadingFramesRemoved": false,
+      "clips": [
+        {
+          "file": "docs\\film-pitch-v4\\export.webm",
+          "start": 0.693,
+          "end": 6.276
+        },
+        {
+          "file": "docs\\film-pitch-v4\\comparison.webm",
+          "start": 0.953,
+          "end": 5.935
+        },
+        {
+          "file": "docs\\film-pitch-v4\\ai.webm",
+          "start": 0.742,
+          "end": 5.91
+        },
+        {
+          "file": "docs\\film-pitch-v4\\gov-viewer.webm",
+          "start": 1.575,
+          "end": 5.575
+        }
+      ],
+      "wordAgreement": 0.951
+    },
+    {
+      "part": 7,
+      "start": 108.65134933333334,
+      "duration": 13.412999999999997,
+      "title": "BUILD A WEB PEOPLE CAN FINISH",
+      "narration": "Because on the other side of every interface is someone trying to move forward. Can I Finish. Find the barrier. Prove the repair. Build a web people can finish.",
+      "sourceSpeed": 1,
+      "loadingFramesRemoved": true,
+      "clips": [
+        {
+          "file": "docs\\film-pitch-v4\\close.webm",
+          "start": 0.653,
+          "end": 3.871
+        },
+        {
+          "file": "docs\\film-pitch-v4\\home.webm",
+          "start": 4.78,
+          "end": 8.637
+        },
+        {
+          "file": ".local\\pitch-v4\\outro.mp4",
+          "start": 0.18,
+          "end": 4.92
+        }
+      ],
+      "wordAgreement": 0.966
+    }
+  ],
+  "pausePolishVersion": 1,
+  "pauseEdits": [
+    {
+      "originalStart": 16.133333333333333,
+      "originalEnd": 16.5,
+      "removedSeconds": 0.36666666666666714
+    },
+    {
+      "originalStart": 21.866666666666667,
+      "originalEnd": 22.2,
+      "removedSeconds": 0.33333333333333215
+    },
+    {
+      "originalStart": 31.733333333333334,
+      "originalEnd": 32.0,
+      "removedSeconds": 0.2666666666666657
+    },
+    {
+      "originalStart": 97.86666666666666,
+      "originalEnd": 98.26666666666667,
+      "removedSeconds": 0.4000000000000057
+    }
+  ]
+}

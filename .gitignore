@@ -21,3 +21,9 @@ docs/narration-paypal/
 docs/paypal-film/
 
 docs/narration-v3/
+
+docs/voice-emotion/
+docs/narration-pitch-v4/
+docs/film-pitch-v4/
+
+__pycache__/

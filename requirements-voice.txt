@@ -1,0 +1,4 @@
+chatterbox-tts==0.1.7
+accelerate==1.15.0
+setuptools<81
+faster-whisper==1.2.1
